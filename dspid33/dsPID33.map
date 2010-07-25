@@ -227,7 +227,7 @@ libmxconst                  0x1cdc               0x104           0x186  (390)
 .dinit                      0x1dfe               0x136           0x1d1  (465)
 .text                       0x1f34                0x7e            0xbd  (189)
 .isr                        0x1fb2                 0x2             0x3  (3)
-_018626904c42a591           0x2000              0x2800          0x3c00  (15360)
+_018626904c4b41ce           0x2000              0x2800          0x3c00  (15360)
 .text                       0x4800              0x5336          0x7cd1  (31953)
 
                      Total program memory used (bytes):         0xe55f  (58719) 44%
@@ -243,12 +243,12 @@ section                    address      alignment gaps    total length  (dec)
 .bss                         0x86a                   0          0x2e66  (11878)
 .data                       0x36d0                   0           0x140  (320)
 .heap                       0x3810                   0           0x200  (512)
-_018c9e704c42a590           0x4600                   0           0x100  (256)
-_018d46204c42a593           0x4700                   0            0x5a  (90)
+_018c9e704c4b41cd           0x4600                   0           0x100  (256)
+_018d46204c4b41d0           0x4700                   0            0x5a  (90)
 .ybss                       0x475a                   0            0x18  (24)
 .bss                        0x4772                   0             0x2  (2)
 .data                       0x4774                   0             0x2  (2)
-_018d73f04c42a593           0x4780                   0            0x20  (32)
+_018d73f04c4b41d0           0x4780                   0            0x20  (32)
 .data                       0x47a0                   0            0x1c  (28)
 
                         Total data memory used (bytes):         0x33c2  (13250) 80%
@@ -2694,21 +2694,21 @@ __c30_signature
  __c30_signature
                   0x000144          0x6 c:/programmi/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(div.o)
 
-_018c9e704c42a590
+_018c9e704c4b41cd
                     0x4600        0x100
- _018c9e704c42a590
+ _018c9e704c4b41cd
                     0x4600        0x100 dsPid33_settings.o
                     0x4600                  DmaAdc
 
-_018d46204c42a593
+_018d46204c4b41d0
                     0x4700         0x5a
- _018d46204c42a593
+ _018d46204c4b41d0
                     0x4700         0x5a com.o
                     0x4700                  UartTxBuff
 
-_018d73f04c42a593
+_018d73f04c4b41d0
                     0x4780         0x20
- _018d73f04c42a593
+ _018d73f04c4b41d0
                     0x4780         0x20 com.o
                     0x4780                  Uart2TxBuff
 
@@ -2864,9 +2864,9 @@ _018d73f04c42a593
 .heap               0x3810        0x200
  .heap              0x3810        0x200 heap
 
-_018626904c42a591
+_018626904c4b41ce
                     0xa000       0x2800 load address 0x002000  
- _018626904c42a591
+ _018626904c4b41ce
                     0xa000       0x2800 DEE Emulation 16-bit.o
                     0xa000                  emulationPages
 

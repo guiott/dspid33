@@ -1,7 +1,7 @@
 /* ////////////////////////////////////////////////////////////////////////////
 ** File:      dsPid33.c
 */                                  
- unsigned char  Ver[] = "dsPid33 2.2.3 Guiott 06-10"; // 26+1 char
+ unsigned char  Ver[] = "dsPid33 2.2.3 Guiott 07-10"; // 26+1 char
 /* Author:    Guido Ottaviani-->g.ottaviani@mediaprogetti.it<--
 ** Description: This is a porting on a single dsPIC33FJ64MC802 of previous 
 **				double PID Motor Control (dsPID program) formerly performed 
