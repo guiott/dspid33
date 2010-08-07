@@ -1,7 +1,7 @@
 /* ////////////////////////////////////////////////////////////////////////////
 ** File:      dsPid33.c
 */                                  
- unsigned char  Ver[] = "dsPid33 2.2.3 Guiott 07-10"; // 26+1 char
+ unsigned char  Ver[] = "dsPid33 2.2.4 Guiott 08-10"; // 26+1 char
 /* Author:    Guido Ottaviani-->g.ottaviani@mediaprogetti.it<--
 ** Description: This is a porting on a single dsPIC33FJ64MC802 of previous 
 **				double PID Motor Control (dsPID program) formerly performed 
@@ -259,8 +259,6 @@ void Parser (void)	// [16]
 	long Tmp2Long;
 	
 	const float AngleS = 0.785398163;  // 45° angle for object on side
-	float VObX;	// relative position of obstacles
-	float VObY;
 	
 	if (UartRxStatus == 99) // the command come from UART1
 	{
@@ -672,27 +670,55 @@ void Parser (void)	// [16]
 			// [24g] relative position of obstacles.
 			if (Obj[0] < OBST_THRESHOLD) // from object on the left
 			{
-				VObX = Obj[0] * sin(ThetaMes-AngleS);
-				VObY = Obj[0] * cos(ThetaMes-AngleS);
+				VObX[0] = Obj[0] * sin(ThetaMes-AngleS);
+				VObY[0] = Obj[0] * cos(ThetaMes-AngleS);
 				// mark obstacle in the cell
-				Slam(PosXmes + VObX, PosYmes + VObY, 1); 
+				Slam(PosXmes + VObX[0], PosYmes + VObY[0], 1); 
 			}
 	
 			if (Obj[1] < OBST_THRESHOLD) // from object on the center
 			{
-				VObX = Obj[1] * sin(ThetaMes);
-				VObY = Obj[1] * cos(ThetaMes);
+				VObX[1] = Obj[1] * sin(ThetaMes);
+				VObY[1] = Obj[1] * cos(ThetaMes);
 				// mark obstacle in the cell
-				Slam(PosXmes + VObX, PosYmes + VObY, 1); 
+				Slam(PosXmes + VObX[1], PosYmes + VObY[1], 1); 
 			}
 		
 			if (Obj[2] < OBST_THRESHOLD) // from object on the right
 			{
-				VObX = Obj[2] * sin(ThetaMes+AngleS);
-				VObY = Obj[2] * cos(ThetaMes+AngleS);
+				VObX[2] = Obj[2] * sin(ThetaMes+AngleS);
+				VObY[2] = Obj[2] * cos(ThetaMes+AngleS);
 				// mark obstacle in the cell
-				Slam(PosXmes + VObX, PosYmes + VObY, 1); 
+				Slam(PosXmes + VObX[2], PosYmes + VObY[2], 1); 
 			}
+		break;
+		
+		case 'Q':// Raw sensors data, dsNav -> console
+			// PosXmes rounded in a Int -> 2 byte (mm)
+			Ptmp = FLOAT2INT(PosXmes);				// PosX
+		 	UartTmpBuff[0][Port]=Ptmp>>8; 
+			UartTmpBuff[1][Port]=Ptmp;
+			// PosYmes rounded in a Int -> 2 byte (mm)
+			Ptmp = FLOAT2INT(PosYmes);				// PosY
+		 	UartTmpBuff[2][Port]=Ptmp>>8; 
+			UartTmpBuff[3][Port]=Ptmp;
+			// ThetaMes rounded in a Int -> 2 byte (degrees)
+			Ptmp = ThetaMes * RAD2DEG;				// Theta
+			Alpha = FLOAT2INT(Ptmp);
+		 	UartTmpBuff[4][Port]=Alpha>>8; 
+			UartTmpBuff[5][Port]=Alpha;
+			// VObX rounded in a Int -> 2 byte (cm)
+			for(i=0; i<3; i++) // Buffer index from 6 to 17
+			{
+				Ptmp = FLOAT2INT(VObX[i]/10);	// Obj X coord in cm
+			 	UartTmpBuff[6+(i*4)][Port]=Ptmp>>8; 
+				UartTmpBuff[7+(i*4)][Port]=Ptmp;
+				Ptmp = FLOAT2INT(VObY[i]/10);	// Obj Y coord in cm
+			 	UartTmpBuff[8+(i*4)][Port]=Ptmp>>8; 
+				UartTmpBuff[9+(i*4)][Port]=Ptmp;
+			}
+			
+			TxParameters('Q',18, Port);  
 		break;
 		
 		default:

@@ -420,7 +420,7 @@ A - r All mean parameters request: Vmean, Ctotal, PosX, PosY, Theta
 a - r All detailed parameters request: Vr, Cr, Vl, Cl, PulseR, PulseL
 c - r Continuos send mode, sends all data without request.
 D - w Setting reference coord. X, Y computing distance [24] Mode C
-d - w Distance from objects and target readings on three sides
+d - w Distance from objects and targets, sensors board -> dsNav
 e - r Read error code and reset error condition
 f -   set "Console Debug" mode [30]
 H - w Immediate Halt without decelerating ramp	
@@ -432,12 +432,13 @@ M - w Mechanical constants: Axle size, KspR, KspL
 O - w Reference orientation angle in degrees
 o - w Reference orientation angle in degrees as a delta of the current Theta
 P - w Setting reference coordinates X, Y in mm [24] Mode B
+Q - r Raw sensors data, dsNav -> console
 R - r Firmware version request
 S - w Reference speed setting in mm/s
 s - w Scheduler parameters setting
 * -   Board reset [28]
 # -   start scheduler sequence [32a]
-$ - r one row of map grid sending request [22f]
+$ - r One row of map grid sending request [22f]
 z – r/w send back a text string, just for debug.
 
 --- Service
@@ -578,11 +579,18 @@ M - w Mechanical constants: Axle size, KspR, KspL
 		N/A
 
 --- Sensors			
-d - w Distance from objects and target readings on three sides
+d - w Distance from objects and targets, sensors board -> dsNav
 	-Receive:
 		CmdLen = 7 Params 6 (6 bytes)
 	-Transmit:
 		N/A	
+		
+Q - r Raw sensors data, dsNav -> console: PosX,PosY,Theta,VObX[0-2],VObY[0-2]
+	-Receive:
+	CmdLen = 1 Params 0
+	-Transmit:	
+	CmdLen = 19	Params 18	(9 int Most Significant First)
+	
 
 *******************************************************************************
 [17]
@@ -1407,6 +1415,9 @@ Don't consider obstacle distance revealed by SensorsBoard
 2.2.3 - june 2010
 - field mapping (SLAM) procedures debugged and tested also with 
   dsNavConsole 1.5.0
+  
+2.2.4 - august 2010
+- added transmission of sensors raw data toward console (command Q)
 
 ===============================================================================
 /* dsPID Version History //////////////////////////////////////////////////////

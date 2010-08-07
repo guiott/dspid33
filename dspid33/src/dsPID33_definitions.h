@@ -377,6 +377,8 @@ int AngleCmp;		// compass bearing from sensors board (Deg * 10)
 #define BOUND_FREE 500		// if close to goal don't care of boundaries
 #define OBST_THRESHOLD 1500.00 // if far enough don't care of obstacles
 #define OBST_MIN_DIST 50      // if too close another avoiding procedure
+float VObX[3];	// relative position of obstacles
+float VObY[3];
 
 tPID DistPIDstruct;
 fractional DistabcCoefficient[3] 

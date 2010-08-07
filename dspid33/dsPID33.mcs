@@ -1,6 +1,110 @@
 [Header]
 MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
 Version=1.0
+[File000]
+Location=C:\ProgrammiC\dsPID33\dspid33\traps.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Programmi\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|..\inc||$(INCDIR)|C:\Programmi\Microchip\MPLAB C30\include||$(LIBDIR)|C:\Programmi\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|src\traps.c|src\dsPID33.c|src\dsPid33_settings.c|src\DEE Emulation 16-bit.c|src\Flash Operations.s|src\com.c||<obj>||<lib>|C:\Programmi\Microchip\MPLAB C30\lib\libdsp-coff.a|C:\Programmi\Microchip\MPLAB C30\lib\libq-coff.a|C:\Programmi\Microchip\MPLAB C30\lib\libfastm-coff.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -fno-short-double -Wall -mlarge-data -mlarge-scalar
+TraceCmdString=
+DebugOptions=
+[File001]
+Location=C:\ProgrammiC\dsPID33\dspid33\dsPID33.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Programmi\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|..\inc||$(INCDIR)|C:\Programmi\Microchip\MPLAB C30\include||$(LIBDIR)|C:\Programmi\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|src\traps.c|src\dsPID33.c|src\dsPid33_settings.c|src\DEE Emulation 16-bit.c|src\Flash Operations.s|src\com.c||<obj>||<lib>|C:\Programmi\Microchip\MPLAB C30\lib\libdsp-coff.a|C:\Programmi\Microchip\MPLAB C30\lib\libq-coff.a|C:\Programmi\Microchip\MPLAB C30\lib\libfastm-coff.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -fno-short-double -Wall -mlarge-data -mlarge-scalar
+TraceCmdString=
+DebugOptions=
+[File002]
+Location=C:\ProgrammiC\dsPID33\dspid33\dsPid33_settings.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Programmi\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|..\inc||$(INCDIR)|C:\Programmi\Microchip\MPLAB C30\include||$(LIBDIR)|C:\Programmi\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|src\traps.c|src\dsPID33.c|src\dsPid33_settings.c|src\DEE Emulation 16-bit.c|src\Flash Operations.s|src\com.c||<obj>||<lib>|C:\Programmi\Microchip\MPLAB C30\lib\libdsp-coff.a|C:\Programmi\Microchip\MPLAB C30\lib\libq-coff.a|C:\Programmi\Microchip\MPLAB C30\lib\libfastm-coff.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -fno-short-double -Wall -mlarge-data -mlarge-scalar
+TraceCmdString=
+DebugOptions=
+[File003]
+Location=C:\ProgrammiC\dsPID33\dspid33\DEE Emulation 16-bit.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Programmi\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|..\inc||$(INCDIR)|C:\Programmi\Microchip\MPLAB C30\include||$(LIBDIR)|C:\Programmi\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|src\traps.c|src\dsPID33.c|src\dsPid33_settings.c|src\DEE Emulation 16-bit.c|src\Flash Operations.s|src\com.c||<obj>||<lib>|C:\Programmi\Microchip\MPLAB C30\lib\libdsp-coff.a|C:\Programmi\Microchip\MPLAB C30\lib\libq-coff.a|C:\Programmi\Microchip\MPLAB C30\lib\libfastm-coff.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -fno-short-double -Wall -mlarge-data -mlarge-scalar
+TraceCmdString=
+DebugOptions=
+[File004]
+Location=C:\ProgrammiC\dsPID33\dspid33\Flash Operations.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=C:\Programmi\Microchip\MPLAB C30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|..\inc||$(INCDIR)|C:\Programmi\Microchip\MPLAB C30\include||$(LIBDIR)|C:\Programmi\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|src\traps.c|src\dsPID33.c|src\dsPid33_settings.c|src\DEE Emulation 16-bit.c|src\Flash Operations.s|src\com.c||<obj>||<lib>|C:\Programmi\Microchip\MPLAB C30\lib\libdsp-coff.a|C:\Programmi\Microchip\MPLAB C30\lib\libq-coff.a|C:\Programmi\Microchip\MPLAB C30\lib\libfastm-coff.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=--keep-locals -g -ahl="$(BINDIR_)$(INFILEBASE).lst"
+TraceCmdString=
+DebugOptions=
+[File005]
+Location=C:\ProgrammiC\dsPID33\dspid33\com.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Programmi\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|..\inc||$(INCDIR)|C:\Programmi\Microchip\MPLAB C30\include||$(LIBDIR)|C:\Programmi\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|src\traps.c|src\dsPID33.c|src\dsPid33_settings.c|src\DEE Emulation 16-bit.c|src\Flash Operations.s|src\com.c||<obj>||<lib>|C:\Programmi\Microchip\MPLAB C30\lib\libdsp-coff.a|C:\Programmi\Microchip\MPLAB C30\lib\libq-coff.a|C:\Programmi\Microchip\MPLAB C30\lib\libfastm-coff.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -fno-short-double -Wall -mlarge-data -mlarge-scalar
+TraceCmdString=
+DebugOptions=
+[File006]
+Location=C:\ProgrammiC\dsPID33\dspid33\dsPID33.cof
+Folder=Output
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Programmi\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|..\inc||$(INCDIR)|C:\Programmi\Microchip\MPLAB C30\include||$(LIBDIR)|C:\Programmi\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|src\traps.c|src\dsPID33.c|src\dsPid33_settings.c|src\DEE Emulation 16-bit.c|src\Flash Operations.s|src\com.c||<obj>||<lib>|C:\Programmi\Microchip\MPLAB C30\lib\libdsp-coff.a|C:\Programmi\Microchip\MPLAB C30\lib\libq-coff.a|C:\Programmi\Microchip\MPLAB C30\lib\libfastm-coff.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=--heap=512 -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem --cref -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -fast-math
+TraceCmdString=
+DebugOptions=
+[File007]
+Location=C:\ProgrammiC\dsPID33\dspid33\dsPID33.hex
+Folder=Output
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Programmi\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|..\inc||$(INCDIR)|C:\Programmi\Microchip\MPLAB C30\include||$(LIBDIR)|C:\Programmi\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|src\traps.c|src\dsPID33.c|src\dsPid33_settings.c|src\DEE Emulation 16-bit.c|src\Flash Operations.s|src\com.c||<obj>||<lib>|C:\Programmi\Microchip\MPLAB C30\lib\libdsp-coff.a|C:\Programmi\Microchip\MPLAB C30\lib\libq-coff.a|C:\Programmi\Microchip\MPLAB C30\lib\libfastm-coff.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=--heap=512 -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem --cref -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -fast-math
+TraceCmdString=
+DebugOptions=
 [TOOL_LOC_STAMPS]
 tool_loc{DE18EB1A-B46B-486B-B96F-A811A635DFAC}=C:\Programmi\Microchip\MPLAB C30\bin\pic30-as.exe
 tool_loc{069BD372-6CA0-40D4-BF2F-5DC806D05083}=C:\Programmi\Microchip\MPLAB C30\bin\pic30-gcc.exe
