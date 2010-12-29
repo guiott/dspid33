@@ -1418,6 +1418,7 @@ Don't consider obstacle distance revealed by SensorsBoard
   
 2.2.4 - august 2010
 - added transmission of sensors raw data toward console (command Q)
+  this function is implemented on dsNavConsole starting from ver.1.6.1
 
 ===============================================================================
 /* dsPID Version History //////////////////////////////////////////////////////
