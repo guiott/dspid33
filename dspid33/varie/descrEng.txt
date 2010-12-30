@@ -1033,7 +1033,7 @@ VelDes is calculated by this procedure as a negative delta of VelDesM and it
 is used as in mode A.
 Speed vector (magnitude and direction) is computed as a function of the 
 current coordinates and the destination coordinates, dinamicaly corrected
-in order to avoid obstacle (dynamic potential field algorithm). 
+in order to avoid obstacle. 
 Angle is used as reference input for "Angle PID". With angle and VelDes 
 available, the speed control of the wheels runs as in mode A.
 Command "W" (set VelDesM)
@@ -1075,7 +1075,11 @@ target is reached.
 If the Distance procedure is not enabled, VelDecr is reset to 1 (full speed).
 
 [24e]
-Potential Field Algorithm
+The Virtual Force Field (VFF) method was developed by Johann Borenstein and 
+Yoram Koren at the the university of Michigan in 1989.
+For further reference about the VFF method visit:
+http://www-personal.engin.umich.edu/~johannb/vff&vfh.htm 
+
 To reach the goal in the unknown environment all of the objects must be 
 considered. Assuming a vectorial force that attracts the robot towards the 
 final destination and a series of force that reject it caused by all obstacles,

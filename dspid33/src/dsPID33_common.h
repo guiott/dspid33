@@ -38,7 +38,7 @@
 
 // for debugging purposes------------------------------------------------------
 #define NO_FLASH 1	//  [34a]
-#define NO_OBSTACLE 1	//  [34e]
+// #define NO_OBSTACLE 1	//  [34e]
 // #define debug_SA	// [15]
 // #define SIM 1	//	[21]
 // #define TIMER_OFF 1

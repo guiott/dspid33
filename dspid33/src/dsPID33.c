@@ -950,14 +950,14 @@ void Navigation(void)	// called after odometry is performed
 }
 
 float ObstacleAvoidance(float DPosX, float DPosY, int Dist)
-{
+{   // [24e]
 	float VX;				// X component of resultant vector
 	float VY;				// Y component of resultant vector
 	float VM;				// magnitude of resultant vector
 
 	if(Obj[0]<OBST_MIN_DIST||Obj[1]<OBST_MIN_DIST||Obj[2]<OBST_MIN_DIST)
 	{// set ThetaDes and VelDecr to avoid very close obstacles
-		return -0.2; // walk backward at a reduced speed
+		return -0.2; // walk backward at a slow speed
 	} 
 	else
 	{
@@ -1212,15 +1212,20 @@ unsigned char Slam(float PosX, float PosY, int Cell)
   	nibble CellValue;	// field map value of current cell 
  	int Xpoint;	// X coordinate value normalized in matrix range 
  	int Ypoint;	// Y index  
+/*  Field shifting still developing  
  	int OldPoint; // temp for previous field boundaries
   	int TempIndx;
-  	
+*/  	
   	// field mapping [22b]
 	// index in the range 0-Y_SIZE
 	Xpoint=abs((__builtin_modsd((PosX+(HALF_MAP_SIZE)),(MAP_SIZE)))/CELL_SIZE);	
 	Ypoint=abs((__builtin_modsd((PosY+(HALF_MAP_SIZE)),(MAP_SIZE)))/CELL_SIZE);
 	
-	if (PosX >= MaxMapX)	// [22e]
+	if (PosX >= MaxMapX)	
+	{
+		Xpoint = X_POINT_MAX;
+	}
+	/* [22e] Field shifting still developing       
 	{// compute the next cell beyond old boundary modulus MAP_SIZE
 		OldPoint=abs((__builtin_modsd((MaxMapX+HALF_MAP_SIZE),MAP_SIZE))
 			/CELL_SIZE);
@@ -1235,7 +1240,12 @@ unsigned char Slam(float PosX, float PosY, int Cell)
 			}
 		}
 	}
+	*/
 	else if (PosX < MinMapX)
+	{
+		 Xpoint = X_POINT_MIN;
+	}
+	/* [22e] Field shifting still developing       
 	{// compute the previous cell behind old boundary modulus MAP_SIZE
 		OldPoint=abs((__builtin_modsd((MaxMapX+(HALF_MAP_SIZE)-CELL_SIZE),
 			(MAP_SIZE)))/CELL_SIZE);
@@ -1250,8 +1260,13 @@ unsigned char Slam(float PosX, float PosY, int Cell)
 			}
 		}
 	}
-
+	*/
+	
 	if (PosY >= MaxMapY)
+	{
+		Ypoint = Y_POINT_MAX;
+	}
+	/* [22e] Field shifting still developing       
 	{// compute the next cell beyond old boundary modulus MAP_SIZE
 		OldPoint=abs((__builtin_modsd((MaxMapY+HALF_MAP_SIZE),MAP_SIZE))
 			/CELL_SIZE);
@@ -1266,7 +1281,13 @@ unsigned char Slam(float PosX, float PosY, int Cell)
 			}
 		}
 	}
+	*/
+	
 	else if (PosY < MinMapY)
+	{
+		Ypoint =  Y_POINT_MIN;
+	}
+	/* [22e] Field shifting still developing       
 	{// compute the previous cell behind old boundary modulus MAP_SIZE
 		OldPoint=abs((__builtin_modsd((MaxMapY+(HALF_MAP_SIZE)-CELL_SIZE),
 			(MAP_SIZE)))/CELL_SIZE);
@@ -1281,7 +1302,8 @@ unsigned char Slam(float PosX, float PosY, int Cell)
 			}
 		}
 	}
-
+	*/
+	
 	CellValue.nib=GetMap(Xpoint, Ypoint);
 
 	if ((Xpoint != XindxPrev) || (Ypoint != YindxPrev))//only when cell changes

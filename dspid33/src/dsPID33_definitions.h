@@ -304,8 +304,8 @@ int Curr[2] = {0,0};				// motor current
 #define Y_POINT_MIN 0  // [22g]
 Field mapping =========== FOR DEBUGGING PURPOSES ==================*/
 
-int Xshift;	// [22g]
-int Yshift;	// [22g]
+int Xshift = 0;	// [22g]
+int Yshift = 0;	// [22g]
 
 typedef struct
 {
