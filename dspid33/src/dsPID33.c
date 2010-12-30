@@ -954,42 +954,71 @@ float ObstacleAvoidance(float DPosX, float DPosY, int Dist)
 	float VX;				// X component of resultant vector
 	float VY;				// Y component of resultant vector
 	float VM;				// magnitude of resultant vector
-
+	const float Fcr= 0.2;  	// Force constant (repelling)
+	const float Fct= 0.4;	// Force constant (attraction to the target)
+	int Cx;					// loop counters
+	int Cy;
+	int X_grid;
+	int Y_grid;
+	int CellV;				// the valued contained in the current cell
+	float Frx=0;			// component vectors of the repulsive force
+	float Fry=0;
+	float Ftx=0;			// component vectors of the actractive force
+	float Fty=0;
+	int Dist;				// distance from the obstacle
+	int DistTarget;			// distance from the target
+		
 	if(Obj[0]<OBST_MIN_DIST||Obj[1]<OBST_MIN_DIST||Obj[2]<OBST_MIN_DIST)
 	{// set ThetaDes and VelDecr to avoid very close obstacles
 		return -0.2; // walk backward at a slow speed
 	} 
 	else
-	{
-/*		// adding all X & Y normalized components of single vectors we obtain
-		// the X, Y components of the speed vector
-		VallX = (VBXleft+VBXright+VObX[0]+VObX[1]+VObX[2]);
-		VallY = (VBYbottom+VBYtop+VObY[0]+VObY[1]+VObY[2]);
+	{  	// index in the range 0-Y_SIZE to point the grid matrix
+		X_grid=PosIndx(PosX);
+		Y_grid=PosIndx(PosY);
+		for(Cx = X_grid-16; Cx <= X_grid+16; Cx++)
+		{
+			if((Cx >= X_POINT_MIN) && (Cx <= X_POINT_MAX))
+			{
+				for(Cy = Y_grid-16; Cy <= Y_grid+16; Cy++)
+				{
+					if((Cy >= Y_POINT_MIN) && (Cy <= Y_POINT_MAX))
+					{
+						CellV=GetMap(X_grid, Y_grid);
+						if((CellV > 0) && (CellV < 8))
+							Dist = sqrt(pow((X_grid-Cx),2) + powf((Y_grid-Cy),2));
+							if(Dist !=0)
+							{
+								Frx+=Fcr*C/Dist^2*(X_grid-Cx)/Dist;
+								Fry+=Fcr*C/Dist^2*(Y_grid-Cy)/Dist;
+							}
+						}
+					}
+				}
+			}
+		}
 		
 		
-		if (VallX != 0 && VallY != 0) ??????????????????????????????????????????????
-		{
-			if (DIST_ENABLE_FLAG)
-			{
-				
-				Knorm = (float)(OBST_THRESHOLD) / Dist;
-			}
-			else
-			{
-				Knorm = 1;
-			}
-			VX = (DPosX * Knorm) - (VallX);
-			VY = (DPosY * Knorm) - (VallY);
-			//	relative magnitude of vector (0 to 1)
-			VM = (sqrtf(powf(VX,2) + powf(VY,2)))/OBST_THRESHOLD;
-		}
-		else
-		{
-			VX = DPosX;
-			VY = DPosY;
-			VM = 1;
-		}
-*/		
+		dist_targ=Sqr((X-X_target)^2+(Y-Y_target)^2)
+
+		' The target generates a constant-magnitud attracting force
+
+		Ftx=Fct*(X_target-X)/dist_targ
+		Fty=Fct*(Y_target-Y)/dist_targ
+
+		Rx=Frx+Ftx	' Resultant Force Vector
+		Ry=Fry+Fty
+
+		rot=RotationalDiff(0,X+Rx,Y+Ry) 'shortest rotational difference between
+										'current direction of travel and
+										'direction of vector R
+
+		SetSteering(0,0.5,3*rot)	'mobot turns into the direction of R
+									'at constant speed and steering rate
+									'proportional to the rotational difference
+									
+									
+	
 		#ifdef NO_OBSTACLE
 		#warning -- compiling with NO OBSTACLE *************************************
 			VX = DPosX;
@@ -1217,9 +1246,9 @@ unsigned char Slam(float PosX, float PosY, int Cell)
   	int TempIndx;
 */  	
   	// field mapping [22b]
-	// index in the range 0-Y_SIZE
-	Xpoint=abs((__builtin_modsd((PosX+(HALF_MAP_SIZE)),(MAP_SIZE)))/CELL_SIZE);	
-	Ypoint=abs((__builtin_modsd((PosY+(HALF_MAP_SIZE)),(MAP_SIZE)))/CELL_SIZE);
+	// index in the range 0-Y_SIZE to point the matrix
+	Xpoint=PosIndx(PosX);
+	Ypoint=PosIndx(PosY);
 	
 	if (PosX >= MaxMapX)	
 	{
@@ -1350,6 +1379,14 @@ unsigned char Slam(float PosX, float PosY, int Cell)
 	return CellValue.nib;
 }
 
+int PosIndx(float Pos)
+{   // field mapping [22b]
+	// index in the range 0-Y_SIZE to point the matrix
+	int Indx;
+	Indx=abs((__builtin_modsd((Pos+(HALF_MAP_SIZE)),(MAP_SIZE)))/CELL_SIZE);	
+	return Indx
+}	
+	
 unsigned char GetMap(int Xpnt, int Ypnt) 
 {
 	int XindxH;	// High part of X index 
