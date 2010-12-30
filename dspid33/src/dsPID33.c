@@ -949,7 +949,7 @@ void Navigation(void)	// called after odometry is performed
 	}
 }
 
-float ObstacleAvoidance(float DPosX, float DPosY, int Dist)
+float ObstacleAvoidance(float DPosX, float DPosY, int DistTarget)
 {   // [24e]
 	float VX;				// X component of resultant vector
 	float VY;				// Y component of resultant vector
@@ -965,8 +965,7 @@ float ObstacleAvoidance(float DPosX, float DPosY, int Dist)
 	float Fry=0;
 	float Ftx=0;			// component vectors of the actractive force
 	float Fty=0;
-	int Dist;				// distance from the obstacle
-	int DistTarget;			// distance from the target
+	int DistObst;			// distance from the obstacle
 		
 	if(Obj[0]<OBST_MIN_DIST||Obj[1]<OBST_MIN_DIST||Obj[2]<OBST_MIN_DIST)
 	{// set ThetaDes and VelDecr to avoid very close obstacles
@@ -978,47 +977,61 @@ float ObstacleAvoidance(float DPosX, float DPosY, int Dist)
 		Y_grid=PosIndx(PosY);
 		for(Cx = X_grid-16; Cx <= X_grid+16; Cx++)
 		{
-			if((Cx >= X_POINT_MIN) && (Cx <= X_POINT_MAX))
+		  if((Cx >= X_POINT_MIN) && (Cx <= X_POINT_MAX))
+		  {
+		    for(Cy = Y_grid-16; Cy <= Y_grid+16; Cy++)
 			{
-				for(Cy = Y_grid-16; Cy <= Y_grid+16; Cy++)
+			  if((Cy >= Y_POINT_MIN) && (Cy <= Y_POINT_MAX))
+			  {
+			    CellV=GetMap(X_grid, Y_grid);
+				if((CellV > 0) && (CellV < 8))
 				{
-					if((Cy >= Y_POINT_MIN) && (Cy <= Y_POINT_MAX))
-					{
-						CellV=GetMap(X_grid, Y_grid);
-						if((CellV > 0) && (CellV < 8))
-							Dist = sqrt(pow((X_grid-Cx),2) + powf((Y_grid-Cy),2));
-							if(Dist !=0)
-							{
-								Frx+=Fcr*C/Dist^2*(X_grid-Cx)/Dist;
-								Fry+=Fcr*C/Dist^2*(Y_grid-Cy)/Dist;
-							}
-						}
-					}
-				}
-			}
-		}
+				  DistObst=sqrt(pow((X_grid-Cx),2)+pow((Y_grid-Cy),2));
+				  if(DistObst != 0)
+				  {
+				    Frx+=Fcr*CellV/pow(DistObst,2)*(X_grid-Cx)/DistObst;
+				    Fry+=Fcr*CellV/pow(DistObst,2)*(Y_grid-Cy)/DistObst;
+				  }
+			    }
+			  }
+		    }
+		  }
+	    }
+
+		//The target generates a constant-magnitud attracting force
+		Ftx=Fct*DPosX/DistTarget;
+		Fty=Fct*DPosY/DistTarget;
+
+		VX=Frx+Ftx;	// Resultant Force Vector
+		VY=Fry+Fty;
+		VM = (sqrtf(powf(VX,2) + powf(VY,2)))/OBST_THRESHOLD;
 		
 		
-		dist_targ=Sqr((X-X_target)^2+(Y-Y_target)^2)
-
-		' The target generates a constant-magnitud attracting force
-
-		Ftx=Fct*(X_target-X)/dist_targ
-		Fty=Fct*(Y_target-Y)/dist_targ
-
-		Rx=Frx+Ftx	' Resultant Force Vector
-		Ry=Fry+Fty
-
-		rot=RotationalDiff(0,X+Rx,Y+Ry) 'shortest rotational difference between
-										'current direction of travel and
-										'direction of vector R
-
-		SetSteering(0,0.5,3*rot)	'mobot turns into the direction of R
-									'at constant speed and steering rate
-									'proportional to the rotational difference
-									
-									
-	
+		==================================================================================================================
+		   if (VallX != 0 && VallY != 0) ??????????????????????????????????????????????
+                {
+                        if (DIST_ENABLE_FLAG)
+                        {
+                                
+                                Knorm = (float)(OBST_THRESHOLD) / Dist;
+                        }
+                        else
+                        {
+                                Knorm = 1;
+                        }
+                        VX = (DPosX * Knorm) - (VallX);
+                        VY = (DPosY * Knorm) - (VallY);
+                        //      relative magnitude of vector (0 to 1)
+                        VM = (sqrtf(powf(VX,2) + powf(VY,2)))/OBST_THRESHOLD;
+                }
+                else
+                {
+                        VX = DPosX;
+                        VY = DPosY;
+                        VM = 1;
+                }
+		==================================================================================================================
+		
 		#ifdef NO_OBSTACLE
 		#warning -- compiling with NO OBSTACLE *************************************
 			VX = DPosX;
