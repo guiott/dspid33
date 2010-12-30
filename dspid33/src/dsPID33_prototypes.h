@@ -2,6 +2,7 @@
 /* Included	in "dsPid_definitions.h", it contains functions prototypes       */
 /* //////////////////////////////////////////////////////////////////////////*/
 
+int PosIndx(float Pos);
 void SendMap(void);
 unsigned char GetMap(int Xpoint, int Ypoint);
 void Pid1Calc (void);

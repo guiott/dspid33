@@ -973,8 +973,8 @@ float ObstacleAvoidance(float DPosX, float DPosY, int DistTarget)
 	} 
 	else
 	{  	// index in the range 0-Y_SIZE to point the grid matrix
-		X_grid=PosIndx(PosX);
-		Y_grid=PosIndx(PosY);
+		X_grid=PosIndx(PosXmes);
+		Y_grid=PosIndx(PosYmes);
 		for(Cx = X_grid-16; Cx <= X_grid+16; Cx++)
 		{
 		  if((Cx >= X_POINT_MIN) && (Cx <= X_POINT_MAX))
@@ -1005,33 +1005,7 @@ float ObstacleAvoidance(float DPosX, float DPosY, int DistTarget)
 		VX=Frx+Ftx;	// Resultant Force Vector
 		VY=Fry+Fty;
 		VM = (sqrtf(powf(VX,2) + powf(VY,2)))/OBST_THRESHOLD;
-		
-		
-		==================================================================================================================
-		   if (VallX != 0 && VallY != 0) ??????????????????????????????????????????????
-                {
-                        if (DIST_ENABLE_FLAG)
-                        {
-                                
-                                Knorm = (float)(OBST_THRESHOLD) / Dist;
-                        }
-                        else
-                        {
-                                Knorm = 1;
-                        }
-                        VX = (DPosX * Knorm) - (VallX);
-                        VY = (DPosY * Knorm) - (VallY);
-                        //      relative magnitude of vector (0 to 1)
-                        VM = (sqrtf(powf(VX,2) + powf(VY,2)))/OBST_THRESHOLD;
-                }
-                else
-                {
-                        VX = DPosX;
-                        VY = DPosY;
-                        VM = 1;
-                }
-		==================================================================================================================
-		
+				
 		#ifdef NO_OBSTACLE
 		#warning -- compiling with NO OBSTACLE *************************************
 			VX = DPosX;
@@ -1040,8 +1014,8 @@ float ObstacleAvoidance(float DPosX, float DPosY, int DistTarget)
 		#endif
 		
 		if ((VX != 0) && (VY != 0))
-		{// phase of vector [22aa]
-			ThetaDesF(atan2f(VX,VY)); // Tangent(ThetaDes) = Sin/Cos = X/Y
+		{// phase of new vector [22aa] Tangent(ThetaDes) = Sin/Cos = X/Y
+			ThetaDesF(ThetaMes + atan2f(VX,VY)); 
 		}
 		return VM;
 	}
@@ -1397,7 +1371,7 @@ int PosIndx(float Pos)
 	// index in the range 0-Y_SIZE to point the matrix
 	int Indx;
 	Indx=abs((__builtin_modsd((Pos+(HALF_MAP_SIZE)),(MAP_SIZE)))/CELL_SIZE);	
-	return Indx
+	return Indx;
 }	
 	
 unsigned char GetMap(int Xpnt, int Ypnt) 
