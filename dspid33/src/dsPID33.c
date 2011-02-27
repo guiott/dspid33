@@ -1,7 +1,7 @@
 /* ////////////////////////////////////////////////////////////////////////////
 ** File:      dsPid33.c
 */                                  
- unsigned char  Ver[] = "dsPid33 2.2.4 Guiott 08-10"; // 26+1 char
+ unsigned char  Ver[] = "dsPid33 2.2.4 Guiott 02-11"; // 26+1 char
 /* Author:    Guido Ottaviani-->g.ottaviani@mediaprogetti.it<--
 ** Description: This is a porting on a single dsPIC33FJ64MC802 of previous 
 **				double PID Motor Control (dsPID program) formerly performed 
@@ -932,7 +932,7 @@ void Navigation(void)	// called after odometry is performed
 	}
 	else
 	{// set ThetaDes and VelDecr to reach the goal avoiding obstacles
-		VelDecrObj=ObstacleAvoidance(DPosX, DPosY, Dist); 
+		VelDecrObj=ObstacleAvoidance(DPosX, DPosY, Dist);  
 	}	
 
 	if (Dist < MIN_GOAL_DIST)	   // [24c]
@@ -955,7 +955,7 @@ float ObstacleAvoidance(float DPosX, float DPosY, int DistTarget)
 	float VY;				// Y component of resultant vector
 	float VM;				// magnitude of resultant vector
 	const float Fcr= 0.2;  	// Force constant (repelling)
-	const float Fct= 0.4;	// Force constant (attraction to the target)
+	const float Fct= 1; 	// Force constant (attraction to the target)
 	int Cx;					// loop counters
 	int Cy;
 	int X_grid;
@@ -973,13 +973,15 @@ float ObstacleAvoidance(float DPosX, float DPosY, int DistTarget)
 	} 
 	else
 	{  	// index in the range 0-Y_SIZE to point the grid matrix
+		
+		/*  ??????????????????????????????????????????????????????????????????????
 		X_grid=PosIndx(PosXmes);
 		Y_grid=PosIndx(PosYmes);
-		for(Cx = X_grid-16; Cx <= X_grid+16; Cx++)
+		for(Cx = X_grid-8; Cx <= X_grid+8; Cx++)
 		{
 		  if((Cx >= X_POINT_MIN) && (Cx <= X_POINT_MAX))
 		  {
-		    for(Cy = Y_grid-16; Cy <= Y_grid+16; Cy++)
+		    for(Cy = Y_grid-8; Cy <= Y_grid+8; Cy++)
 			{
 			  if((Cy >= Y_POINT_MIN) && (Cy <= Y_POINT_MAX))
 			  {
@@ -997,14 +999,15 @@ float ObstacleAvoidance(float DPosX, float DPosY, int DistTarget)
 		    }
 		  }
 	    }
-
+		*/  
+		
 		//The target generates a constant-magnitud attracting force
-		Ftx=Fct*DPosX/DistTarget;
-		Fty=Fct*DPosY/DistTarget;
+		Ftx=Fct*DPosX; // /DistTarget;
+		Fty=Fct*DPosY; // /DistTarget;
 
 		VX=Frx+Ftx;	// Resultant Force Vector
 		VY=Fry+Fty;
-		VM = (sqrtf(powf(VX,2) + powf(VY,2)))/OBST_THRESHOLD;
+		VM = 1; // to be defined (sqrtf(powf(VX,2) + powf(VY,2)))/OBST_THRESHOLD;
 				
 		#ifdef NO_OBSTACLE
 		#warning -- compiling with NO OBSTACLE *************************************
@@ -1015,8 +1018,10 @@ float ObstacleAvoidance(float DPosX, float DPosY, int DistTarget)
 		
 		if ((VX != 0) && (VY != 0))
 		{// phase of new vector [22aa] Tangent(ThetaDes) = Sin/Cos = X/Y
-			ThetaDesF(ThetaMes + atan2f(VX,VY)); 
+			ThetaDesF(atan2f(VX,VY)); 
 		}
+
+		
 		return VM;
 	}
 }
