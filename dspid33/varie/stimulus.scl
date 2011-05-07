@@ -5,11 +5,11 @@
 // 
 
 
-configuration for "dspic33fj64mc802" is
+configuration for "dspic33fj128mc802" is
 end configuration;
 
 
-testbench for "dspic33fj64mc802" is
+testbench for "dspic33fj128mc802" is
 begin
     process is
     begin
@@ -18,32 +18,11 @@ begin
         wait;
     end process;
 
-    IC1: process is
-    begin
-        loop
-            RP6 <= '0';
-            wait for 10 ic;
-            RP6 <= '1';
-            wait for 10 ic;
-        end loop;
-        RP6 <= '1';
-    end process IC1;
-
-    IC2: process is
-    begin
-        loop
-            RP10 <= '0';
-            wait for 10 ic;
-            RP10 <= '1';
-            wait for 10 ic;
-        end loop;
-        RP10 <= '1';
-    end process IC2;
-
+   
     // Register Injection
     process is
     begin
-        accessin("varie\ADC.TXT", hex_mode, ADC1BUF0, true);
+        accessin("C:\ProgrammiC\dsPID33\dspid33\varie\ADC.TXT", hex_mode, ADC1BUF0, true);
         wait;
     end process;
 

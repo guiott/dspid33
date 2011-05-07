@@ -6,689 +6,692 @@
 !_TAG_PROGRAM_VERSION	5.5.4	//
 !_TAG_REVISION_NAME	MCHPTags	//
 !_TAG_REVISION_VERSION	6.0.1	//
-ACC::0.00005	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	264;"	d	line:264
-ADCOvldCount	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	157;"	v	line:157
-ADCValue	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	153;"	v	line:153
-ADCValueTmp	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	843;"	l	line:843
-ADC_CALC_FLAG::VOLbits1.bit6	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	154;"	d	line:154
-ADC_OVLD_LIMIT::800	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	155;"	d	line:155
-ADC_OVLD_TIME::100	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	156;"	d	line:156
-ANGLE_KD::AngleKCoeffs[2]	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	351;"	d	line:351
-ANGLE_KI::AngleKCoeffs[1]	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	350;"	d	line:350
-ANGLE_KP::AngleKCoeffs[0]	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	349;"	d	line:349
-ANGLE_OK_FLAG::VARbits1.bit12	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	362;"	d	line:362
-ANGLE_PID_DES::AnglePIDstruct.controlReferenc	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	352;"	d	line:352
-ANGLE_PID_MES::AnglePIDstruct.measuredOutput	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	353;"	d	line:353
-ANGLE_PID_OUT::AnglePIDstruct.controlOutput	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	354;"	d	line:354
-AUX1::_LATA7	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	126;"	d	line:126
-AUX2::_LATA10	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	127;"	d	line:127
-AdcCalc	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	839;"	f	line:839	signature:(void)
-AdcCalc	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	15;"	p	line:15	signature:(void)
-AdcCount	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	842;"	l	line:842
-Alpha	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1872;"	l	line:1872
-Alpha	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	257;"	l	line:257
-AngleCmp	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	360;"	v	line:360
-AngleKCoeffs	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	348;"	v	line:348
-AnglePIDstruct	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	343;"	v	line:343
-AngleS	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	261;"	l	line:261
-AngleabcCoefficient	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	344;"	v	line:344
-AnglecontrolHistory	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	346;"	v	line:346
-Axle	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	214;"	v	line:214
-BOUND_FREE::500	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	377;"	d	line:377
-BOUND_X_MAX::7070	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	374;"	d	line:374
-BOUND_X_MIN::-7070	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	372;"	d	line:372
-BOUND_Y_MAX::7070	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	375;"	d	line:375
-BOUND_Y_MIN::-7070	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	373;"	d	line:373
-BRG	Z:\WinMac\ProgrammiC\dspid33\src\com.c	23;"	l	line:23
-BRG2	Z:\WinMac\ProgrammiC\dspid33\src\com.c	83;"	l	line:83
-BaudRate	Z:\WinMac\ProgrammiC\dspid33\src\com.c	22;"	l	line:22
-BaudRate2	Z:\WinMac\ProgrammiC\dspid33\src\com.c	82;"	l	line:82
-Bits	Z:\WinMac\ProgrammiC\dspid33\src\com.h	26;"	s	line:26
-Bits	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	74;"	s	line:74
-Blink	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	145;"	v	line:145
-BlinkOn	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	430;"	v	line:430
-BlinkPeriod	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	429;"	v	line:429
-C1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1512;"	l	line:1512
-C1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	249;"	l	line:249
-C2	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1513;"	l	line:1513
-C2	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	250;"	l	line:250
-C3	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1514;"	l	line:1514
-C3	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	251;"	l	line:251
-CELL_SIZE::100	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	273;"	d	line:273
-CICLE1_TMO::10	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	410;"	d	line:410
-CICLE2_TMO::5	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	411;"	d	line:411
-CIRC::DIAMETER*PI	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	194;"	d	line:194
-CLOCK_FREQ_10::10	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_common.h	27;"	d	line:27
-COMbits1	Z:\WinMac\ProgrammiC\dspid33\src\com.h	45;"	v	line:45
-CONSOLE_DEBUG::VARbits1.bit13	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	439;"	d	line:439
-CPR::300	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	190;"	d	line:190
-CPR_WHEEL::CPR*GEAR_RATIO	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	192;"	d	line:192
-CYCLE1_FLAG::VOLbits1.bit2	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	408;"	d	line:408
-CYCLE2_FLAG::VOLbits1.bit3	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	409;"	d	line:409
-CellV	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	963;"	l	line:963
-CellValue	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1254;"	l	line:1254
-ChkIndx	Z:\WinMac\ProgrammiC\dspid33\src\com.c	402;"	l	line:402
-ChkSum	Z:\WinMac\ProgrammiC\dspid33\src\com.c	401;"	l	line:401
-ChkSum	Z:\WinMac\ProgrammiC\dspid33\src\com.h	54;"	v	line:54
-ChkSum2	Z:\WinMac\ProgrammiC\dspid33\src\com.h	80;"	v	line:80
-ConstantsDefaultR	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1471;"	f	line:1471	signature:(void)
-ConstantsDefaultR	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	12;"	p	line:12	signature:(void)
-ConstantsDefaultW	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1445;"	f	line:1445	signature:(void)
-ConstantsDefaultW	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	11;"	p	line:11	signature:(void)
-ConstantsError	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1500;"	f	line:1500	signature:(void)
-ConstantsError	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	10;"	p	line:10	signature:(void)
-ConstantsRead	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1508;"	f	line:1508	signature:(void)
-ConstantsRead	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	26;"	p	line:26	signature:(void)
-ConstantsWrite	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	18;"	p	line:18	signature:(char Row)
-CosNow	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1175;"	l	line:1175
-CosPrev	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	222;"	v	line:222
-Curr	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	270;"	v	line:270
-CurrTmp	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1870;"	l	line:1870
-CurrTmp	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	256;"	l	line:256
-Cx	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	959;"	l	line:959
-Cy	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	960;"	l	line:960
-Cycle1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	406;"	v	line:406
-Cycle2	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	407;"	v	line:407
-DATA_EE_BANKS::2	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	43;"	d	line:43
-DATA_EE_FLAGS	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	104;"	t	line:104
-DATA_EE_SIZE::255	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	44;"	d	line:44
-DATA_EE_TOTAL_SIZE::(DATA_EE_BANKS*DATA_EE_SIZE)	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	45;"	d	line:45
-DEC::0.001	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	265;"	d	line:265
-DEE_BANK_SIZE::(sizeof(emulationPages[0])*NUM	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	101;"	d	line:101	file:
-DEE_PAGE_OFFSET::(bank,page)((__builtin_tbladdr	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	105;"	d	line:105	file:
-DEE_PAGE_SIZE::(sizeof(emulationPages[0]))	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	102;"	d	line:102	file:
-DEE_PAGE_TBL::(bank,page)((__builtin_tbladdr	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	104;"	d	line:104	file:
-DEG2RAD::0.0174532925	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	357;"	d	line:357
-DELAY100MS::Delay10KTCYx(100)	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	100;"	d	line:100
-DIAMETER::0.058	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	193;"	d	line:193
-DIR_485::_LATB9	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	109;"	d	line:109
-DIR_485::_LATC3	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	130;"	d	line:130
-DISABLE_T2::U2STAbits.UTXEN=0	Z:\WinMac\ProgrammiC\dspid33\src\com.h	7;"	d	line:7
-DISABLE_TX::U1STAbits.UTXEN=0	Z:\WinMac\ProgrammiC\dspid33\src\com.h	5;"	d	line:5
-DIST_ENABLE_FLAG::VARbits1.bit14	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	396;"	d	line:396
-DIST_KD::DistKCoeffs[2]	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	391;"	d	line:391
-DIST_KI::DistKCoeffs[1]	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	390;"	d	line:390
-DIST_KP::DistKCoeffs[0]	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	389;"	d	line:389
-DIST_OK_FLAG::VARbits1.bit11	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	402;"	d	line:402
-DIST_PID_DES::DistPIDstruct.controlReference	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	392;"	d	line:392
-DIST_PID_MES::DistPIDstruct.measuredOutput	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	393;"	d	line:393
-DIST_PID_OUT::DistPIDstruct.controlOutput	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	394;"	d	line:394
-DPosX	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1179;"	l	line:1179
-DPosX	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	733;"	l	line:733
-DPosX	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	901;"	l	line:901
-DPosY	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1180;"	l	line:1180
-DPosY	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	734;"	l	line:734
-DPosY	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	902;"	l	line:902
-DROIDS::1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_common.h	31;"	d	line:31
-DSpace	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1177;"	l	line:1177
-DTheta	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1178;"	l	line:1178
-DataEEInit	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	466;"	f	line:466	signature:(void)
-DataEEInit	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	122;"	p	line:122	signature:(void)
-DataEERead	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	590;"	f	line:590	signature:(unsigned int addr)
-DataEERead	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	123;"	p	line:123	signature:(unsigned int addr)
-DataEEWrite	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	672;"	f	line:672	signature:(unsigned int data, unsigned int addr)
-DataEEWrite	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	124;"	p	line:124	signature:(unsigned int data, unsigned int addr)
-DeadReckoning	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1173;"	f	line:1173	signature:(void)
-DeadReckoning	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	25;"	p	line:25	signature:(void)
-DelayCount	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1863;"	l	line:1863
-DelayN10us	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1861;"	f	line:1861	signature:(int n)
-DelayN10us	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	20;"	p	line:20	signature:(int n)
-DelayN1ms	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1852;"	f	line:1852	signature:(int n)
-DelayN1ms	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	19;"	p	line:19	signature:(int n)
-DeltaVel	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1065;"	l	line:1065
-Dist	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	903;"	l	line:903
-DistKCoeffs	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	388;"	v	line:388
-DistObst	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	968;"	l	line:968
-DistPIDstruct	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	383;"	v	line:383
-DistabcCoefficient	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	384;"	v	line:384
-DistcontrolHistory	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	386;"	v	line:386
-DmaAdc	Z:\WinMac\ProgrammiC\dspid33\src\dsPid33_settings.c	18;"	v	line:18
-EE_ANGLE_KD::7	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	623;"	d	line:623
-EE_ANGLE_KI::6	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	622;"	d	line:622
-EE_ANGLE_KP::5	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	621;"	d	line:621
-EE_AXLE_H::20	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	638;"	d	line:638
-EE_AXLE_L::21	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	639;"	d	line:639
-EE_CHK_ANGLE::8	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	624;"	d	line:624
-EE_CHK_DIST::26	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	645;"	d	line:645
-EE_CHK_KVEL::4	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	619;"	d	line:619
-EE_CHK_MECH::22	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	640;"	d	line:640
-EE_CHK_SCHED::27	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	647;"	d	line:647
-EE_CHK_SPEED::15	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	632;"	d	line:632
-EE_DIST_KD::25	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	644;"	d	line:644
-EE_DIST_KI::24	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	643;"	d	line:643
-EE_DIST_KP::23	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	642;"	d	line:642
-EE_KD1::11	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	628;"	d	line:628
-EE_KD2::14	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	631;"	d	line:631
-EE_KI1::10	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	627;"	d	line:627
-EE_KI2::13	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	630;"	d	line:630
-EE_KP1::9	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	626;"	d	line:626
-EE_KP2::12	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	629;"	d	line:629
-EE_KSP1_H::16	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	634;"	d	line:634
-EE_KSP1_L::17	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	635;"	d	line:635
-EE_KSP2_H::18	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	636;"	d	line:636
-EE_KSP2_L::19	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	637;"	d	line:637
-EE_KVEL1_H::0	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	615;"	d	line:615
-EE_KVEL1_L::1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	616;"	d	line:616
-EE_KVEL2_H::2	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	617;"	d	line:617
-EE_KVEL2_L::3	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	618;"	d	line:618
-EE_SCHED::28	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	648;"	d	line:648
-ENABLE_TX2::U2STAbits.UTXEN=1	Z:\WinMac\ProgrammiC\dspid33\src\com.h	8;"	d	line:8
-ENABLE_TX::U1STAbits.UTXEN=1	Z:\WinMac\ProgrammiC\dspid33\src\com.h	6;"	d	line:6
-ERASE::0x4042	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	46;"	d	line:46
-ERASE_WRITE_CYCLE_MAX::5	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	52;"	d	line:52
-ERR_BLINK_ON::100	Z:\WinMac\ProgrammiC\dspid33\src\com.h	20;"	d	line:20
-ERR_BLINK_PER::200	Z:\WinMac\ProgrammiC\dspid33\src\com.h	19;"	d	line:19
-ErasePage	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	189;"	f	line:189	signature:(unsigned char bank, unsigned char page)
-ErasePage	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	118;"	p	line:118	signature:(unsigned char bank, unsigned char page)
-ErrCode	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	437;"	v	line:437
-ErrNo	Z:\WinMac\ProgrammiC\dspid33\src\com.h	23;"	v	line:23
-Error	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1067;"	l	line:1067
-FCY::39628800	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_common.h	63;"	d	line:63
-FCY::40000000	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_common.h	54;"	d	line:54
-FLOAT2INT::(x)((x)>=0?(int)((x)+0.5):(int	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_common.h	76;"	d	line:76
-FNOSC_PRI	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	19;"	v	line:19
-FRAME_ERROR2::U2STAbits.FERR	Z:\WinMac\ProgrammiC\dspid33\src\com.h	94;"	d	line:94
-FRAME_ERROR::U1STAbits.FERR	Z:\WinMac\ProgrammiC\dspid33\src\com.h	67;"	d	line:67
-Fcr	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	957;"	l	line:957
-Fct	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	958;"	l	line:958
-Frx	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	964;"	l	line:964
-Fry	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	965;"	l	line:965
-Ftx	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	966;"	l	line:966
-Fty	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	967;"	l	line:967
-GEAR_RATIO::30	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	191;"	d	line:191
-GWRP_OFF	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	40;"	v	line:40
-GetMap	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	6;"	p	line:6	signature:(int Xpoint, int Ypoint)
-GetNextAvailCount	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	227;"	f	line:227	signature:(unsigned char bank)
-GetNextAvailCount	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	120;"	p	line:120	signature:(unsigned char bank)
-GetPageCorruptStatus::dataEEFlags.pageCorrupt	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	69;"	d	line:69
-GetPageExpiredPage::dataEEFlags.expiredPage	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	72;"	d	line:72
-GetPageIllegalAddress::dataEEFlags.IllegalAddress	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	75;"	d	line:75
-GetPagePackBeforeInit::dataEEFlags.packBeforeInit	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	78;"	d	line:78
-GetPagePackBeforePageFull::dataEEFlags.packBeforePageFull	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	81;"	d	line:81
-GetPagePackSkipped::dataEEFlags.packSkipped	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	84;"	d	line:84
-GetPageStatus	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	144;"	f	line:144	signature:(unsigned char bank, unsigned char page, unsigned char field)
-GetPageStatus	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	117;"	p	line:117	signature:(unsigned char bank, unsigned volatile char page, unsigned volatile char field)
-GetPageWriteError::dataEEFlags.writeError	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	87;"	d	line:87
-GetaddrNotFound::dataEEFlags.addrNotFound	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	66;"	d	line:66
-HALFPI::1.570796327	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	229;"	d	line:229
-HALF_MAP_SIZE::7500	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	275;"	d	line:275
-HEADER::'@'	Z:\WinMac\ProgrammiC\dspid33\src\com.h	68;"	d	line:68
-IC1_FIRST::VOLbits1.bit7	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	170;"	d	line:170
-IC2_FIRST::VOLbits1.bit8	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	171;"	d	line:171
-ICS_PGD1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	32;"	v	line:32
-IDLE_CYCLE::20	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	416;"	d	line:416
-IDLE_SAMPLE_TIME::10000000	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	420;"	d	line:420
-IDLE_TIME_PERIOD::3000	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	423;"	d	line:423
-ISR_Settings	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	40;"	p	line:40	signature:(void)
-ISR_Settings	Z:\WinMac\ProgrammiC\dspid33\src\dsPid33_settings.c	699;"	f	line:699	signature:(void)
-Ic1CurrPeriod	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	166;"	v	line:166
-Ic1Indx	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	160;"	v	line:160
-Ic1Period	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	164;"	v	line:164
-Ic1PrevPeriod	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	162;"	v	line:162
-Ic2CurrPeriod	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	167;"	v	line:167
-Ic2Indx	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	161;"	v	line:161
-Ic2Period	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	165;"	v	line:165
-Ic2PrevPeriod	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	163;"	v	line:163
-IcIndxTmp	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1732;"	l	line:1732
-IcIndxTmp	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1803;"	l	line:1803
-IcPeriodTmp	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1731;"	l	line:1731
-IcPeriodTmp	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1802;"	l	line:1802
-Id	Z:\WinMac\ProgrammiC\dspid33\src\com.h	49;"	v	line:49
-Id2	Z:\WinMac\ProgrammiC\dspid33\src\com.h	76;"	v	line:76
-IdleCount	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	414;"	v	line:414
-IdlePerc	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	427;"	v	line:427
-IdleSample	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	415;"	v	line:415
-IllegalAddress	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	100;"	m	line:100
-IncEWCount	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	119;"	p	line:119	signature:(unsigned char *index)
-IncrCircPtr	Z:\WinMac\ProgrammiC\dspid33\src\com.c	448;"	f	line:448	signature:(int Port)
-IncrCircPtr	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	27;"	p	line:27	signature:(int Port)
-Indx	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1398;"	l	line:1398
-InitAnglePid	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1050;"	f	line:1050	signature:(void)
-InitAnglePid	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	22;"	p	line:22	signature:(void)
-InitDistPid	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	886;"	f	line:886	signature:(void)
-InitDistPid	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	21;"	p	line:21	signature:(void)
-InitPid1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1683;"	f	line:1683	signature:(void)
-InitPid1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	28;"	p	line:28	signature:(void)
-InitPid2	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1696;"	f	line:1696	signature:(void)
-InitPid2	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	29;"	p	line:29	signature:(void)
-KD1::kCoeffs1[2]	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	241;"	d	line:241
-KD2::kCoeffs2[2]	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	252;"	d	line:252
-KI1::kCoeffs1[1]	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	240;"	d	line:240
-KI2::kCoeffs2[1]	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	251;"	d	line:251
-KP1::kCoeffs1[0]	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	239;"	d	line:239
-KP2::kCoeffs2[0]	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	250;"	d	line:250
-K_ERR_BLINK_ON::2000	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	434;"	d	line:434
-K_ERR_BLINK_PER::4000	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	433;"	d	line:433
-K_VEL::((SPACE_ENC_2X)/(TCY))	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	198;"	d	line:198
-Ksp	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	213;"	v	line:213
-Ktmp	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	254;"	l	line:254
-Kvel	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	204;"	v	line:204
-L::1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	201;"	d	line:201
-LED1::_LATA4	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	105;"	d	line:105
-LED1::_LATA8	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	116;"	d	line:116
-LED1::_LATA8	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	124;"	d	line:124
-LED2::_LATA9	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	125;"	d	line:125
-LED2::_LATB4	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	106;"	d	line:106
-LPOL_ON	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	35;"	v	line:35
-MAP_BUFF_FLAG::VOLbits1.bit5	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	339;"	d	line:339
-MAP_SEND_FLAG::VOLbits1.bit4	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	338;"	d	line:338
-MAP_SIZE::15000	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	274;"	d	line:274
-MAX_ROT_SPEED::512	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	355;"	d	line:355
-MAX_RX_BUFF::144	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_common.h	72;"	d	line:72
-MAX_TX2_BUFF::32	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_common.h	73;"	d	line:73
-MAX_TX_BUFF::90	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_common.h	71;"	d	line:71
-MIN_DIST_ERR::3	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	403;"	d	line:403
-MIN_GOAL_DIST::450	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	399;"	d	line:399
-MIN_THETA_ERR::DEG2RAD	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	363;"	d	line:363
-MOTOR_ENABLE1::_LATA0	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	128;"	d	line:128
-MOTOR_ENABLE1::_LATA7	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	117;"	d	line:117
-MOTOR_ENABLE2::_LATA1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	129;"	d	line:129
-MOTOR_ENABLE2::_LATA10	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	118;"	d	line:118
-MapSendIndx	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	340;"	v	line:340
-MapXY	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	328;"	v	line:328
-MaxMapX	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	334;"	v	line:334
-MaxMapY	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	336;"	v	line:336
-MinMapX	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	335;"	v	line:335
-MinMapY	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	337;"	v	line:337
-NORM_BLINK_ON::200	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	432;"	d	line:432
-NORM_BLINK_PER::1000	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	431;"	d	line:431
-NO_FLASH::1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_common.h	40;"	d	line:40
-NUMBER_OF_INSTRUCTIONS_IN_PAGE::512	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	53;"	d	line:53
-NUMBER_OF_INSTRUCTIONS_IN_ROW::64	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	54;"	d	line:54
-NUMBER_OF_ROWS_IN_PAGE::(NUMBER_OF_INSTRUCTIONS_IN_PAG	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	56;"	d	line:56
-NUM_DATA_EE_PAGES::5	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	47;"	d	line:47
-Navigation	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	899;"	f	line:899	signature:(void)
-Navigation	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	23;"	p	line:23	signature:(void)
-OBST_MIN_DIST::50	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	379;"	d	line:379
-OBST_THRESHOLD::1500.00	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	378;"	d	line:378
-ORIENTATION_FLAG::VARbits1.bit3	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	361;"	d	line:361
-OVERRUN_ERROR2::U2STAbits.OERR	Z:\WinMac\ProgrammiC\dspid33\src\com.h	92;"	d	line:92
-OVERRUN_ERROR::U1STAbits.OERR	Z:\WinMac\ProgrammiC\dspid33\src\com.h	65;"	d	line:65
-Obj	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	608;"	v	line:608
-ObstacleAvoidance	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	952;"	f	line:952	signature:(float DPosX, float DPosY, int DistTarget)
-ObstacleAvoidance	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	13;"	p	line:13	signature:(float DPosX, float DPosY, int Dist)
-Orientation	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1063;"	f	line:1063	signature:(void)
-Orientation	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	24;"	p	line:24	signature:(void)
-PAGE_CURRENT::0	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	57;"	d	line:57
-PAGE_EXPIRED::0	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	58;"	d	line:58
-PAGE_NOT_AVAILABLE::0	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	59;"	d	line:59
-PAGE_NOT_CURRENT::1	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	60;"	d	line:60
-PAGE_NOT_EXPIRED::1	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	61;"	d	line:61
-PID1_CALC_FLAG::VOLbits1.bit0	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	173;"	d	line:173
-PID2_CALC_FLAG::VOLbits1.bit1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	174;"	d	line:174
-PID_MES1::PIDstruct1.measuredOutput	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	243;"	d	line:243
-PID_MES2::PIDstruct2.measuredOutput	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	254;"	d	line:254
-PID_OUT1::PIDstruct1.controlOutput	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	242;"	d	line:242
-PID_OUT2::PIDstruct2.controlOutput	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	253;"	d	line:253
-PID_REF1::PIDstruct1.controlReference	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	244;"	d	line:244
-PID_REF2::PIDstruct2.controlReference	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	255;"	d	line:255
-PIDstruct1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	235;"	v	line:235
-PIDstruct2	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	246;"	v	line:246
-POSCMD_XT	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	24;"	v	line:24
-PROGRAM_ROW::0x4001	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	48;"	d	line:48
-PROGRAM_WORD::0x4003	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	49;"	d	line:49
-PWM	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1733;"	l	line:1733
-PWM	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1804;"	l	line:1804
-PackEE	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	282;"	f	line:282	signature:(unsigned char bank)
-PackEE	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	121;"	p	line:121	signature:(unsigned char bank)
-PackedBit	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	324;"	t	line:324
-Parser	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	246;"	f	line:246	signature:(void)
-Parser	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	36;"	p	line:36	signature:(void)
-ParserCount	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	248;"	l	line:248
-Pid1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1709;"	f	line:1709	signature:(void)
-Pid1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	30;"	p	line:30	signature:(void)
-Pid1Calc	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1729;"	f	line:1729	signature:(void)
-Pid1Calc	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	7;"	p	line:7	signature:(void)
-Pid2	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1780;"	f	line:1780	signature:(void)
-Pid2	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	31;"	p	line:31	signature:(void)
-Pid2Calc	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1800;"	f	line:1800	signature:(void)
-Pid2Calc	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	8;"	p	line:8	signature:(void)
-PidCycle	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	210;"	v	line:210
-Port	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	65;"	v	line:65
-PosIndx	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1395;"	f	line:1395	signature:(float Pos)
-PosXdes	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	397;"	v	line:397
-PosXmes	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	224;"	v	line:224
-PosYdes	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	398;"	v	line:398
-PosYmes	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	225;"	v	line:225
-Ptmp	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1869;"	l	line:1869
-Ptmp	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	255;"	l	line:255
-QUARTPI::0.7853981634	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	230;"	d	line:230
-R::0	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	200;"	d	line:200
-RAD2DEG::57.295779513	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	356;"	d	line:356
-RAMP_FLAG1::VARbits1.bit6	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	257;"	d	line:257
-RAMP_FLAG2::VARbits1.bit1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	259;"	d	line:259
-RAMP_T_FLAG1::VARbits1.bit7	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	258;"	d	line:258
-RAMP_T_FLAG2::VARbits1.bit15	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	260;"	d	line:260
-RC6Tick::(x)(Delay1KTCYx(4*x),Delay100T	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	99;"	d	line:99
-RND_FLAG::VARbits1.bit4	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	612;"	d	line:612
-RND_TIMEOUT::100	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	611;"	d	line:611
-RT_TIMER_FLAG::VARbits1.bit10	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	603;"	d	line:603
-RX2_ID_FLAG::COMbits1.bit2	Z:\WinMac\ProgrammiC\dspid33\src\com.h	95;"	d	line:95
-RX_HEADER_LEN::3	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_common.h	81;"	d	line:81
-RX_ID_FLAG::COMbits1.bit1	Z:\WinMac\ProgrammiC\dspid33\src\com.h	69;"	d	line:69
-Radius	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1183;"	l	line:1183
-Ramp1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	267;"	v	line:267
-Ramp2	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	268;"	v	line:268
-ReadPMHigh	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	108;"	p	line:108	signature:(int)
-ReadPMLow	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	109;"	p	line:109	signature:(int)
-RealVel	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1066;"	l	line:1066
-ResetCount	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	650;"	v	line:650
-ResetPort	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	67;"	v	line:67
-RndTimer	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	610;"	v	line:610
-RtTimer	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	602;"	v	line:602
-SCHEDULER_FLAG::VARbits1.bit5	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	605;"	d	line:605
-SCHED_ANGLE_FLAG::VARbits1.bit8	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	445;"	d	line:445
-SCHED_DIST_FLAG::VARbits1.bit0	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	446;"	d	line:446
-SPACE_ENC_1X::(CIRC/(CPR_WHEEL))	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	195;"	d	line:195
-SPACE_ENC_2X::(CIRC/(CPR_WHEEL*2))	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	196;"	d	line:196
-SPACE_ENC_4X::(CIRC/(CPR_WHEEL*4))	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	197;"	d	line:197
-SPACE_FLAG::VARbits1.bit2	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	333;"	d	line:333
-SPMIN::0.01	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	221;"	d	line:221
-STATUS_AVAILABLE::18	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	62;"	d	line:62
-STATUS_CURRENT::19	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	63;"	d	line:63
-STATUS_EXPIRED::20	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	64;"	d	line:64
-SaMinusSb	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1181;"	l	line:1181
-SchedCode	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	732;"	l	line:732
-SchedPtr	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	444;"	v	line:444
-SchedValues	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	488;"	v	line:488
-Scheduler	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	730;"	f	line:730	signature:(void)
-Scheduler	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	14;"	p	line:14	signature:(void)
-SemiAxle	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	215;"	v	line:215
-SemiAxle	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	216;"	v	line:216
-SendMap	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	211;"	f	line:211	signature:(void)
-SendMap	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	5;"	p	line:5	signature:(void)
-SendMapPort	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	66;"	v	line:66
-SetMap	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1424;"	f	line:1424	signature:(int Xpnt, int Ypnt, nibble *CellVal)
-SetMap	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	326;"	p	line:326	signature:(int Xpoint, int Ypoint, nibble *CellVal)
-SetPageCorruptStatus::(x)dataEEFlags.pageCorrupt=x	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	70;"	d	line:70
-SetPageExpiredPage::(x)dataEEFlags.expiredPage=x	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	73;"	d	line:73
-SetPageIllegalAddress::(x)dataEEFlags.IllegalAddress=	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	76;"	d	line:76
-SetPagePackBeforeInit::(x)dataEEFlags.packBeforeInit=	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	79;"	d	line:79
-SetPagePackBeforePageFull::(x)dataEEFlags.packBeforePageF	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	82;"	d	line:82
-SetPagePackSkipped::(x)dataEEFlags.packSkipped=x	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	85;"	d	line:85
-SetPageWriteError::(x)dataEEFlags.writeError=x	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	88;"	d	line:88
-SetaddrNotFound::(x)dataEEFlags.addrNotFound=x	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	67;"	d	line:67
-Settings	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	39;"	p	line:39	signature:(void)
-Settings	Z:\WinMac\ProgrammiC\dspid33\src\dsPid33_settings.c	20;"	f	line:20	signature:(void)
-SinNow	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1176;"	l	line:1176
-SinPrev	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	223;"	v	line:223
-Slam	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1252;"	f	line:1252	signature:(float PosX, float PosY, int Cell)
-Slam	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	17;"	p	line:17	signature:(float PosX, float PosY, int Cell)
-SpTick	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	217;"	v	line:217
-Space	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	220;"	v	line:220
-Spmm	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	219;"	v	line:219
-SrPlusSl	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1182;"	l	line:1182
-TCY::1/((float)(FCY)	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_common.h	67;"	d	line:67
-TIMER_OK_FLAG::VARbits1.bit9	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	604;"	d	line:604
-TMR1_VALUE::39628	Z:\WinMac\ProgrammiC\dspid33\src\dsPid33_settings.c	682;"	d	line:682	file:
-TMR1_VALUE::40000	Z:\WinMac\ProgrammiC\dspid33\src\dsPid33_settings.c	680;"	d	line:680	file:
-TMR2_VALUE::0xFFFF	Z:\WinMac\ProgrammiC\dspid33\src\dsPid33_settings.c	659;"	d	line:659	file:
-TN	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	323;"	m	line:323
-TWOPI::6.2831853072	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	228;"	d	line:228
-TX2_REG_EMPTY::U2STAbits.TRMT	Z:\WinMac\ProgrammiC\dspid33\src\com.h	93;"	d	line:93
-TX_REG_EMPTY::U1STAbits.TRMT	Z:\WinMac\ProgrammiC\dspid33\src\com.h	66;"	d	line:66
-Target	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	609;"	v	line:609
-Tcy	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	140;"	v	line:140
-Test	Z:\WinMac\ProgrammiC\dspid33\src\com.h	71;"	v	line:71
-ThetaDes	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	358;"	v	line:358
-ThetaDesF	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	239;"	f	line:239	signature:(float Angle)
-ThetaDesF	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	9;"	p	line:9	signature:(float Angle)
-ThetaDesRef	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	359;"	v	line:359
-ThetaMes	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	226;"	v	line:226
-Tmp1Long	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1510;"	l	line:1510
-Tmp1Long	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	258;"	l	line:258
-Tmp2Long	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1511;"	l	line:1511
-Tmp2Long	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	259;"	l	line:259
-TmpChk	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1515;"	l	line:1515
-TmpChk	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	252;"	l	line:252
-TmpMap	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	213;"	l	line:213
-TmpPtr	Z:\WinMac\ProgrammiC\dspid33\src\com.h	62;"	v	line:62
-TmpPtr2	Z:\WinMac\ProgrammiC\dspid33\src\com.h	87;"	v	line:87
-Tmr2OvflwCount1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	168;"	v	line:168
-Tmr2OvflwCount2	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	169;"	v	line:169
-Tx2ContFlag	Z:\WinMac\ProgrammiC\dspid33\src\com.h	96;"	v	line:96
-Tx2Flag	Z:\WinMac\ProgrammiC\dspid33\src\com.h	79;"	v	line:79
-TxCont	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1867;"	f	line:1867	signature:(void)
-TxCont	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	16;"	p	line:16	signature:(void)
-TxContFlag	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	148;"	v	line:148
-TxCount	Z:\WinMac\ProgrammiC\dspid33\src\com.c	140;"	l	line:140
-TxFlag	Z:\WinMac\ProgrammiC\dspid33\src\com.h	53;"	v	line:53
-TxParameters	Z:\WinMac\ProgrammiC\dspid33\src\com.c	138;"	f	line:138	signature:(char TxCmd,int TxCmdLen, int Port)
-TxParameters	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	32;"	p	line:32	signature:(char TxCmd,int TxCmdLen, int Port)
-UART2_CONT_TIMEOUT::100	Z:\WinMac\ProgrammiC\dspid33\src\com.h	89;"	d	line:89
-UART_CONT_TIMEOUT::100	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	147;"	d	line:147
-UART_CONT_TIMEOUT::100	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	150;"	d	line:150
-UC	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	318;"	m	line:318
-Uart2ContTxTimer	Z:\WinMac\ProgrammiC\dspid33\src\com.h	90;"	v	line:90
-Uart2Rx	Z:\WinMac\ProgrammiC\dspid33\src\com.c	288;"	f	line:288	signature:(void)
-Uart2Rx	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	38;"	p	line:38	signature:(void)
-Uart2RxPtrData	Z:\WinMac\ProgrammiC\dspid33\src\com.h	86;"	v	line:86
-Uart2RxPtrEnd	Z:\WinMac\ProgrammiC\dspid33\src\com.h	85;"	v	line:85
-Uart2RxPtrIn	Z:\WinMac\ProgrammiC\dspid33\src\com.h	82;"	v	line:82
-Uart2RxPtrOut	Z:\WinMac\ProgrammiC\dspid33\src\com.h	83;"	v	line:83
-Uart2RxPtrStart	Z:\WinMac\ProgrammiC\dspid33\src\com.h	84;"	v	line:84
-Uart2RxStatus	Z:\WinMac\ProgrammiC\dspid33\src\com.h	91;"	v	line:91
-Uart2TxBuff	Z:\WinMac\ProgrammiC\dspid33\src\com.c	15;"	v	line:15
-Uart2TxCntr	Z:\WinMac\ProgrammiC\dspid33\src\com.h	88;"	v	line:88
-UartChkSum	Z:\WinMac\ProgrammiC\dspid33\src\com.c	399;"	f	line:399	signature:(unsigned char *Buff,unsigned int BuffSize)
-UartChkSum	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	35;"	p	line:35	signature:(unsigned char *,unsigned int)
-UartContTxTimer	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	149;"	v	line:149
-UartRx	Z:\WinMac\ProgrammiC\dspid33\src\com.c	179;"	f	line:179	signature:(void)
-UartRx	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	37;"	p	line:37	signature:(void)
-UartRxBuff	Z:\WinMac\ProgrammiC\dspid33\src\com.h	50;"	v	line:50
-UartRxCmd	Z:\WinMac\ProgrammiC\dspid33\src\com.h	55;"	v	line:55
-UartRxError	Z:\WinMac\ProgrammiC\dspid33\src\com.c	411;"	f	line:411	signature:(int Err, int Port)
-UartRxError	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	34;"	p	line:34	signature:(int Err, int Port)
-UartRxPtrData	Z:\WinMac\ProgrammiC\dspid33\src\com.h	61;"	v	line:61
-UartRxPtrEnd	Z:\WinMac\ProgrammiC\dspid33\src\com.h	60;"	v	line:60
-UartRxPtrIn	Z:\WinMac\ProgrammiC\dspid33\src\com.h	57;"	v	line:57
-UartRxPtrOut	Z:\WinMac\ProgrammiC\dspid33\src\com.h	58;"	v	line:58
-UartRxPtrStart	Z:\WinMac\ProgrammiC\dspid33\src\com.h	59;"	v	line:59
-UartRxStatus	Z:\WinMac\ProgrammiC\dspid33\src\com.h	64;"	v	line:64
-UartTmpBuff	Z:\WinMac\ProgrammiC\dspid33\src\com.h	52;"	v	line:52
-UartTx	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	33;"	p	line:33	signature:(void)
-UartTxBuff	Z:\WinMac\ProgrammiC\dspid33\src\com.c	14;"	v	line:14
-UartTxBuff	Z:\WinMac\ProgrammiC\dspid33\src\com.h	51;"	v	line:51
-UartTxBuffSize	Z:\WinMac\ProgrammiC\dspid33\src\com.c	141;"	l	line:141
-UartTxCntr	Z:\WinMac\ProgrammiC\dspid33\src\com.h	63;"	v	line:63
-UnlockPM	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	110;"	p	line:110	signature:(void)
-UnlockWrite	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	120;"	f	line:120	signature:(void)
-UnlockWrite	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	116;"	p	line:116	signature:(void)
-Usart2Setting	Z:\WinMac\ProgrammiC\dspid33\src\com.c	77;"	f	line:77	signature:(void)
-Usart2Setting	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	42;"	p	line:42	signature:(void)
-UsartSetting	Z:\WinMac\ProgrammiC\dspid33\src\com.c	17;"	f	line:17	signature:(void)
-UsartSetting	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	41;"	p	line:41	signature:(void)
-VAR_PER_BYTE::2	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	276;"	d	line:276
-VARbits1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	93;"	v	line:93
-VARbits2	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	94;"	v	line:94
-VEL_MIN_PID::1600	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	209;"	d	line:209
-VM	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	956;"	l	line:956
-VOLbits1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	95;"	v	line:95
-VObX	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	380;"	v	line:380
-VObY	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	381;"	v	line:381
-VX	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	954;"	l	line:954
-VY	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	955;"	l	line:955
-Vel	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	232;"	v	line:232
-VelDecr	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	400;"	v	line:400
-VelDecrObj	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	904;"	l	line:904
-VelDes	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	205;"	v	line:205
-VelDesM	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	207;"	v	line:207
-VelFin	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	261;"	v	line:261
-VelInt	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1871;"	l	line:1871
-VelInt	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	441;"	v	line:441
-VelMes	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	206;"	v	line:206
-Ver	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	4;"	v	line:4
-WritePMHigh	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	111;"	p	line:111	signature:(int, int)
-WritePMHighB	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	112;"	p	line:112	signature:(int, int)
-WritePMLow	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	113;"	p	line:113	signature:(int, int)
-WritePMLowB	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	114;"	p	line:114	signature:(int, int)
-X_POINT_MAX::150	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	282;"	d	line:282
-X_POINT_MIN::0	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	283;"	d	line:283
-X_SIZE::75	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	280;"	d	line:280
-X_grid	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	961;"	l	line:961
-XindxH	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1426;"	l	line:1426
-XindxL	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1406;"	l	line:1406
-XindxL	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1427;"	l	line:1427
-XindxPrev	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	331;"	v	line:331
-Xpoint	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1255;"	l	line:1255
-Xshift	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	307;"	v	line:307
-Y_POINT_MAX::150	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	284;"	d	line:284
-Y_POINT_MIN::0	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	285;"	d	line:285
-Y_SIZE::150	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	281;"	d	line:281
-Y_grid	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	962;"	l	line:962
-YindxPrev	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	332;"	v	line:332
-Ypoint	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1256;"	l	line:1256
-Yshift	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	308;"	v	line:308
-_AddressError	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	61;"	p	line:61	file:	signature:(void)
-_AddressError	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	86;"	f	line:86	signature:(void)
-_AltAddressError	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	128;"	f	line:128	signature:(void)
-_AltAddressError	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	67;"	p	line:67	file:	signature:(void)
-_AltDMACError	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	146;"	f	line:146	signature:(void)
-_AltDMACError	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	70;"	p	line:70	file:	signature:(void)
-_AltMathError	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	140;"	f	line:140	signature:(void)
-_AltMathError	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	69;"	p	line:69	file:	signature:(void)
-_AltOscillatorFail	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	122;"	f	line:122	signature:(void)
-_AltOscillatorFail	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	66;"	p	line:66	file:	signature:(void)
-_AltStackError	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	134;"	f	line:134	signature:(void)
-_AltStackError	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	68;"	p	line:68	file:	signature:(void)
-_CNInterrupt	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	48;"	p	line:48	signature:(void)
-_DMA5Interrupt	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1996;"	f	line:1996	signature:(void)
-_DMA6Interrupt	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1990;"	f	line:1990	signature:(void)
-_DMA7Interrupt	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1983;"	f	line:1983	signature:(void)
-_DMACError	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	103;"	f	line:103	signature:(void)
-_DMACError	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	64;"	p	line:64	file:	signature:(void)
-_IC1Interrupt	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	2002;"	f	line:2002	signature:(void)
-_IC1Interrupt	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	46;"	p	line:46	signature:(void)
-_IC2Interrupt	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	2040;"	f	line:2040	signature:(void)
-_INT1Interrupt	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	43;"	p	line:43	signature:(void)
-_ISR_PSV::__attribute__((interrupt,auto_	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_common.h	69;"	d	line:69
-_MathError	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	63;"	p	line:63	file:	signature:(void)
-_MathError	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	97;"	f	line:97	signature:(void)
-_OscillatorFail	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	60;"	p	line:60	file:	signature:(void)
-_OscillatorFail	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	80;"	f	line:80	signature:(void)
-_ReadPMHigh	Z:\WinMac\ProgrammiC\dspid33\src\Flash Operations.s	50;"	l	line:50
-_ReadPMLow	Z:\WinMac\ProgrammiC\dspid33\src\Flash Operations.s	54;"	l	line:54
-_StackError	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	62;"	p	line:62	file:	signature:(void)
-_StackError	Z:\WinMac\ProgrammiC\dspid33\src\traps.c	91;"	f	line:91	signature:(void)
-_T1Interrupt	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1944;"	f	line:1944	signature:(void)
-_T1Interrupt	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	47;"	p	line:47	signature:(void)
-_T2Interrupt	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1974;"	f	line:1974	signature:(void)
-_U1ErrInterrupt	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	2078;"	f	line:2078	signature:(void)
-_U1RXInterrupt	Z:\WinMac\ProgrammiC\dspid33\src\com.c	468;"	f	line:468	signature:(void)
-_U1RXInterrupt	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	44;"	p	line:44	signature:(void)
-_U1TXInterrupt	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_prototypes.h	45;"	p	line:45	signature:(void)
-_U2ErrInterrupt	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	2083;"	f	line:2083	signature:(void)
-_U2RXInterrupt	Z:\WinMac\ProgrammiC\dspid33\src\com.c	494;"	f	line:494	signature:(void)
-_UnlockPM	Z:\WinMac\ProgrammiC\dspid33\src\Flash Operations.s	58;"	l	line:58
-_WritePMHigh	Z:\WinMac\ProgrammiC\dspid33\src\Flash Operations.s	73;"	l	line:73
-_WritePMHighB	Z:\WinMac\ProgrammiC\dspid33\src\Flash Operations.s	77;"	l	line:77
-_WritePMLow	Z:\WinMac\ProgrammiC\dspid33\src\Flash Operations.s	81;"	l	line:81
-_WritePMLowB	Z:\WinMac\ProgrammiC\dspid33\src\Flash Operations.s	85;"	l	line:85
-abcCoefficient1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	236;"	v	line:236
-abcCoefficient2	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	247;"	v	line:247
-addrNotFound	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	95;"	m	line:95
-atan2f	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1044;"	p	line:1044	file:
-atan2f	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	808;"	p	line:808	file:
-bank	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	474;"	l	line:474
-bank	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	599;"	l	line:599
-bank	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	680;"	l	line:680
-bit0	Z:\WinMac\ProgrammiC\dspid33\src\com.h	27;"	m	line:27	struct:Bits
-bit0	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	75;"	m	line:75	struct:Bits
-bit1	Z:\WinMac\ProgrammiC\dspid33\src\com.h	28;"	m	line:28	struct:Bits
-bit1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	76;"	m	line:76	struct:Bits
-bit10	Z:\WinMac\ProgrammiC\dspid33\src\com.h	37;"	m	line:37	struct:Bits
-bit10	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	85;"	m	line:85	struct:Bits
-bit11	Z:\WinMac\ProgrammiC\dspid33\src\com.h	38;"	m	line:38	struct:Bits
-bit11	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	86;"	m	line:86	struct:Bits
-bit12	Z:\WinMac\ProgrammiC\dspid33\src\com.h	39;"	m	line:39	struct:Bits
-bit12	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	87;"	m	line:87	struct:Bits
-bit13	Z:\WinMac\ProgrammiC\dspid33\src\com.h	40;"	m	line:40	struct:Bits
-bit13	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	88;"	m	line:88	struct:Bits
-bit14	Z:\WinMac\ProgrammiC\dspid33\src\com.h	41;"	m	line:41	struct:Bits
-bit14	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	89;"	m	line:89	struct:Bits
-bit15	Z:\WinMac\ProgrammiC\dspid33\src\com.h	42;"	m	line:42	struct:Bits
-bit15	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	90;"	m	line:90	struct:Bits
-bit2	Z:\WinMac\ProgrammiC\dspid33\src\com.h	29;"	m	line:29	struct:Bits
-bit2	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	77;"	m	line:77	struct:Bits
-bit3	Z:\WinMac\ProgrammiC\dspid33\src\com.h	30;"	m	line:30	struct:Bits
-bit3	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	78;"	m	line:78	struct:Bits
-bit4	Z:\WinMac\ProgrammiC\dspid33\src\com.h	31;"	m	line:31	struct:Bits
-bit4	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	79;"	m	line:79	struct:Bits
-bit5	Z:\WinMac\ProgrammiC\dspid33\src\com.h	32;"	m	line:32	struct:Bits
-bit5	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	80;"	m	line:80	struct:Bits
-bit6	Z:\WinMac\ProgrammiC\dspid33\src\com.h	33;"	m	line:33	struct:Bits
-bit6	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	81;"	m	line:81	struct:Bits
-bit7	Z:\WinMac\ProgrammiC\dspid33\src\com.h	34;"	m	line:34	struct:Bits
-bit7	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	82;"	m	line:82	struct:Bits
-bit8	Z:\WinMac\ProgrammiC\dspid33\src\com.h	35;"	m	line:35	struct:Bits
-bit8	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	83;"	m	line:83	struct:Bits
-bit9	Z:\WinMac\ProgrammiC\dspid33\src\com.h	36;"	m	line:36	struct:Bits
-bit9	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	84;"	m	line:84	struct:Bits
-config1	Z:\WinMac\ProgrammiC\dspid33\src\dsPid33_settings.c	541;"	l	line:541
-config2	Z:\WinMac\ProgrammiC\dspid33\src\dsPid33_settings.c	543;"	l	line:543
-config3	Z:\WinMac\ProgrammiC\dspid33\src\dsPid33_settings.c	545;"	l	line:545
-controlHistory1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	237;"	v	line:237
-controlHistory2	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	248;"	v	line:248
-currentOffset	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	287;"	l	line:287
-currentPage	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	230;"	l	line:230
-currentPage	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	284;"	l	line:284
-currentPage	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	471;"	l	line:471
-currentPage	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	594;"	l	line:594
-currentPage	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	675;"	l	line:675
-dataEEFlags	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	93;"	v	line:93
-dataEEFlags_sh	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	292;"	l	line:292
-dataEEFlags_sh	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	679;"	l	line:679
-dataEEval	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	231;"	l	line:231
-emulationPages	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	98;"	v	line:98
-erasePage	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	469;"	l	line:469
-expiredPage	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	96;"	m	line:96
-geographic::	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_common.h	79;"	d	line:79
-i	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	229;"	l	line:229
-i	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	289;"	l	line:289
-i	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	598;"	l	line:598
-i	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	143;"	v	line:143
-j	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	144;"	v	line:144
-kCoeffs1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	238;"	v	line:238
-kCoeffs2	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	249;"	v	line:249
-latch	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	597;"	l	line:597
-latch	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	678;"	l	line:678
-latchAddr	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	290;"	l	line:290
-latchData	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	291;"	l	line:291
-main	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	37;"	f	line:37	signature:(void)
-max::(a,b)((a)>(b)?(a):(b))	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_common.h	77;"	d	line:77
-ms	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1854;"	l	line:1854
-nextLoc	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	677;"	l	line:677
-nib	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	312;"	m	line:312
-nib0	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	321;"	m	line:321
-nib1	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	322;"	m	line:322
-nibble	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33_definitions.h	314;"	t	line:314
-packBeforeInit	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	98;"	m	line:98
-packBeforePageFull	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	97;"	m	line:97
-packSkipped	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	99;"	m	line:99
-packedOffset	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	288;"	l	line:288
-packedPage	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	285;"	l	line:285
-packedPage	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	473;"	l	line:473
-pageCnt	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	468;"	l	line:468
-pageCorrupt	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	101;"	m	line:101
-period	Z:\WinMac\ProgrammiC\dspid33\src\dsPid33_settings.c	537;"	l	line:537
-pmOffset	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	191;"	l	line:191
-pmOffset	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	232;"	l	line:232
-pmOffset	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	595;"	l	line:595
-pmOffset	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	676;"	l	line:676
-savedTBLPAG	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	149;"	l	line:149
-savedTBLPAG	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	192;"	l	line:192
-savedTBLPAG	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	233;"	l	line:233
-savedTBLPAG	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	286;"	l	line:286
-savedTBLPAG	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	470;"	l	line:470
-savedTBLPAG	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	592;"	l	line:592
-savedTBLPAG	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	674;"	l	line:674
-sh_SR	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	122;"	l	line:122
-sptime	Z:\WinMac\ProgrammiC\dspid33\src\dsPid33_settings.c	539;"	l	line:539
-status	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	148;"	l	line:148
-statusByte	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	147;"	l	line:147
-statusOffset	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	146;"	l	line:146
-statusOffset	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.c	472;"	l	line:472
-val	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	92;"	m	line:92
-writeError	Z:\WinMac\ProgrammiC\dspid33\src\DEE Emulation 16-bit.h	102;"	m	line:102
-z	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1407;"	l	line:1407
-z	Z:\WinMac\ProgrammiC\dspid33\src\dsPID33.c	1428;"	l	line:1428
+ACC::0.00005	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	264;"	d	line:264
+ADCOvldCount	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	157;"	v	line:157
+ADCValue	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	153;"	v	line:153
+ADCValueTmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	843;"	l	line:843
+ADC_CALC_FLAG::VOLbits1.bit6	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	154;"	d	line:154
+ADC_OVLD_LIMIT::800	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	155;"	d	line:155
+ADC_OVLD_TIME::100	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	156;"	d	line:156
+ANGLE_KD::AngleKCoeffs[2]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	351;"	d	line:351
+ANGLE_KI::AngleKCoeffs[1]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	350;"	d	line:350
+ANGLE_KP::AngleKCoeffs[0]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	349;"	d	line:349
+ANGLE_OK_FLAG::VARbits1.bit12	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	362;"	d	line:362
+ANGLE_PID_DES::AnglePIDstruct.controlReferenc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	352;"	d	line:352
+ANGLE_PID_MES::AnglePIDstruct.measuredOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	353;"	d	line:353
+ANGLE_PID_OUT::AnglePIDstruct.controlOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	354;"	d	line:354
+AUX1::_LATA7	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	126;"	d	line:126
+AUX2::_LATA10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	127;"	d	line:127
+AdcCalc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	839;"	f	line:839	signature:(void)
+AdcCalc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	16;"	p	line:16	signature:(void)
+AdcCount	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	842;"	l	line:842
+Alpha	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1851;"	l	line:1851
+Alpha	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	257;"	l	line:257
+AngleCmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	360;"	v	line:360
+AngleKCoeffs	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	348;"	v	line:348
+AnglePIDstruct	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	343;"	v	line:343
+AngleS	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	261;"	l	line:261
+AngleabcCoefficient	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	344;"	v	line:344
+AnglecontrolHistory	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	346;"	v	line:346
+Axle	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	214;"	v	line:214
+BOUND_FREE::500	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	377;"	d	line:377
+BOUND_X_MAX::7070	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	374;"	d	line:374
+BOUND_X_MIN::-7070	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	372;"	d	line:372
+BOUND_Y_MAX::7070	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	375;"	d	line:375
+BOUND_Y_MIN::-7070	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	373;"	d	line:373
+BRG	C:\ProgrammiC\dsPID33\dspid33\src\com.c	23;"	l	line:23
+BRG2	C:\ProgrammiC\dsPID33\dspid33\src\com.c	83;"	l	line:83
+BaudRate	C:\ProgrammiC\dsPID33\dspid33\src\com.c	22;"	l	line:22
+BaudRate2	C:\ProgrammiC\dsPID33\dspid33\src\com.c	82;"	l	line:82
+Bits	C:\ProgrammiC\dsPID33\dspid33\src\com.h	26;"	s	line:26
+Bits	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	74;"	s	line:74
+Blink	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	145;"	v	line:145
+BlinkOn	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	430;"	v	line:430
+BlinkPeriod	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	429;"	v	line:429
+C1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1491;"	l	line:1491
+C1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	249;"	l	line:249
+C2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1492;"	l	line:1492
+C2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	250;"	l	line:250
+C3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1493;"	l	line:1493
+C3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	251;"	l	line:251
+CELL_SIZE::100	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	273;"	d	line:273
+CICLE1_TMO::10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	410;"	d	line:410
+CICLE2_TMO::5	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	411;"	d	line:411
+CIRC::DIAMETER*PI	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	194;"	d	line:194
+CLOCK_FREQ_10::10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	27;"	d	line:27
+COMbits1	C:\ProgrammiC\dsPID33\dspid33\src\com.h	45;"	v	line:45
+CONSOLE_DEBUG::VARbits1.bit13	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	439;"	d	line:439
+CPR::300	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	190;"	d	line:190
+CPR_WHEEL::CPR*GEAR_RATIO	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	192;"	d	line:192
+CYCLE1_FLAG::VOLbits1.bit2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	408;"	d	line:408
+CYCLE2_FLAG::VOLbits1.bit3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	409;"	d	line:409
+CellV	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	963;"	l	line:963
+CellValue	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1233;"	l	line:1233
+ChkIndx	C:\ProgrammiC\dsPID33\dspid33\src\com.c	402;"	l	line:402
+ChkSum	C:\ProgrammiC\dsPID33\dspid33\src\com.c	401;"	l	line:401
+ChkSum	C:\ProgrammiC\dsPID33\dspid33\src\com.h	54;"	v	line:54
+ChkSum2	C:\ProgrammiC\dsPID33\dspid33\src\com.h	80;"	v	line:80
+ConstantsDefaultR	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1450;"	f	line:1450	signature:(void)
+ConstantsDefaultR	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	13;"	p	line:13	signature:(void)
+ConstantsDefaultW	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1424;"	f	line:1424	signature:(void)
+ConstantsDefaultW	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	12;"	p	line:12	signature:(void)
+ConstantsError	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1479;"	f	line:1479	signature:(void)
+ConstantsError	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	11;"	p	line:11	signature:(void)
+ConstantsRead	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1487;"	f	line:1487	signature:(void)
+ConstantsRead	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	27;"	p	line:27	signature:(void)
+ConstantsWrite	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	19;"	p	line:19	signature:(char Row)
+CosNow	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1154;"	l	line:1154
+CosPrev	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	222;"	v	line:222
+Curr	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	270;"	v	line:270
+CurrTmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1849;"	l	line:1849
+CurrTmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	256;"	l	line:256
+Cx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	959;"	l	line:959
+Cy	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	960;"	l	line:960
+Cycle1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	406;"	v	line:406
+Cycle2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	407;"	v	line:407
+DATA_EE_BANKS::2	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	43;"	d	line:43
+DATA_EE_FLAGS	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	104;"	t	line:104
+DATA_EE_SIZE::255	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	44;"	d	line:44
+DATA_EE_TOTAL_SIZE::(DATA_EE_BANKS*DATA_EE_SIZE)	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	45;"	d	line:45
+DEC::0.001	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	265;"	d	line:265
+DEE_BANK_SIZE::(sizeof(emulationPages[0])*NUM	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	101;"	d	line:101	file:
+DEE_PAGE_OFFSET::(bank,page)((__builtin_tbladdr	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	105;"	d	line:105	file:
+DEE_PAGE_SIZE::(sizeof(emulationPages[0]))	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	102;"	d	line:102	file:
+DEE_PAGE_TBL::(bank,page)((__builtin_tbladdr	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	104;"	d	line:104	file:
+DEG2RAD::0.0174532925	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	357;"	d	line:357
+DELAY100MS::Delay10KTCYx(100)	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	100;"	d	line:100
+DIAMETER::0.058	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	193;"	d	line:193
+DIR_485::_LATB9	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	109;"	d	line:109
+DIR_485::_LATC3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	130;"	d	line:130
+DISABLE_T2::U2STAbits.UTXEN=0	C:\ProgrammiC\dsPID33\dspid33\src\com.h	7;"	d	line:7
+DISABLE_TX::U1STAbits.UTXEN=0	C:\ProgrammiC\dsPID33\dspid33\src\com.h	5;"	d	line:5
+DIST_ENABLE_FLAG::VARbits1.bit14	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	396;"	d	line:396
+DIST_KD::DistKCoeffs[2]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	391;"	d	line:391
+DIST_KI::DistKCoeffs[1]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	390;"	d	line:390
+DIST_KP::DistKCoeffs[0]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	389;"	d	line:389
+DIST_OK_FLAG::VARbits1.bit11	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	402;"	d	line:402
+DIST_PID_DES::DistPIDstruct.controlReference	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	392;"	d	line:392
+DIST_PID_MES::DistPIDstruct.measuredOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	393;"	d	line:393
+DIST_PID_OUT::DistPIDstruct.controlOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	394;"	d	line:394
+DPosX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1158;"	l	line:1158
+DPosX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	733;"	l	line:733
+DPosX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	901;"	l	line:901
+DPosY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1159;"	l	line:1159
+DPosY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	734;"	l	line:734
+DPosY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	902;"	l	line:902
+DROIDS::1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	31;"	d	line:31
+DSpace	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1156;"	l	line:1156
+DTheta	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1157;"	l	line:1157
+DataEEInit	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	466;"	f	line:466	signature:(void)
+DataEEInit	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	122;"	p	line:122	signature:(void)
+DataEERead	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	590;"	f	line:590	signature:(unsigned int addr)
+DataEERead	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	123;"	p	line:123	signature:(unsigned int addr)
+DataEEWrite	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	672;"	f	line:672	signature:(unsigned int data, unsigned int addr)
+DataEEWrite	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	124;"	p	line:124	signature:(unsigned int data, unsigned int addr)
+DeadReckoning	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1152;"	f	line:1152	signature:(void)
+DeadReckoning	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	26;"	p	line:26	signature:(void)
+DelayCount	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1842;"	l	line:1842
+DelayN10us	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1840;"	f	line:1840	signature:(int n)
+DelayN10us	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	21;"	p	line:21	signature:(int n)
+DelayN1ms	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1831;"	f	line:1831	signature:(int n)
+DelayN1ms	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	20;"	p	line:20	signature:(int n)
+DeltaVel	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1044;"	l	line:1044
+Dist	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	903;"	l	line:903
+DistKCoeffs	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	388;"	v	line:388
+DistObst	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	968;"	l	line:968
+DistPIDstruct	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	383;"	v	line:383
+DistabcCoefficient	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	384;"	v	line:384
+DistcontrolHistory	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	386;"	v	line:386
+DmaAdc	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	18;"	v	line:18
+EE_ANGLE_KD::7	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	623;"	d	line:623
+EE_ANGLE_KI::6	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	622;"	d	line:622
+EE_ANGLE_KP::5	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	621;"	d	line:621
+EE_AXLE_H::20	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	638;"	d	line:638
+EE_AXLE_L::21	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	639;"	d	line:639
+EE_CHK_ANGLE::8	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	624;"	d	line:624
+EE_CHK_DIST::26	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	645;"	d	line:645
+EE_CHK_KVEL::4	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	619;"	d	line:619
+EE_CHK_MECH::22	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	640;"	d	line:640
+EE_CHK_SCHED::27	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	647;"	d	line:647
+EE_CHK_SPEED::15	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	632;"	d	line:632
+EE_DIST_KD::25	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	644;"	d	line:644
+EE_DIST_KI::24	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	643;"	d	line:643
+EE_DIST_KP::23	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	642;"	d	line:642
+EE_KD1::11	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	628;"	d	line:628
+EE_KD2::14	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	631;"	d	line:631
+EE_KI1::10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	627;"	d	line:627
+EE_KI2::13	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	630;"	d	line:630
+EE_KP1::9	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	626;"	d	line:626
+EE_KP2::12	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	629;"	d	line:629
+EE_KSP1_H::16	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	634;"	d	line:634
+EE_KSP1_L::17	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	635;"	d	line:635
+EE_KSP2_H::18	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	636;"	d	line:636
+EE_KSP2_L::19	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	637;"	d	line:637
+EE_KVEL1_H::0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	615;"	d	line:615
+EE_KVEL1_L::1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	616;"	d	line:616
+EE_KVEL2_H::2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	617;"	d	line:617
+EE_KVEL2_L::3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	618;"	d	line:618
+EE_SCHED::28	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	648;"	d	line:648
+ENABLE_TX2::U2STAbits.UTXEN=1	C:\ProgrammiC\dsPID33\dspid33\src\com.h	8;"	d	line:8
+ENABLE_TX::U1STAbits.UTXEN=1	C:\ProgrammiC\dsPID33\dspid33\src\com.h	6;"	d	line:6
+ERASE::0x4042	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	46;"	d	line:46
+ERASE_WRITE_CYCLE_MAX::5	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	52;"	d	line:52
+ERR_BLINK_ON::100	C:\ProgrammiC\dsPID33\dspid33\src\com.h	20;"	d	line:20
+ERR_BLINK_PER::200	C:\ProgrammiC\dsPID33\dspid33\src\com.h	19;"	d	line:19
+ErasePage	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	189;"	f	line:189	signature:(unsigned char bank, unsigned char page)
+ErasePage	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	118;"	p	line:118	signature:(unsigned char bank, unsigned char page)
+ErrCode	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	437;"	v	line:437
+ErrNo	C:\ProgrammiC\dsPID33\dspid33\src\com.h	23;"	v	line:23
+Error	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1046;"	l	line:1046
+FCY::39628800	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	63;"	d	line:63
+FCY::40000000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	54;"	d	line:54
+FLOAT2INT::(x)((x)>=0?(int)((x)+0.5):(int	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	76;"	d	line:76
+FNOSC_PRI	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	19;"	v	line:19
+FRAME_ERROR2::U2STAbits.FERR	C:\ProgrammiC\dsPID33\dspid33\src\com.h	94;"	d	line:94
+FRAME_ERROR::U1STAbits.FERR	C:\ProgrammiC\dsPID33\dspid33\src\com.h	67;"	d	line:67
+Fcr	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	957;"	l	line:957
+Fct	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	958;"	l	line:958
+Frx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	964;"	l	line:964
+Fry	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	965;"	l	line:965
+Ftx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	966;"	l	line:966
+Fty	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	967;"	l	line:967
+GEAR_RATIO::30	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	191;"	d	line:191
+GWRP_OFF	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	40;"	v	line:40
+GetMap	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1382;"	f	line:1382	signature:(int Xpnt, int Ypnt)
+GetMap	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	7;"	p	line:7	signature:(int Xpoint, int Ypoint)
+GetNextAvailCount	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	227;"	f	line:227	signature:(unsigned char bank)
+GetNextAvailCount	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	120;"	p	line:120	signature:(unsigned char bank)
+GetPageCorruptStatus::dataEEFlags.pageCorrupt	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	69;"	d	line:69
+GetPageExpiredPage::dataEEFlags.expiredPage	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	72;"	d	line:72
+GetPageIllegalAddress::dataEEFlags.IllegalAddress	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	75;"	d	line:75
+GetPagePackBeforeInit::dataEEFlags.packBeforeInit	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	78;"	d	line:78
+GetPagePackBeforePageFull::dataEEFlags.packBeforePageFull	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	81;"	d	line:81
+GetPagePackSkipped::dataEEFlags.packSkipped	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	84;"	d	line:84
+GetPageStatus	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	144;"	f	line:144	signature:(unsigned char bank, unsigned char page, unsigned char field)
+GetPageStatus	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	117;"	p	line:117	signature:(unsigned char bank, unsigned volatile char page, unsigned volatile char field)
+GetPageWriteError::dataEEFlags.writeError	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	87;"	d	line:87
+GetaddrNotFound::dataEEFlags.addrNotFound	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	66;"	d	line:66
+HALFPI::1.570796327	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	229;"	d	line:229
+HALF_MAP_SIZE::7500	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	275;"	d	line:275
+HEADER::'@'	C:\ProgrammiC\dsPID33\dspid33\src\com.h	68;"	d	line:68
+IC1_FIRST::VOLbits1.bit7	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	170;"	d	line:170
+IC2_FIRST::VOLbits1.bit8	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	171;"	d	line:171
+ICS_PGD1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	32;"	v	line:32
+IDLE_CYCLE::20	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	416;"	d	line:416
+IDLE_SAMPLE_TIME::10000000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	420;"	d	line:420
+IDLE_TIME_PERIOD::3000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	423;"	d	line:423
+ISR_Settings	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	41;"	p	line:41	signature:(void)
+ISR_Settings	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	699;"	f	line:699	signature:(void)
+Ic1CurrPeriod	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	166;"	v	line:166
+Ic1Indx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	160;"	v	line:160
+Ic1Period	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	164;"	v	line:164
+Ic1PrevPeriod	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	162;"	v	line:162
+Ic2CurrPeriod	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	167;"	v	line:167
+Ic2Indx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	161;"	v	line:161
+Ic2Period	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	165;"	v	line:165
+Ic2PrevPeriod	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	163;"	v	line:163
+IcIndxTmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1711;"	l	line:1711
+IcIndxTmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1782;"	l	line:1782
+IcPeriodTmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1710;"	l	line:1710
+IcPeriodTmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1781;"	l	line:1781
+Id	C:\ProgrammiC\dsPID33\dspid33\src\com.h	49;"	v	line:49
+Id2	C:\ProgrammiC\dsPID33\dspid33\src\com.h	76;"	v	line:76
+IdleCount	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	414;"	v	line:414
+IdlePerc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	427;"	v	line:427
+IdleSample	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	415;"	v	line:415
+IllegalAddress	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	100;"	m	line:100
+IncEWCount	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	119;"	p	line:119	signature:(unsigned char *index)
+IncrCircPtr	C:\ProgrammiC\dsPID33\dspid33\src\com.c	448;"	f	line:448	signature:(int Port)
+IncrCircPtr	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	28;"	p	line:28	signature:(int Port)
+Indx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1377;"	l	line:1377
+InitAnglePid	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1029;"	f	line:1029	signature:(void)
+InitAnglePid	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	23;"	p	line:23	signature:(void)
+InitDistPid	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	886;"	f	line:886	signature:(void)
+InitDistPid	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	22;"	p	line:22	signature:(void)
+InitPid1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1662;"	f	line:1662	signature:(void)
+InitPid1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	29;"	p	line:29	signature:(void)
+InitPid2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1675;"	f	line:1675	signature:(void)
+InitPid2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	30;"	p	line:30	signature:(void)
+KD1::kCoeffs1[2]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	241;"	d	line:241
+KD2::kCoeffs2[2]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	252;"	d	line:252
+KI1::kCoeffs1[1]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	240;"	d	line:240
+KI2::kCoeffs2[1]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	251;"	d	line:251
+KP1::kCoeffs1[0]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	239;"	d	line:239
+KP2::kCoeffs2[0]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	250;"	d	line:250
+K_ERR_BLINK_ON::2000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	434;"	d	line:434
+K_ERR_BLINK_PER::4000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	433;"	d	line:433
+K_VEL::((SPACE_ENC_2X)/(TCY))	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	198;"	d	line:198
+Ksp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	213;"	v	line:213
+Ktmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	254;"	l	line:254
+Kvel	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	204;"	v	line:204
+L::1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	201;"	d	line:201
+LED1::_LATA4	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	105;"	d	line:105
+LED1::_LATA8	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	116;"	d	line:116
+LED1::_LATA8	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	124;"	d	line:124
+LED2::_LATA9	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	125;"	d	line:125
+LED2::_LATB4	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	106;"	d	line:106
+LPOL_ON	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	35;"	v	line:35
+MAP_BUFF_FLAG::VOLbits1.bit5	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	339;"	d	line:339
+MAP_SEND_FLAG::VOLbits1.bit4	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	338;"	d	line:338
+MAP_SIZE::15000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	274;"	d	line:274
+MAX_ROT_SPEED::512	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	355;"	d	line:355
+MAX_RX_BUFF::144	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	72;"	d	line:72
+MAX_TX2_BUFF::32	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	73;"	d	line:73
+MAX_TX_BUFF::90	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	71;"	d	line:71
+MIN_DIST_ERR::3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	403;"	d	line:403
+MIN_GOAL_DIST::450	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	399;"	d	line:399
+MIN_THETA_ERR::DEG2RAD	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	363;"	d	line:363
+MOTOR_ENABLE1::_LATA0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	128;"	d	line:128
+MOTOR_ENABLE1::_LATA7	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	117;"	d	line:117
+MOTOR_ENABLE2::_LATA1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	129;"	d	line:129
+MOTOR_ENABLE2::_LATA10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	118;"	d	line:118
+MapSendIndx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	340;"	v	line:340
+MapXY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	328;"	v	line:328
+MaxMapX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	334;"	v	line:334
+MaxMapY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	336;"	v	line:336
+MinMapX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	335;"	v	line:335
+MinMapY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	337;"	v	line:337
+NORM_BLINK_ON::200	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	432;"	d	line:432
+NORM_BLINK_PER::1000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	431;"	d	line:431
+NO_FLASH::1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	40;"	d	line:40
+NUMBER_OF_INSTRUCTIONS_IN_PAGE::512	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	53;"	d	line:53
+NUMBER_OF_INSTRUCTIONS_IN_ROW::64	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	54;"	d	line:54
+NUMBER_OF_ROWS_IN_PAGE::(NUMBER_OF_INSTRUCTIONS_IN_PAG	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	56;"	d	line:56
+NUM_DATA_EE_PAGES::5	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	47;"	d	line:47
+Navigation	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	899;"	f	line:899	signature:(void)
+Navigation	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	24;"	p	line:24	signature:(void)
+OBST_MIN_DIST::50	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	379;"	d	line:379
+OBST_THRESHOLD::1500.00	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	378;"	d	line:378
+ORIENTATION_FLAG::VARbits1.bit3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	361;"	d	line:361
+OVERRUN_ERROR2::U2STAbits.OERR	C:\ProgrammiC\dsPID33\dspid33\src\com.h	92;"	d	line:92
+OVERRUN_ERROR::U1STAbits.OERR	C:\ProgrammiC\dsPID33\dspid33\src\com.h	65;"	d	line:65
+Obj	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	608;"	v	line:608
+ObstacleAvoidance	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	952;"	f	line:952	signature:(float DPosX, float DPosY, int DistTarget)
+ObstacleAvoidance	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	14;"	p	line:14	signature:(float DPosX, float DPosY, int Dist)
+Orientation	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1042;"	f	line:1042	signature:(void)
+Orientation	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	25;"	p	line:25	signature:(void)
+PAGE_CURRENT::0	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	57;"	d	line:57
+PAGE_EXPIRED::0	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	58;"	d	line:58
+PAGE_NOT_AVAILABLE::0	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	59;"	d	line:59
+PAGE_NOT_CURRENT::1	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	60;"	d	line:60
+PAGE_NOT_EXPIRED::1	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	61;"	d	line:61
+PID1_CALC_FLAG::VOLbits1.bit0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	173;"	d	line:173
+PID2_CALC_FLAG::VOLbits1.bit1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	174;"	d	line:174
+PID_MES1::PIDstruct1.measuredOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	243;"	d	line:243
+PID_MES2::PIDstruct2.measuredOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	254;"	d	line:254
+PID_OUT1::PIDstruct1.controlOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	242;"	d	line:242
+PID_OUT2::PIDstruct2.controlOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	253;"	d	line:253
+PID_REF1::PIDstruct1.controlReference	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	244;"	d	line:244
+PID_REF2::PIDstruct2.controlReference	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	255;"	d	line:255
+PIDstruct1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	235;"	v	line:235
+PIDstruct2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	246;"	v	line:246
+POSCMD_XT	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	24;"	v	line:24
+PROGRAM_ROW::0x4001	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	48;"	d	line:48
+PROGRAM_WORD::0x4003	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	49;"	d	line:49
+PWM	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1712;"	l	line:1712
+PWM	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1783;"	l	line:1783
+PackEE	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	282;"	f	line:282	signature:(unsigned char bank)
+PackEE	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	121;"	p	line:121	signature:(unsigned char bank)
+PackedBit	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	324;"	t	line:324
+Parser	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	246;"	f	line:246	signature:(void)
+Parser	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	37;"	p	line:37	signature:(void)
+ParserCount	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	248;"	l	line:248
+Pid1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1688;"	f	line:1688	signature:(void)
+Pid1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	31;"	p	line:31	signature:(void)
+Pid1Calc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1708;"	f	line:1708	signature:(void)
+Pid1Calc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	8;"	p	line:8	signature:(void)
+Pid2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1759;"	f	line:1759	signature:(void)
+Pid2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	32;"	p	line:32	signature:(void)
+Pid2Calc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1779;"	f	line:1779	signature:(void)
+Pid2Calc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	9;"	p	line:9	signature:(void)
+PidCycle	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	210;"	v	line:210
+Port	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	65;"	v	line:65
+PosIndx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1374;"	f	line:1374	signature:(float Pos)
+PosIndx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	5;"	p	line:5	signature:(float Pos)
+PosXdes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	397;"	v	line:397
+PosXmes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	224;"	v	line:224
+PosYdes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	398;"	v	line:398
+PosYmes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	225;"	v	line:225
+Ptmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1848;"	l	line:1848
+Ptmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	255;"	l	line:255
+QUARTPI::0.7853981634	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	230;"	d	line:230
+R::0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	200;"	d	line:200
+RAD2DEG::57.295779513	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	356;"	d	line:356
+RAMP_FLAG1::VARbits1.bit6	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	257;"	d	line:257
+RAMP_FLAG2::VARbits1.bit1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	259;"	d	line:259
+RAMP_T_FLAG1::VARbits1.bit7	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	258;"	d	line:258
+RAMP_T_FLAG2::VARbits1.bit15	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	260;"	d	line:260
+RC6Tick::(x)(Delay1KTCYx(4*x),Delay100T	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	99;"	d	line:99
+RND_FLAG::VARbits1.bit4	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	612;"	d	line:612
+RND_TIMEOUT::100	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	611;"	d	line:611
+RT_TIMER_FLAG::VARbits1.bit10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	603;"	d	line:603
+RX2_ID_FLAG::COMbits1.bit2	C:\ProgrammiC\dsPID33\dspid33\src\com.h	95;"	d	line:95
+RX_HEADER_LEN::3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	81;"	d	line:81
+RX_ID_FLAG::COMbits1.bit1	C:\ProgrammiC\dsPID33\dspid33\src\com.h	69;"	d	line:69
+Radius	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1162;"	l	line:1162
+Ramp1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	267;"	v	line:267
+Ramp2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	268;"	v	line:268
+ReadPMHigh	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	108;"	p	line:108	signature:(int)
+ReadPMLow	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	109;"	p	line:109	signature:(int)
+RealVel	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1045;"	l	line:1045
+ResetCount	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	650;"	v	line:650
+ResetPort	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	67;"	v	line:67
+RndTimer	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	610;"	v	line:610
+RtTimer	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	602;"	v	line:602
+SCHEDULER_FLAG::VARbits1.bit5	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	605;"	d	line:605
+SCHED_ANGLE_FLAG::VARbits1.bit8	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	445;"	d	line:445
+SCHED_DIST_FLAG::VARbits1.bit0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	446;"	d	line:446
+SPACE_ENC_1X::(CIRC/(CPR_WHEEL))	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	195;"	d	line:195
+SPACE_ENC_2X::(CIRC/(CPR_WHEEL*2))	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	196;"	d	line:196
+SPACE_ENC_4X::(CIRC/(CPR_WHEEL*4))	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	197;"	d	line:197
+SPACE_FLAG::VARbits1.bit2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	333;"	d	line:333
+SPMIN::0.01	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	221;"	d	line:221
+STATUS_AVAILABLE::18	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	62;"	d	line:62
+STATUS_CURRENT::19	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	63;"	d	line:63
+STATUS_EXPIRED::20	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	64;"	d	line:64
+SaMinusSb	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1160;"	l	line:1160
+SchedCode	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	732;"	l	line:732
+SchedPtr	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	444;"	v	line:444
+SchedValues	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	488;"	v	line:488
+Scheduler	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	730;"	f	line:730	signature:(void)
+Scheduler	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	15;"	p	line:15	signature:(void)
+SemiAxle	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	215;"	v	line:215
+SemiAxle	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	216;"	v	line:216
+SendMap	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	211;"	f	line:211	signature:(void)
+SendMap	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	6;"	p	line:6	signature:(void)
+SendMapPort	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	66;"	v	line:66
+SetMap	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1403;"	f	line:1403	signature:(int Xpnt, int Ypnt, nibble *CellVal)
+SetMap	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	326;"	p	line:326	signature:(int Xpoint, int Ypoint, nibble *CellVal)
+SetPageCorruptStatus::(x)dataEEFlags.pageCorrupt=x	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	70;"	d	line:70
+SetPageExpiredPage::(x)dataEEFlags.expiredPage=x	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	73;"	d	line:73
+SetPageIllegalAddress::(x)dataEEFlags.IllegalAddress=	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	76;"	d	line:76
+SetPagePackBeforeInit::(x)dataEEFlags.packBeforeInit=	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	79;"	d	line:79
+SetPagePackBeforePageFull::(x)dataEEFlags.packBeforePageF	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	82;"	d	line:82
+SetPagePackSkipped::(x)dataEEFlags.packSkipped=x	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	85;"	d	line:85
+SetPageWriteError::(x)dataEEFlags.writeError=x	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	88;"	d	line:88
+SetaddrNotFound::(x)dataEEFlags.addrNotFound=x	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	67;"	d	line:67
+Settings	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	40;"	p	line:40	signature:(void)
+Settings	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	20;"	f	line:20	signature:(void)
+SinNow	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1155;"	l	line:1155
+SinPrev	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	223;"	v	line:223
+Slam	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1231;"	f	line:1231	signature:(float PosX, float PosY, int Cell)
+Slam	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	18;"	p	line:18	signature:(float PosX, float PosY, int Cell)
+SpTick	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	217;"	v	line:217
+Space	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	220;"	v	line:220
+Spmm	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	219;"	v	line:219
+SrPlusSl	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1161;"	l	line:1161
+TCY::1/((float)(FCY)	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	67;"	d	line:67
+TIMER_OK_FLAG::VARbits1.bit9	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	604;"	d	line:604
+TMR1_VALUE::39628	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	682;"	d	line:682	file:
+TMR1_VALUE::40000	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	680;"	d	line:680	file:
+TMR2_VALUE::0xFFFF	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	659;"	d	line:659	file:
+TN	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	323;"	m	line:323
+TWOPI::6.2831853072	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	228;"	d	line:228
+TX2_REG_EMPTY::U2STAbits.TRMT	C:\ProgrammiC\dsPID33\dspid33\src\com.h	93;"	d	line:93
+TX_REG_EMPTY::U1STAbits.TRMT	C:\ProgrammiC\dsPID33\dspid33\src\com.h	66;"	d	line:66
+Target	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	609;"	v	line:609
+Tcy	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	140;"	v	line:140
+Test	C:\ProgrammiC\dsPID33\dspid33\src\com.h	71;"	v	line:71
+ThetaDes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	358;"	v	line:358
+ThetaDesF	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	239;"	f	line:239	signature:(float Angle)
+ThetaDesF	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	10;"	p	line:10	signature:(float Angle)
+ThetaDesRef	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	359;"	v	line:359
+ThetaMes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	226;"	v	line:226
+Tmp1Long	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1489;"	l	line:1489
+Tmp1Long	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	258;"	l	line:258
+Tmp2Long	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1490;"	l	line:1490
+Tmp2Long	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	259;"	l	line:259
+TmpChk	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1494;"	l	line:1494
+TmpChk	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	252;"	l	line:252
+TmpMap	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	213;"	l	line:213
+TmpPtr	C:\ProgrammiC\dsPID33\dspid33\src\com.h	62;"	v	line:62
+TmpPtr2	C:\ProgrammiC\dsPID33\dspid33\src\com.h	87;"	v	line:87
+Tmr2OvflwCount1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	168;"	v	line:168
+Tmr2OvflwCount2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	169;"	v	line:169
+Tx2ContFlag	C:\ProgrammiC\dsPID33\dspid33\src\com.h	96;"	v	line:96
+Tx2Flag	C:\ProgrammiC\dsPID33\dspid33\src\com.h	79;"	v	line:79
+TxCont	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1846;"	f	line:1846	signature:(void)
+TxCont	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	17;"	p	line:17	signature:(void)
+TxContFlag	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	148;"	v	line:148
+TxCount	C:\ProgrammiC\dsPID33\dspid33\src\com.c	140;"	l	line:140
+TxFlag	C:\ProgrammiC\dsPID33\dspid33\src\com.h	53;"	v	line:53
+TxParameters	C:\ProgrammiC\dsPID33\dspid33\src\com.c	138;"	f	line:138	signature:(char TxCmd,int TxCmdLen, int Port)
+TxParameters	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	33;"	p	line:33	signature:(char TxCmd,int TxCmdLen, int Port)
+UART2_CONT_TIMEOUT::100	C:\ProgrammiC\dsPID33\dspid33\src\com.h	89;"	d	line:89
+UART_CONT_TIMEOUT::100	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	147;"	d	line:147
+UART_CONT_TIMEOUT::100	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	150;"	d	line:150
+UC	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	318;"	m	line:318
+Uart2ContTxTimer	C:\ProgrammiC\dsPID33\dspid33\src\com.h	90;"	v	line:90
+Uart2Rx	C:\ProgrammiC\dsPID33\dspid33\src\com.c	288;"	f	line:288	signature:(void)
+Uart2Rx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	39;"	p	line:39	signature:(void)
+Uart2RxPtrData	C:\ProgrammiC\dsPID33\dspid33\src\com.h	86;"	v	line:86
+Uart2RxPtrEnd	C:\ProgrammiC\dsPID33\dspid33\src\com.h	85;"	v	line:85
+Uart2RxPtrIn	C:\ProgrammiC\dsPID33\dspid33\src\com.h	82;"	v	line:82
+Uart2RxPtrOut	C:\ProgrammiC\dsPID33\dspid33\src\com.h	83;"	v	line:83
+Uart2RxPtrStart	C:\ProgrammiC\dsPID33\dspid33\src\com.h	84;"	v	line:84
+Uart2RxStatus	C:\ProgrammiC\dsPID33\dspid33\src\com.h	91;"	v	line:91
+Uart2TxBuff	C:\ProgrammiC\dsPID33\dspid33\src\com.c	15;"	v	line:15
+Uart2TxCntr	C:\ProgrammiC\dsPID33\dspid33\src\com.h	88;"	v	line:88
+UartChkSum	C:\ProgrammiC\dsPID33\dspid33\src\com.c	399;"	f	line:399	signature:(unsigned char *Buff,unsigned int BuffSize)
+UartChkSum	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	36;"	p	line:36	signature:(unsigned char *,unsigned int)
+UartContTxTimer	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	149;"	v	line:149
+UartRx	C:\ProgrammiC\dsPID33\dspid33\src\com.c	179;"	f	line:179	signature:(void)
+UartRx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	38;"	p	line:38	signature:(void)
+UartRxBuff	C:\ProgrammiC\dsPID33\dspid33\src\com.h	50;"	v	line:50
+UartRxCmd	C:\ProgrammiC\dsPID33\dspid33\src\com.h	55;"	v	line:55
+UartRxError	C:\ProgrammiC\dsPID33\dspid33\src\com.c	411;"	f	line:411	signature:(int Err, int Port)
+UartRxError	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	35;"	p	line:35	signature:(int Err, int Port)
+UartRxPtrData	C:\ProgrammiC\dsPID33\dspid33\src\com.h	61;"	v	line:61
+UartRxPtrEnd	C:\ProgrammiC\dsPID33\dspid33\src\com.h	60;"	v	line:60
+UartRxPtrIn	C:\ProgrammiC\dsPID33\dspid33\src\com.h	57;"	v	line:57
+UartRxPtrOut	C:\ProgrammiC\dsPID33\dspid33\src\com.h	58;"	v	line:58
+UartRxPtrStart	C:\ProgrammiC\dsPID33\dspid33\src\com.h	59;"	v	line:59
+UartRxStatus	C:\ProgrammiC\dsPID33\dspid33\src\com.h	64;"	v	line:64
+UartTmpBuff	C:\ProgrammiC\dsPID33\dspid33\src\com.h	52;"	v	line:52
+UartTx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	34;"	p	line:34	signature:(void)
+UartTxBuff	C:\ProgrammiC\dsPID33\dspid33\src\com.c	14;"	v	line:14
+UartTxBuff	C:\ProgrammiC\dsPID33\dspid33\src\com.h	51;"	v	line:51
+UartTxBuffSize	C:\ProgrammiC\dsPID33\dspid33\src\com.c	141;"	l	line:141
+UartTxCntr	C:\ProgrammiC\dsPID33\dspid33\src\com.h	63;"	v	line:63
+UnlockPM	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	110;"	p	line:110	signature:(void)
+UnlockWrite	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	120;"	f	line:120	signature:(void)
+UnlockWrite	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	116;"	p	line:116	signature:(void)
+Usart2Setting	C:\ProgrammiC\dsPID33\dspid33\src\com.c	77;"	f	line:77	signature:(void)
+Usart2Setting	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	43;"	p	line:43	signature:(void)
+UsartSetting	C:\ProgrammiC\dsPID33\dspid33\src\com.c	17;"	f	line:17	signature:(void)
+UsartSetting	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	42;"	p	line:42	signature:(void)
+VAR_PER_BYTE::2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	276;"	d	line:276
+VARbits1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	93;"	v	line:93
+VARbits2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	94;"	v	line:94
+VEL_MIN_PID::1600	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	209;"	d	line:209
+VM	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	956;"	l	line:956
+VOLbits1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	95;"	v	line:95
+VObX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	380;"	v	line:380
+VObY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	381;"	v	line:381
+VX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	954;"	l	line:954
+VY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	955;"	l	line:955
+Vel	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	232;"	v	line:232
+VelDecr	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	400;"	v	line:400
+VelDecrObj	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	904;"	l	line:904
+VelDes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	205;"	v	line:205
+VelDesM	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	207;"	v	line:207
+VelFin	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	261;"	v	line:261
+VelInt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1850;"	l	line:1850
+VelInt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	441;"	v	line:441
+VelMes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	206;"	v	line:206
+Ver	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	4;"	v	line:4
+WritePMHigh	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	111;"	p	line:111	signature:(int, int)
+WritePMHighB	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	112;"	p	line:112	signature:(int, int)
+WritePMLow	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	113;"	p	line:113	signature:(int, int)
+WritePMLowB	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	114;"	p	line:114	signature:(int, int)
+X_POINT_MAX::150	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	282;"	d	line:282
+X_POINT_MIN::0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	283;"	d	line:283
+X_SIZE::75	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	280;"	d	line:280
+X_grid	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	961;"	l	line:961
+XindxH	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1384;"	l	line:1384
+XindxH	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1405;"	l	line:1405
+XindxL	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1385;"	l	line:1385
+XindxL	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1406;"	l	line:1406
+XindxPrev	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	331;"	v	line:331
+Xpoint	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1234;"	l	line:1234
+Xshift	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	307;"	v	line:307
+Y_POINT_MAX::150	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	284;"	d	line:284
+Y_POINT_MIN::0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	285;"	d	line:285
+Y_SIZE::150	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	281;"	d	line:281
+Y_grid	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	962;"	l	line:962
+YindxPrev	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	332;"	v	line:332
+Ypoint	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1235;"	l	line:1235
+Yshift	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	308;"	v	line:308
+_AddressError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	61;"	p	line:61	file:	signature:(void)
+_AddressError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	86;"	f	line:86	signature:(void)
+_AltAddressError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	128;"	f	line:128	signature:(void)
+_AltAddressError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	67;"	p	line:67	file:	signature:(void)
+_AltDMACError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	146;"	f	line:146	signature:(void)
+_AltDMACError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	70;"	p	line:70	file:	signature:(void)
+_AltMathError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	140;"	f	line:140	signature:(void)
+_AltMathError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	69;"	p	line:69	file:	signature:(void)
+_AltOscillatorFail	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	122;"	f	line:122	signature:(void)
+_AltOscillatorFail	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	66;"	p	line:66	file:	signature:(void)
+_AltStackError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	134;"	f	line:134	signature:(void)
+_AltStackError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	68;"	p	line:68	file:	signature:(void)
+_CNInterrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	49;"	p	line:49	signature:(void)
+_DMA5Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1975;"	f	line:1975	signature:(void)
+_DMA6Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1969;"	f	line:1969	signature:(void)
+_DMA7Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1962;"	f	line:1962	signature:(void)
+_DMACError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	103;"	f	line:103	signature:(void)
+_DMACError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	64;"	p	line:64	file:	signature:(void)
+_IC1Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1981;"	f	line:1981	signature:(void)
+_IC1Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	47;"	p	line:47	signature:(void)
+_IC2Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	2019;"	f	line:2019	signature:(void)
+_INT1Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	44;"	p	line:44	signature:(void)
+_ISR_PSV::__attribute__((interrupt,auto_	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	69;"	d	line:69
+_MathError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	63;"	p	line:63	file:	signature:(void)
+_MathError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	97;"	f	line:97	signature:(void)
+_OscillatorFail	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	60;"	p	line:60	file:	signature:(void)
+_OscillatorFail	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	80;"	f	line:80	signature:(void)
+_ReadPMHigh	C:\ProgrammiC\dsPID33\dspid33\src\Flash Operations.s	50;"	l	line:50
+_ReadPMLow	C:\ProgrammiC\dsPID33\dspid33\src\Flash Operations.s	54;"	l	line:54
+_StackError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	62;"	p	line:62	file:	signature:(void)
+_StackError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	91;"	f	line:91	signature:(void)
+_T1Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1923;"	f	line:1923	signature:(void)
+_T1Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	48;"	p	line:48	signature:(void)
+_T2Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1953;"	f	line:1953	signature:(void)
+_U1ErrInterrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	2057;"	f	line:2057	signature:(void)
+_U1RXInterrupt	C:\ProgrammiC\dsPID33\dspid33\src\com.c	468;"	f	line:468	signature:(void)
+_U1RXInterrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	45;"	p	line:45	signature:(void)
+_U1TXInterrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	46;"	p	line:46	signature:(void)
+_U2ErrInterrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	2062;"	f	line:2062	signature:(void)
+_U2RXInterrupt	C:\ProgrammiC\dsPID33\dspid33\src\com.c	494;"	f	line:494	signature:(void)
+_UnlockPM	C:\ProgrammiC\dsPID33\dspid33\src\Flash Operations.s	58;"	l	line:58
+_WritePMHigh	C:\ProgrammiC\dsPID33\dspid33\src\Flash Operations.s	73;"	l	line:73
+_WritePMHighB	C:\ProgrammiC\dsPID33\dspid33\src\Flash Operations.s	77;"	l	line:77
+_WritePMLow	C:\ProgrammiC\dsPID33\dspid33\src\Flash Operations.s	81;"	l	line:81
+_WritePMLowB	C:\ProgrammiC\dsPID33\dspid33\src\Flash Operations.s	85;"	l	line:85
+abcCoefficient1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	236;"	v	line:236
+abcCoefficient2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	247;"	v	line:247
+addrNotFound	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	95;"	m	line:95
+atan2f	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1021;"	p	line:1021	file:
+atan2f	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	808;"	p	line:808	file:
+bank	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	474;"	l	line:474
+bank	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	599;"	l	line:599
+bank	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	680;"	l	line:680
+bit0	C:\ProgrammiC\dsPID33\dspid33\src\com.h	27;"	m	line:27	struct:Bits
+bit0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	75;"	m	line:75	struct:Bits
+bit1	C:\ProgrammiC\dsPID33\dspid33\src\com.h	28;"	m	line:28	struct:Bits
+bit1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	76;"	m	line:76	struct:Bits
+bit10	C:\ProgrammiC\dsPID33\dspid33\src\com.h	37;"	m	line:37	struct:Bits
+bit10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	85;"	m	line:85	struct:Bits
+bit11	C:\ProgrammiC\dsPID33\dspid33\src\com.h	38;"	m	line:38	struct:Bits
+bit11	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	86;"	m	line:86	struct:Bits
+bit12	C:\ProgrammiC\dsPID33\dspid33\src\com.h	39;"	m	line:39	struct:Bits
+bit12	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	87;"	m	line:87	struct:Bits
+bit13	C:\ProgrammiC\dsPID33\dspid33\src\com.h	40;"	m	line:40	struct:Bits
+bit13	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	88;"	m	line:88	struct:Bits
+bit14	C:\ProgrammiC\dsPID33\dspid33\src\com.h	41;"	m	line:41	struct:Bits
+bit14	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	89;"	m	line:89	struct:Bits
+bit15	C:\ProgrammiC\dsPID33\dspid33\src\com.h	42;"	m	line:42	struct:Bits
+bit15	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	90;"	m	line:90	struct:Bits
+bit2	C:\ProgrammiC\dsPID33\dspid33\src\com.h	29;"	m	line:29	struct:Bits
+bit2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	77;"	m	line:77	struct:Bits
+bit3	C:\ProgrammiC\dsPID33\dspid33\src\com.h	30;"	m	line:30	struct:Bits
+bit3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	78;"	m	line:78	struct:Bits
+bit4	C:\ProgrammiC\dsPID33\dspid33\src\com.h	31;"	m	line:31	struct:Bits
+bit4	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	79;"	m	line:79	struct:Bits
+bit5	C:\ProgrammiC\dsPID33\dspid33\src\com.h	32;"	m	line:32	struct:Bits
+bit5	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	80;"	m	line:80	struct:Bits
+bit6	C:\ProgrammiC\dsPID33\dspid33\src\com.h	33;"	m	line:33	struct:Bits
+bit6	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	81;"	m	line:81	struct:Bits
+bit7	C:\ProgrammiC\dsPID33\dspid33\src\com.h	34;"	m	line:34	struct:Bits
+bit7	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	82;"	m	line:82	struct:Bits
+bit8	C:\ProgrammiC\dsPID33\dspid33\src\com.h	35;"	m	line:35	struct:Bits
+bit8	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	83;"	m	line:83	struct:Bits
+bit9	C:\ProgrammiC\dsPID33\dspid33\src\com.h	36;"	m	line:36	struct:Bits
+bit9	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	84;"	m	line:84	struct:Bits
+config1	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	541;"	l	line:541
+config2	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	543;"	l	line:543
+config3	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	545;"	l	line:545
+controlHistory1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	237;"	v	line:237
+controlHistory2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	248;"	v	line:248
+currentOffset	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	287;"	l	line:287
+currentPage	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	230;"	l	line:230
+currentPage	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	284;"	l	line:284
+currentPage	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	471;"	l	line:471
+currentPage	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	594;"	l	line:594
+currentPage	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	675;"	l	line:675
+dataEEFlags	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	93;"	v	line:93
+dataEEFlags_sh	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	292;"	l	line:292
+dataEEFlags_sh	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	679;"	l	line:679
+dataEEval	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	231;"	l	line:231
+emulationPages	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	98;"	v	line:98
+erasePage	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	469;"	l	line:469
+expiredPage	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	96;"	m	line:96
+geographic::	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	79;"	d	line:79
+i	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	229;"	l	line:229
+i	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	289;"	l	line:289
+i	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	598;"	l	line:598
+i	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	143;"	v	line:143
+j	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	144;"	v	line:144
+kCoeffs1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	238;"	v	line:238
+kCoeffs2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	249;"	v	line:249
+latch	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	597;"	l	line:597
+latch	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	678;"	l	line:678
+latchAddr	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	290;"	l	line:290
+latchData	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	291;"	l	line:291
+main	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	37;"	f	line:37	signature:(void)
+max::(a,b)((a)>(b)?(a):(b))	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	77;"	d	line:77
+ms	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1833;"	l	line:1833
+nextLoc	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	677;"	l	line:677
+nib	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	312;"	m	line:312
+nib0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	321;"	m	line:321
+nib1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	322;"	m	line:322
+nibble	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	314;"	t	line:314
+packBeforeInit	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	98;"	m	line:98
+packBeforePageFull	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	97;"	m	line:97
+packSkipped	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	99;"	m	line:99
+packedOffset	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	288;"	l	line:288
+packedPage	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	285;"	l	line:285
+packedPage	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	473;"	l	line:473
+pageCnt	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	468;"	l	line:468
+pageCorrupt	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	101;"	m	line:101
+period	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	537;"	l	line:537
+pmOffset	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	191;"	l	line:191
+pmOffset	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	232;"	l	line:232
+pmOffset	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	595;"	l	line:595
+pmOffset	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	676;"	l	line:676
+savedTBLPAG	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	149;"	l	line:149
+savedTBLPAG	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	192;"	l	line:192
+savedTBLPAG	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	233;"	l	line:233
+savedTBLPAG	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	286;"	l	line:286
+savedTBLPAG	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	470;"	l	line:470
+savedTBLPAG	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	592;"	l	line:592
+savedTBLPAG	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	674;"	l	line:674
+sh_SR	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	122;"	l	line:122
+sptime	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	539;"	l	line:539
+status	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	148;"	l	line:148
+statusByte	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	147;"	l	line:147
+statusOffset	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	146;"	l	line:146
+statusOffset	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	472;"	l	line:472
+val	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	92;"	m	line:92
+writeError	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	102;"	m	line:102
+z	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1386;"	l	line:1386
+z	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1407;"	l	line:1407

@@ -110,9 +110,9 @@ file_007=src\dsPID33_definitions.h
 file_008=src\dsPID33_prototypes.h
 file_009=src\DEE Emulation 16-bit.h
 file_010=src\com.h
-file_011=C:\Programmi\Microchip\MPLAB C30\lib\libdsp-coff.a
-file_012=C:\Programmi\Microchip\MPLAB C30\lib\libq-coff.a
-file_013=C:\Programmi\Microchip\MPLAB C30\lib\libfastm-coff.a
+file_011=C:\Programmi\Microchip\MPLAB C30\lib\libdsp-elf.a
+file_012=C:\Programmi\Microchip\MPLAB C30\lib\libq-elf.a
+file_013=C:\Programmi\Microchip\MPLAB C30\lib\libfastm-elf.a
 file_014=varie\CE019_Readme.txt
 file_015=varie\ADC.TXT
 file_016=varie\descrIta.txt
@@ -125,7 +125,7 @@ file_022=varie\VFF.bas
 file_023=varie\descrEng2.txt
 [SUITE_INFO]
 suite_guid={479DDE59-4D56-455E-855E-FFF59A3DB57E}
-suite_state=
+suite_state=-omf=elf
 [TOOL_SETTINGS]
 TS{7D9C6ECE-785D-44CB-BA22-17BF2E119622}=--keep-locals -g -ahl="$(BINDIR_)$(INFILEBASE).lst"
 TS{25AC22BD-2378-4FDB-BFB6-7345A15512D3}=-g -fno-short-double -Wall -mlarge-data -mlarge-scalar
