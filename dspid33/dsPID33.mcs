@@ -13,7 +13,7 @@ SOLK=<src>|src\traps.c|src\dsPID33.c|src\dsPid33_settings.c|src\DEE Emulation 16
 SuiteArgsString=-omf=elf
 ToolArgsString=-g -fno-short-double -Wall -mlarge-data -mlarge-scalar
 TraceCmdString=
-DebugOptions=
+DebugOptions=-D__DEBUG
 [File001]
 Location=C:\ProgrammiC\dsPID33\dspid33\dsPID33.o
 Folder=Intermediary
@@ -26,7 +26,7 @@ SOLK=<src>|src\traps.c|src\dsPID33.c|src\dsPid33_settings.c|src\DEE Emulation 16
 SuiteArgsString=-omf=elf
 ToolArgsString=-g -fno-short-double -Wall -mlarge-data -mlarge-scalar
 TraceCmdString=
-DebugOptions=
+DebugOptions=-D__DEBUG
 [File002]
 Location=C:\ProgrammiC\dsPID33\dspid33\dsPid33_settings.o
 Folder=Intermediary
@@ -39,7 +39,7 @@ SOLK=<src>|src\traps.c|src\dsPID33.c|src\dsPid33_settings.c|src\DEE Emulation 16
 SuiteArgsString=-omf=elf
 ToolArgsString=-g -fno-short-double -Wall -mlarge-data -mlarge-scalar
 TraceCmdString=
-DebugOptions=
+DebugOptions=-D__DEBUG
 [File003]
 Location=C:\ProgrammiC\dsPID33\dspid33\DEE Emulation 16-bit.o
 Folder=Intermediary
@@ -52,7 +52,7 @@ SOLK=<src>|src\traps.c|src\dsPID33.c|src\dsPid33_settings.c|src\DEE Emulation 16
 SuiteArgsString=-omf=elf
 ToolArgsString=-g -fno-short-double -Wall -mlarge-data -mlarge-scalar
 TraceCmdString=
-DebugOptions=
+DebugOptions=-D__DEBUG
 [File004]
 Location=C:\ProgrammiC\dsPID33\dspid33\Flash Operations.o
 Folder=Intermediary
@@ -65,7 +65,7 @@ SOLK=<src>|src\traps.c|src\dsPID33.c|src\dsPid33_settings.c|src\DEE Emulation 16
 SuiteArgsString=-omf=elf
 ToolArgsString=--keep-locals -g -ahl="$(BINDIR_)$(INFILEBASE).lst"
 TraceCmdString=
-DebugOptions=
+DebugOptions=--defsym=__DEBUG=1
 [File005]
 Location=C:\ProgrammiC\dsPID33\dspid33\com.o
 Folder=Intermediary
@@ -78,7 +78,7 @@ SOLK=<src>|src\traps.c|src\dsPID33.c|src\dsPid33_settings.c|src\DEE Emulation 16
 SuiteArgsString=-omf=elf
 ToolArgsString=-g -fno-short-double -Wall -mlarge-data -mlarge-scalar
 TraceCmdString=
-DebugOptions=
+DebugOptions=-D__DEBUG
 [File006]
 Location=C:\ProgrammiC\dsPID33\dspid33\dsPID33.elf
 Folder=Output
@@ -91,7 +91,7 @@ SOLK=<src>|src\traps.c|src\dsPID33.c|src\dsPid33_settings.c|src\DEE Emulation 16
 SuiteArgsString=-omf=elf
 ToolArgsString=--heap=512 -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem --cref -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -fast-math
 TraceCmdString=
-DebugOptions=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
 [File007]
 Location=C:\ProgrammiC\dsPID33\dspid33\dsPID33.hex
 Folder=Output
@@ -104,7 +104,7 @@ SOLK=<src>|src\traps.c|src\dsPID33.c|src\dsPid33_settings.c|src\DEE Emulation 16
 SuiteArgsString=-omf=elf
 ToolArgsString=--heap=512 -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem --cref -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -fast-math
 TraceCmdString=
-DebugOptions=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
 [TOOL_LOC_STAMPS]
 tool_loc{DE18EB1A-B46B-486B-B96F-A811A635DFAC}=C:\Programmi\Microchip\mplabc30\v3.25\bin\pic30-as.exe
 tool_loc{069BD372-6CA0-40D4-BF2F-5DC806D05083}=C:\Programmi\Microchip\mplabc30\v3.25\bin\pic30-gcc.exe

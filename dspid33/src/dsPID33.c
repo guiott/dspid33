@@ -963,9 +963,15 @@ float ObstacleAvoidance(float DPosX, float DPosY, int DistTarget)
 	int CellV;				// the valued contained in the current cell
 	float Frx=0;			// component vectors of the repulsive force
 	float Fry=0;
+	float FrTmp;
 	float Ftx=0;			// component vectors of the actractive force
 	float Fty=0;
 	int DistObst;			// distance from the obstacle
+	long DistObstSqr;			// distance from the obstacle squared
+	int TableX;
+	int TableY;
+	int ObjDistX;
+	int ObjDistY;
 		
 	if(Obj[0]<OBST_MIN_DIST||Obj[1]<OBST_MIN_DIST||Obj[2]<OBST_MIN_DIST)
 	{// set ThetaDes and VelDecr to avoid very close obstacles
@@ -973,33 +979,40 @@ float ObstacleAvoidance(float DPosX, float DPosY, int DistTarget)
 	} 
 	else
 	{  	// index in the range 0-Y_SIZE to point the grid matrix
-		
-		/*  ??????????????????????????????????????????????????????????????????????
 		X_grid=PosIndx(PosXmes);
 		Y_grid=PosIndx(PosYmes);
-		for(Cx = X_grid-8; Cx <= X_grid+8; Cx++)
+		
+		TableX=0;
+		for(Cx = X_grid-OBST_FIELD; Cx <= X_grid+OBST_FIELD; Cx++)
 		{
 		  if((Cx >= X_POINT_MIN) && (Cx <= X_POINT_MAX))
 		  {
-		    for(Cy = Y_grid-8; Cy <= Y_grid+8; Cy++)
+			ObjDistX = (TableX - OBST_FIELD) * CELL_SIZE;
+			TableY=0;
+		    for(Cy = Y_grid-OBST_FIELD; Cy <= Y_grid+OBST_FIELD; Cy++)
 			{
 			  if((Cy >= Y_POINT_MIN) && (Cy <= Y_POINT_MAX))
 			  {
-			    CellV=GetMap(X_grid, Y_grid);
+				ObjDistX = (TableY - OBST_FIELD) * CELL_SIZE;
+			    CellV=GetMap(Cx, Cy);
+			    CellV=3;  // ????????????????????????????????????????????????
 				if((CellV > 0) && (CellV < 8))
 				{
-				  DistObst=sqrt(pow((X_grid-Cx),2)+pow((Y_grid-Cy),2));
+				 DistObst=DistTable[TableX][TableY];
+				 DistObstSqr=DistTableSqr[TableX][TableY];
 				  if(DistObst != 0)
 				  {
-				    Frx+=Fcr*CellV/pow(DistObst,2)*(X_grid-Cx)/DistObst;
-				    Fry+=Fcr*CellV/pow(DistObst,2)*(Y_grid-Cy)/DistObst;
+					FrTmp = Fcr*CellV/DistObstSqr;
+				    Frx+=FrTmp*(ObjDistX)/DistObst;
+				    Fry+=FrTmp*(ObjDistY)/DistObst;
 				  }
 			    }
 			  }
+			  TableY++;
 		    }
 		  }
+		  TableX++;
 	    }
-		*/  
 		
 		//The target generates a constant-magnitud attracting force
 		Ftx=Fct*DPosX; // /DistTarget;
