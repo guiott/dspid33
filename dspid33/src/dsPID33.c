@@ -966,12 +966,8 @@ float ObstacleAvoidance(float DPosX, float DPosY, int DistTarget)
 	float FrTmp;
 	float Ftx=0;			// component vectors of the actractive force
 	float Fty=0;
-	int DistObst;			// distance from the obstacle
-	long DistObstSqr;			// distance from the obstacle squared
 	int TableX;
 	int TableY;
-	int ObjDistX;
-	int ObjDistY;
 		
 	if(Obj[0]<OBST_MIN_DIST||Obj[1]<OBST_MIN_DIST||Obj[2]<OBST_MIN_DIST)
 	{// set ThetaDes and VelDecr to avoid very close obstacles
@@ -987,24 +983,20 @@ float ObstacleAvoidance(float DPosX, float DPosY, int DistTarget)
 		{
 		  if((Cx >= X_POINT_MIN) && (Cx <= X_POINT_MAX))
 		  {
-			ObjDistX = (TableX - OBST_FIELD) * CELL_SIZE;
 			TableY=0;
 		    for(Cy = Y_grid-OBST_FIELD; Cy <= Y_grid+OBST_FIELD; Cy++)
 			{
 			  if((Cy >= Y_POINT_MIN) && (Cy <= Y_POINT_MAX))
 			  {
-				ObjDistX = (TableY - OBST_FIELD) * CELL_SIZE;
 			    CellV=GetMap(Cx, Cy);
 			    CellV=3;  // ????????????????????????????????????????????????
 				if((CellV > 0) && (CellV < 8))
 				{
-				 DistObst=DistTable[TableX][TableY];
-				 DistObstSqr=DistTableSqr[TableX][TableY];
-				  if(DistObst != 0)
+				  if((Cx != 0) && (Cy != 0))
 				  {
-					FrTmp = Fcr*CellV/DistObstSqr;
-				    Frx+=FrTmp*(ObjDistX)/DistObst;
-				    Fry+=FrTmp*(ObjDistY)/DistObst;
+					FrTmp = Fcr*CellV;
+				   	Frx+=FrTmp*VffTableX[TableX][TableY];
+				    Fry+=FrTmp*VffTableY[TableX][TableY];
 				  }
 			    }
 			  }
