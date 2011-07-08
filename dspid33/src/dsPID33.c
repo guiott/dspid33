@@ -1,7 +1,7 @@
 /* ////////////////////////////////////////////////////////////////////////////
 ** File:      dsPid33.c
 */                                  
- unsigned char  Ver[] = "dsPid33 2.2.4 Guiott 02-11"; // 26+1 char
+ unsigned char  Ver[] = "dsPid33 2.2.5 Guiott 07-11"; // 26+1 char
 /* Author:    Guido Ottaviani-->g.ottaviani@mediaprogetti.it<--
 ** Description: This is a porting on a single dsPIC33FJ64MC802 of previous 
 **				double PID Motor Control (dsPID program) formerly performed 
@@ -13,7 +13,7 @@
 ** decription into the file
 **
 -------------------------------------------------------------------------------
-Copyright 2010 Guido Ottaviani
+Copyright 2011 Guido Ottaviani
 guido@guiott.com
 
 	dsPID33 is free software: you can redistribute it and/or modify
@@ -978,18 +978,17 @@ float ObstacleAvoidance(float DPosX, float DPosY, int DistTarget)
 		X_grid=PosIndx(PosXmes);
 		Y_grid=PosIndx(PosYmes);
 		
-		TableX=0;
+		TableX=TABLE_SIZE-OBST_FIELD;//define the field scanned into the table
 		for(Cx = X_grid-OBST_FIELD; Cx <= X_grid+OBST_FIELD; Cx++)
 		{
 		  if((Cx >= X_POINT_MIN) && (Cx <= X_POINT_MAX))
 		  {
-			TableY=0;
+			TableY=TABLE_SIZE-OBST_FIELD;//define the field scanned
 		    for(Cy = Y_grid-OBST_FIELD; Cy <= Y_grid+OBST_FIELD; Cy++)
 			{
 			  if((Cy >= Y_POINT_MIN) && (Cy <= Y_POINT_MAX))
 			  {
 			    CellV=GetMap(Cx, Cy);
-			    CellV=3;  // ????????????????????????????????????????????????
 				if((CellV > 0) && (CellV < 8))
 				{
 				  if((Cx != 0) && (Cy != 0))

@@ -378,9 +378,10 @@ int AngleCmp;		// compass bearing from sensors board (Deg * 10)
 #define OBST_THRESHOLD 1500.00 // if far enough don't care of obstacles
 #define OBST_MIN_DIST 50      // if too close another avoiding procedure
 
-#define OBST_FIELD 16	// obstacle visibility (16 cells around robot)
+#define OBST_FIELD 13	// obstacle visibility (13 cells around robot)
+#define TABLE_SIZE 16	// precomputed table dimension (16 cells around robot)
 
-// Table to compute distance from the object
+// Table to compute Y component for the repulsive vectors [24e]
 float VffTableY[33][33] __attribute__((space(auto_psv)))=
 {
 {-1.38,-1.42,-1.46,-1.48,-1.5,-1.5,-1.49,-1.45,-1.4,-1.31,-1.2,-1.06,-0.89,-0.7,-0.48,-0.24,0,0.24,0.48,0.7,0.89,1.06,1.2,1.31,1.4,1.45,1.49,1.5,1.5,1.48,1.46,1.42,1.38},
@@ -418,7 +419,7 @@ float VffTableY[33][33] __attribute__((space(auto_psv)))=
 {-1.38,-1.42,-1.46,-1.48,-1.5,-1.5,-1.49,-1.45,-1.4,-1.31,-1.2,-1.06,-0.89,-0.7,-0.48,-0.24,0,0.24,0.48,0.7,0.89,1.06,1.2,1.31,1.4,1.45,1.49,1.5,1.5,1.48,1.46,1.42,1.38}
 } ;//in program memory space
 
-// Table to compute distance from the object squared
+// Table to compute X component for the repulsive vectors [24e]
 float VffTableX[33][33] __attribute__((space(auto_psv)))=
 {
 {-1.38,-1.52,-1.66,-1.83,-2.00,-2.19,-2.38,-2.59,-2.80,-3.00,-3.21,-3.40,-3.57,-3.71,-3.82,-3.88,-3.91,-3.88,-3.82,-3.71,-3.57,-3.40,-3.21,-3.00,-2.80,-2.59,-2.38,-2.19,-2.00,-1.83,-1.66,-1.52,-1.38},

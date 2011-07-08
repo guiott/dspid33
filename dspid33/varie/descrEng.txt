@@ -1087,6 +1087,30 @@ we can vectorially add all of them in order to compute the orientation of the
 robot. It allows to dinamicaly find the path towards the target at any given 
 position avoiding obstacles.
 
+Translating the Borenstein algorythm in code it should be something like this:
+CellV=GetMap(X_grid, Y_grid);
+if((CellV > 0) && (CellV < 8))
+{
+  DistObst=sqrt(pow((X_grid-Cx),2)+pow((Y_grid-Cy),2));
+  if(DistObst != 0)
+  {
+    Frx+=Fcr*CellV/pow(DistObst,2)*(X_grid-Cx)/DistObst;
+    Fry+=Fcr*CellV/pow(DistObst,2)*(Y_grid-Cy)/DistObst;
+  }
+}
+
+Exploring a 16 x 16 cells could result in a 1024 iterations of that calculi
+that can require 300ms of machine time.
+Because the explored field around the robot is always a fixed number of
+discrete cells, it is easy to precalculate once the X and Y component for
+the repulsive vectors of each possible obstacle placed in the cells. 
+This saves a lot of calculi leading to a theorethical maximum time of 20ms
+if every cell is occupied by an obstacle. This can be afforded even with a
+50ms cycle time.
+Once computed the table it is evident that the contribute of an obstacle far
+more than 1.5m from the robot is very low, so the field to be scanned can be
+reduced saving even more time. 
+
 [24f] 
 
 
@@ -1423,6 +1447,10 @@ Don't consider obstacle distance revealed by SensorsBoard
 2.2.4 - august 2010
 - added transmission of sensors raw data toward console (command Q)
   this function is implemented on dsNavConsole starting from ver.1.6.1
+  
+2.2.5 - july 2011
+- the procedure to compute the repulsive force field of the obstacles has
+  been optimized
 
 ===============================================================================
 /* dsPID Version History //////////////////////////////////////////////////////
