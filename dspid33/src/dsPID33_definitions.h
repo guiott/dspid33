@@ -37,7 +37,11 @@ _FPOR(FPWRT_PWR64 & PWMPIN_ON & HPOL_ON & LPOL_ON);
 /* Code Protect: Code Protect off
 ** Code Protect: Disabled
 ** Write Protect: Disabled **/ 
-_FGS(GSS_OFF & GCP_OFF & GWRP_OFF);         			 
+_FGS(GSS_OFF & GCP_OFF & GWRP_OFF); 
+
+//   Watchdog Timer Enable:
+_FWDT(FWDTEN_OFF)	//Watchdog timer enabled/disabled by user software      
+  			 
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /* External defininitions                                                    */

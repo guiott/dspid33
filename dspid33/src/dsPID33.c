@@ -1023,9 +1023,7 @@ float ObstacleAvoidance(float DPosX, float DPosY, int DistTarget)
 		if ((VX != 0) && (VY != 0))
 		{// phase of new vector [22aa] Tangent(ThetaDes) = Sin/Cos = X/Y
 			ThetaDesF(atan2f(VX,VY)); 
-		}
-
-		
+		}		
 		return VM;
 	}
 }

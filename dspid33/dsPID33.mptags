@@ -6,171 +6,171 @@
 !_TAG_PROGRAM_VERSION	5.5.4	//
 !_TAG_REVISION_NAME	MCHPTags	//
 !_TAG_REVISION_VERSION	6.0.1	//
-ACC::0.00005	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	264;"	d	line:264
-ADCOvldCount	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	157;"	v	line:157
-ADCValue	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	153;"	v	line:153
+ACC::0.00005	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	268;"	d	line:268
+ADCOvldCount	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	161;"	v	line:161
+ADCValue	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	157;"	v	line:157
 ADCValueTmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	843;"	l	line:843
-ADC_CALC_FLAG::VOLbits1.bit6	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	154;"	d	line:154
-ADC_OVLD_LIMIT::800	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	155;"	d	line:155
-ADC_OVLD_TIME::100	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	156;"	d	line:156
-ANGLE_KD::AngleKCoeffs[2]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	351;"	d	line:351
-ANGLE_KI::AngleKCoeffs[1]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	350;"	d	line:350
-ANGLE_KP::AngleKCoeffs[0]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	349;"	d	line:349
-ANGLE_OK_FLAG::VARbits1.bit12	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	362;"	d	line:362
-ANGLE_PID_DES::AnglePIDstruct.controlReferenc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	352;"	d	line:352
-ANGLE_PID_MES::AnglePIDstruct.measuredOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	353;"	d	line:353
-ANGLE_PID_OUT::AnglePIDstruct.controlOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	354;"	d	line:354
-AUX1::_LATA7	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	126;"	d	line:126
-AUX2::_LATA10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	127;"	d	line:127
+ADC_CALC_FLAG::VOLbits1.bit6	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	158;"	d	line:158
+ADC_OVLD_LIMIT::800	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	159;"	d	line:159
+ADC_OVLD_TIME::100	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	160;"	d	line:160
+ANGLE_KD::AngleKCoeffs[2]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	355;"	d	line:355
+ANGLE_KI::AngleKCoeffs[1]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	354;"	d	line:354
+ANGLE_KP::AngleKCoeffs[0]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	353;"	d	line:353
+ANGLE_OK_FLAG::VARbits1.bit12	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	366;"	d	line:366
+ANGLE_PID_DES::AnglePIDstruct.controlReferenc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	356;"	d	line:356
+ANGLE_PID_MES::AnglePIDstruct.measuredOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	357;"	d	line:357
+ANGLE_PID_OUT::AnglePIDstruct.controlOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	358;"	d	line:358
+AUX1::_LATA7	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	130;"	d	line:130
+AUX2::_LATA10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	131;"	d	line:131
 AdcCalc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	839;"	f	line:839	signature:(void)
 AdcCalc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	16;"	p	line:16	signature:(void)
 AdcCount	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	842;"	l	line:842
-Alpha	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1855;"	l	line:1855
+Alpha	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1853;"	l	line:1853
 Alpha	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	257;"	l	line:257
-AngleCmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	360;"	v	line:360
-AngleKCoeffs	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	348;"	v	line:348
-AnglePIDstruct	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	343;"	v	line:343
+AngleCmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	364;"	v	line:364
+AngleKCoeffs	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	352;"	v	line:352
+AnglePIDstruct	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	347;"	v	line:347
 AngleS	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	261;"	l	line:261
-AngleabcCoefficient	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	344;"	v	line:344
-AnglecontrolHistory	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	346;"	v	line:346
-Axle	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	214;"	v	line:214
-BOUND_FREE::500	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	377;"	d	line:377
-BOUND_X_MAX::7070	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	374;"	d	line:374
-BOUND_X_MIN::-7070	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	372;"	d	line:372
-BOUND_Y_MAX::7070	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	375;"	d	line:375
-BOUND_Y_MIN::-7070	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	373;"	d	line:373
+AngleabcCoefficient	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	348;"	v	line:348
+AnglecontrolHistory	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	350;"	v	line:350
+Axle	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	218;"	v	line:218
+BOUND_FREE::500	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	381;"	d	line:381
+BOUND_X_MAX::7070	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	378;"	d	line:378
+BOUND_X_MIN::-7070	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	376;"	d	line:376
+BOUND_Y_MAX::7070	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	379;"	d	line:379
+BOUND_Y_MIN::-7070	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	377;"	d	line:377
 BRG	C:\ProgrammiC\dsPID33\dspid33\src\com.c	23;"	l	line:23
 BRG2	C:\ProgrammiC\dsPID33\dspid33\src\com.c	83;"	l	line:83
 BaudRate	C:\ProgrammiC\dsPID33\dspid33\src\com.c	22;"	l	line:22
 BaudRate2	C:\ProgrammiC\dsPID33\dspid33\src\com.c	82;"	l	line:82
 Bits	C:\ProgrammiC\dsPID33\dspid33\src\com.h	26;"	s	line:26
-Bits	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	74;"	s	line:74
-Blink	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	145;"	v	line:145
-BlinkOn	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	510;"	v	line:510
-BlinkPeriod	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	509;"	v	line:509
-C1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1495;"	l	line:1495
+Bits	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	78;"	s	line:78
+Blink	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	149;"	v	line:149
+BlinkOn	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	514;"	v	line:514
+BlinkPeriod	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	513;"	v	line:513
+C1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1493;"	l	line:1493
 C1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	249;"	l	line:249
-C2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1496;"	l	line:1496
+C2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1494;"	l	line:1494
 C2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	250;"	l	line:250
-C3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1497;"	l	line:1497
+C3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1495;"	l	line:1495
 C3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	251;"	l	line:251
-CELL_SIZE::100	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	273;"	d	line:273
-CICLE1_TMO::10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	490;"	d	line:490
-CICLE2_TMO::5	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	491;"	d	line:491
-CIRC::DIAMETER*PI	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	194;"	d	line:194
+CELL_SIZE::100	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	277;"	d	line:277
+CICLE1_TMO::10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	494;"	d	line:494
+CICLE2_TMO::5	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	495;"	d	line:495
+CIRC::DIAMETER*PI	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	198;"	d	line:198
 CLOCK_FREQ_10::10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	27;"	d	line:27
 COMbits1	C:\ProgrammiC\dsPID33\dspid33\src\com.h	45;"	v	line:45
-CONSOLE_DEBUG::VARbits1.bit13	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	519;"	d	line:519
-CPR::300	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	190;"	d	line:190
-CPR_WHEEL::CPR*GEAR_RATIO	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	192;"	d	line:192
-CYCLE1_FLAG::VOLbits1.bit2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	488;"	d	line:488
-CYCLE2_FLAG::VOLbits1.bit3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	489;"	d	line:489
+CONSOLE_DEBUG::VARbits1.bit13	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	523;"	d	line:523
+CPR::300	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	194;"	d	line:194
+CPR_WHEEL::CPR*GEAR_RATIO	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	196;"	d	line:196
+CYCLE1_FLAG::VOLbits1.bit2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	492;"	d	line:492
+CYCLE2_FLAG::VOLbits1.bit3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	493;"	d	line:493
 CellV	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	963;"	l	line:963
-CellValue	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1237;"	l	line:1237
+CellValue	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1235;"	l	line:1235
 ChkIndx	C:\ProgrammiC\dsPID33\dspid33\src\com.c	402;"	l	line:402
 ChkSum	C:\ProgrammiC\dsPID33\dspid33\src\com.c	401;"	l	line:401
 ChkSum	C:\ProgrammiC\dsPID33\dspid33\src\com.h	54;"	v	line:54
 ChkSum2	C:\ProgrammiC\dsPID33\dspid33\src\com.h	80;"	v	line:80
-ConstantsDefaultR	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1454;"	f	line:1454	signature:(void)
+ConstantsDefaultR	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1452;"	f	line:1452	signature:(void)
 ConstantsDefaultR	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	13;"	p	line:13	signature:(void)
-ConstantsDefaultW	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1428;"	f	line:1428	signature:(void)
+ConstantsDefaultW	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1426;"	f	line:1426	signature:(void)
 ConstantsDefaultW	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	12;"	p	line:12	signature:(void)
-ConstantsError	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1483;"	f	line:1483	signature:(void)
+ConstantsError	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1481;"	f	line:1481	signature:(void)
 ConstantsError	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	11;"	p	line:11	signature:(void)
-ConstantsRead	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1491;"	f	line:1491	signature:(void)
+ConstantsRead	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1489;"	f	line:1489	signature:(void)
 ConstantsRead	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	27;"	p	line:27	signature:(void)
 ConstantsWrite	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	19;"	p	line:19	signature:(char Row)
-CosNow	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1158;"	l	line:1158
-CosPrev	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	222;"	v	line:222
-Curr	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	270;"	v	line:270
-CurrTmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1853;"	l	line:1853
+CosNow	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1156;"	l	line:1156
+CosPrev	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	226;"	v	line:226
+Curr	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	274;"	v	line:274
+CurrTmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1851;"	l	line:1851
 CurrTmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	256;"	l	line:256
 Cx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	959;"	l	line:959
 Cy	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	960;"	l	line:960
-Cycle1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	486;"	v	line:486
-Cycle2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	487;"	v	line:487
+Cycle1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	490;"	v	line:490
+Cycle2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	491;"	v	line:491
 DATA_EE_BANKS::2	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	43;"	d	line:43
 DATA_EE_FLAGS	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	104;"	t	line:104
 DATA_EE_SIZE::255	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	44;"	d	line:44
 DATA_EE_TOTAL_SIZE::(DATA_EE_BANKS*DATA_EE_SIZE)	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	45;"	d	line:45
-DEC::0.001	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	265;"	d	line:265
+DEC::0.001	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	269;"	d	line:269
 DEE_BANK_SIZE::(sizeof(emulationPages[0])*NUM	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	101;"	d	line:101	file:
 DEE_PAGE_OFFSET::(bank,page)((__builtin_tbladdr	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	105;"	d	line:105	file:
 DEE_PAGE_SIZE::(sizeof(emulationPages[0]))	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	102;"	d	line:102	file:
 DEE_PAGE_TBL::(bank,page)((__builtin_tbladdr	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	104;"	d	line:104	file:
-DEG2RAD::0.0174532925	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	357;"	d	line:357
-DELAY100MS::Delay10KTCYx(100)	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	100;"	d	line:100
-DIAMETER::0.058	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	193;"	d	line:193
-DIR_485::_LATB9	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	109;"	d	line:109
-DIR_485::_LATC3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	130;"	d	line:130
+DEG2RAD::0.0174532925	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	361;"	d	line:361
+DELAY100MS::Delay10KTCYx(100)	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	104;"	d	line:104
+DIAMETER::0.058	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	197;"	d	line:197
+DIR_485::_LATB9	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	113;"	d	line:113
+DIR_485::_LATC3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	134;"	d	line:134
 DISABLE_T2::U2STAbits.UTXEN=0	C:\ProgrammiC\dsPID33\dspid33\src\com.h	7;"	d	line:7
 DISABLE_TX::U1STAbits.UTXEN=0	C:\ProgrammiC\dsPID33\dspid33\src\com.h	5;"	d	line:5
-DIST_ENABLE_FLAG::VARbits1.bit14	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	476;"	d	line:476
-DIST_KD::DistKCoeffs[2]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	471;"	d	line:471
-DIST_KI::DistKCoeffs[1]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	470;"	d	line:470
-DIST_KP::DistKCoeffs[0]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	469;"	d	line:469
-DIST_OK_FLAG::VARbits1.bit11	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	482;"	d	line:482
-DIST_PID_DES::DistPIDstruct.controlReference	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	472;"	d	line:472
-DIST_PID_MES::DistPIDstruct.measuredOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	473;"	d	line:473
-DIST_PID_OUT::DistPIDstruct.controlOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	474;"	d	line:474
-DPosX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1162;"	l	line:1162
+DIST_ENABLE_FLAG::VARbits1.bit14	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	480;"	d	line:480
+DIST_KD::DistKCoeffs[2]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	475;"	d	line:475
+DIST_KI::DistKCoeffs[1]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	474;"	d	line:474
+DIST_KP::DistKCoeffs[0]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	473;"	d	line:473
+DIST_OK_FLAG::VARbits1.bit11	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	486;"	d	line:486
+DIST_PID_DES::DistPIDstruct.controlReference	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	476;"	d	line:476
+DIST_PID_MES::DistPIDstruct.measuredOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	477;"	d	line:477
+DIST_PID_OUT::DistPIDstruct.controlOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	478;"	d	line:478
+DPosX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1160;"	l	line:1160
 DPosX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	733;"	l	line:733
 DPosX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	901;"	l	line:901
-DPosY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1163;"	l	line:1163
+DPosY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1161;"	l	line:1161
 DPosY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	734;"	l	line:734
 DPosY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	902;"	l	line:902
 DROIDS::1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	31;"	d	line:31
-DSpace	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1160;"	l	line:1160
-DTheta	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1161;"	l	line:1161
+DSpace	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1158;"	l	line:1158
+DTheta	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1159;"	l	line:1159
 DataEEInit	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	466;"	f	line:466	signature:(void)
 DataEEInit	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	122;"	p	line:122	signature:(void)
 DataEERead	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	590;"	f	line:590	signature:(unsigned int addr)
 DataEERead	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	123;"	p	line:123	signature:(unsigned int addr)
 DataEEWrite	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	672;"	f	line:672	signature:(unsigned int data, unsigned int addr)
 DataEEWrite	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	124;"	p	line:124	signature:(unsigned int data, unsigned int addr)
-DeadReckoning	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1156;"	f	line:1156	signature:(void)
+DeadReckoning	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1154;"	f	line:1154	signature:(void)
 DeadReckoning	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	26;"	p	line:26	signature:(void)
-DelayCount	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1846;"	l	line:1846
-DelayN10us	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1844;"	f	line:1844	signature:(int n)
+DelayCount	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1844;"	l	line:1844
+DelayN10us	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1842;"	f	line:1842	signature:(int n)
 DelayN10us	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	21;"	p	line:21	signature:(int n)
-DelayN1ms	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1835;"	f	line:1835	signature:(int n)
+DelayN1ms	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1833;"	f	line:1833	signature:(int n)
 DelayN1ms	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	20;"	p	line:20	signature:(int n)
-DeltaVel	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1048;"	l	line:1048
+DeltaVel	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1046;"	l	line:1046
 Dist	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	903;"	l	line:903
-DistKCoeffs	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	468;"	v	line:468
-DistPIDstruct	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	463;"	v	line:463
-DistabcCoefficient	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	464;"	v	line:464
-DistcontrolHistory	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	466;"	v	line:466
+DistKCoeffs	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	472;"	v	line:472
+DistPIDstruct	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	467;"	v	line:467
+DistabcCoefficient	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	468;"	v	line:468
+DistcontrolHistory	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	470;"	v	line:470
 DmaAdc	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	18;"	v	line:18
-EE_ANGLE_KD::7	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	703;"	d	line:703
-EE_ANGLE_KI::6	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	702;"	d	line:702
-EE_ANGLE_KP::5	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	701;"	d	line:701
-EE_AXLE_H::20	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	718;"	d	line:718
-EE_AXLE_L::21	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	719;"	d	line:719
-EE_CHK_ANGLE::8	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	704;"	d	line:704
-EE_CHK_DIST::26	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	725;"	d	line:725
-EE_CHK_KVEL::4	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	699;"	d	line:699
-EE_CHK_MECH::22	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	720;"	d	line:720
-EE_CHK_SCHED::27	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	727;"	d	line:727
-EE_CHK_SPEED::15	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	712;"	d	line:712
-EE_DIST_KD::25	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	724;"	d	line:724
-EE_DIST_KI::24	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	723;"	d	line:723
-EE_DIST_KP::23	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	722;"	d	line:722
-EE_KD1::11	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	708;"	d	line:708
-EE_KD2::14	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	711;"	d	line:711
-EE_KI1::10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	707;"	d	line:707
-EE_KI2::13	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	710;"	d	line:710
-EE_KP1::9	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	706;"	d	line:706
-EE_KP2::12	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	709;"	d	line:709
-EE_KSP1_H::16	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	714;"	d	line:714
-EE_KSP1_L::17	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	715;"	d	line:715
-EE_KSP2_H::18	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	716;"	d	line:716
-EE_KSP2_L::19	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	717;"	d	line:717
-EE_KVEL1_H::0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	695;"	d	line:695
-EE_KVEL1_L::1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	696;"	d	line:696
-EE_KVEL2_H::2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	697;"	d	line:697
-EE_KVEL2_L::3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	698;"	d	line:698
-EE_SCHED::28	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	728;"	d	line:728
+EE_ANGLE_KD::7	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	707;"	d	line:707
+EE_ANGLE_KI::6	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	706;"	d	line:706
+EE_ANGLE_KP::5	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	705;"	d	line:705
+EE_AXLE_H::20	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	722;"	d	line:722
+EE_AXLE_L::21	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	723;"	d	line:723
+EE_CHK_ANGLE::8	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	708;"	d	line:708
+EE_CHK_DIST::26	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	729;"	d	line:729
+EE_CHK_KVEL::4	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	703;"	d	line:703
+EE_CHK_MECH::22	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	724;"	d	line:724
+EE_CHK_SCHED::27	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	731;"	d	line:731
+EE_CHK_SPEED::15	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	716;"	d	line:716
+EE_DIST_KD::25	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	728;"	d	line:728
+EE_DIST_KI::24	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	727;"	d	line:727
+EE_DIST_KP::23	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	726;"	d	line:726
+EE_KD1::11	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	712;"	d	line:712
+EE_KD2::14	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	715;"	d	line:715
+EE_KI1::10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	711;"	d	line:711
+EE_KI2::13	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	714;"	d	line:714
+EE_KP1::9	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	710;"	d	line:710
+EE_KP2::12	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	713;"	d	line:713
+EE_KSP1_H::16	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	718;"	d	line:718
+EE_KSP1_L::17	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	719;"	d	line:719
+EE_KSP2_H::18	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	720;"	d	line:720
+EE_KSP2_L::19	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	721;"	d	line:721
+EE_KVEL1_H::0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	699;"	d	line:699
+EE_KVEL1_L::1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	700;"	d	line:700
+EE_KVEL2_H::2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	701;"	d	line:701
+EE_KVEL2_L::3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	702;"	d	line:702
+EE_SCHED::28	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	732;"	d	line:732
 ENABLE_TX2::U2STAbits.UTXEN=1	C:\ProgrammiC\dsPID33\dspid33\src\com.h	8;"	d	line:8
 ENABLE_TX::U1STAbits.UTXEN=1	C:\ProgrammiC\dsPID33\dspid33\src\com.h	6;"	d	line:6
 ERASE::0x4042	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	46;"	d	line:46
@@ -179,9 +179,9 @@ ERR_BLINK_ON::100	C:\ProgrammiC\dsPID33\dspid33\src\com.h	20;"	d	line:20
 ERR_BLINK_PER::200	C:\ProgrammiC\dsPID33\dspid33\src\com.h	19;"	d	line:19
 ErasePage	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	189;"	f	line:189	signature:(unsigned char bank, unsigned char page)
 ErasePage	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	118;"	p	line:118	signature:(unsigned char bank, unsigned char page)
-ErrCode	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	517;"	v	line:517
+ErrCode	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	521;"	v	line:521
 ErrNo	C:\ProgrammiC\dsPID33\dspid33\src\com.h	23;"	v	line:23
-Error	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1050;"	l	line:1050
+Error	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1048;"	l	line:1048
 FCY::39628800	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	63;"	d	line:63
 FCY::40000000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	54;"	d	line:54
 FLOAT2INT::(x)((x)>=0?(int)((x)+0.5):(int	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	76;"	d	line:76
@@ -195,9 +195,9 @@ Frx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	964;"	l	line:964
 Fry	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	965;"	l	line:965
 Ftx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	967;"	l	line:967
 Fty	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	968;"	l	line:968
-GEAR_RATIO::30	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	191;"	d	line:191
+GEAR_RATIO::30	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	195;"	d	line:195
 GWRP_OFF	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	40;"	v	line:40
-GetMap	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1386;"	f	line:1386	signature:(int Xpnt, int Ypnt)
+GetMap	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1384;"	f	line:1384	signature:(int Xpnt, int Ypnt)
 GetMap	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	7;"	p	line:7	signature:(int Xpoint, int Ypoint)
 GetNextAvailCount	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	227;"	f	line:227	signature:(unsigned char bank)
 GetNextAvailCount	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	120;"	p	line:120	signature:(unsigned char bank)
@@ -211,88 +211,88 @@ GetPageStatus	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	144;"	f	l
 GetPageStatus	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	117;"	p	line:117	signature:(unsigned char bank, unsigned volatile char page, unsigned volatile char field)
 GetPageWriteError::dataEEFlags.writeError	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	87;"	d	line:87
 GetaddrNotFound::dataEEFlags.addrNotFound	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	66;"	d	line:66
-HALFPI::1.570796327	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	229;"	d	line:229
-HALF_MAP_SIZE::7500	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	275;"	d	line:275
+HALFPI::1.570796327	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	233;"	d	line:233
+HALF_MAP_SIZE::7500	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	279;"	d	line:279
 HEADER::'@'	C:\ProgrammiC\dsPID33\dspid33\src\com.h	68;"	d	line:68
-IC1_FIRST::VOLbits1.bit7	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	170;"	d	line:170
-IC2_FIRST::VOLbits1.bit8	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	171;"	d	line:171
+IC1_FIRST::VOLbits1.bit7	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	174;"	d	line:174
+IC2_FIRST::VOLbits1.bit8	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	175;"	d	line:175
 ICS_PGD1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	32;"	v	line:32
-IDLE_CYCLE::20	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	496;"	d	line:496
-IDLE_SAMPLE_TIME::10000000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	500;"	d	line:500
-IDLE_TIME_PERIOD::3000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	503;"	d	line:503
+IDLE_CYCLE::20	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	500;"	d	line:500
+IDLE_SAMPLE_TIME::10000000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	504;"	d	line:504
+IDLE_TIME_PERIOD::3000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	507;"	d	line:507
 ISR_Settings	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	41;"	p	line:41	signature:(void)
 ISR_Settings	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	699;"	f	line:699	signature:(void)
-Ic1CurrPeriod	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	166;"	v	line:166
-Ic1Indx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	160;"	v	line:160
-Ic1Period	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	164;"	v	line:164
-Ic1PrevPeriod	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	162;"	v	line:162
-Ic2CurrPeriod	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	167;"	v	line:167
-Ic2Indx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	161;"	v	line:161
-Ic2Period	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	165;"	v	line:165
-Ic2PrevPeriod	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	163;"	v	line:163
-IcIndxTmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1715;"	l	line:1715
-IcIndxTmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1786;"	l	line:1786
-IcPeriodTmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1714;"	l	line:1714
-IcPeriodTmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1785;"	l	line:1785
+Ic1CurrPeriod	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	170;"	v	line:170
+Ic1Indx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	164;"	v	line:164
+Ic1Period	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	168;"	v	line:168
+Ic1PrevPeriod	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	166;"	v	line:166
+Ic2CurrPeriod	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	171;"	v	line:171
+Ic2Indx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	165;"	v	line:165
+Ic2Period	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	169;"	v	line:169
+Ic2PrevPeriod	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	167;"	v	line:167
+IcIndxTmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1713;"	l	line:1713
+IcIndxTmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1784;"	l	line:1784
+IcPeriodTmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1712;"	l	line:1712
+IcPeriodTmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1783;"	l	line:1783
 Id	C:\ProgrammiC\dsPID33\dspid33\src\com.h	49;"	v	line:49
 Id2	C:\ProgrammiC\dsPID33\dspid33\src\com.h	76;"	v	line:76
-IdleCount	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	494;"	v	line:494
-IdlePerc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	507;"	v	line:507
-IdleSample	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	495;"	v	line:495
+IdleCount	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	498;"	v	line:498
+IdlePerc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	511;"	v	line:511
+IdleSample	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	499;"	v	line:499
 IllegalAddress	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	100;"	m	line:100
 IncEWCount	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	119;"	p	line:119	signature:(unsigned char *index)
 IncrCircPtr	C:\ProgrammiC\dsPID33\dspid33\src\com.c	448;"	f	line:448	signature:(int Port)
 IncrCircPtr	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	28;"	p	line:28	signature:(int Port)
-Indx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1381;"	l	line:1381
-InitAnglePid	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1033;"	f	line:1033	signature:(void)
+Indx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1379;"	l	line:1379
+InitAnglePid	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1031;"	f	line:1031	signature:(void)
 InitAnglePid	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	23;"	p	line:23	signature:(void)
 InitDistPid	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	886;"	f	line:886	signature:(void)
 InitDistPid	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	22;"	p	line:22	signature:(void)
-InitPid1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1666;"	f	line:1666	signature:(void)
+InitPid1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1664;"	f	line:1664	signature:(void)
 InitPid1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	29;"	p	line:29	signature:(void)
-InitPid2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1679;"	f	line:1679	signature:(void)
+InitPid2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1677;"	f	line:1677	signature:(void)
 InitPid2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	30;"	p	line:30	signature:(void)
-KD1::kCoeffs1[2]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	241;"	d	line:241
-KD2::kCoeffs2[2]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	252;"	d	line:252
-KI1::kCoeffs1[1]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	240;"	d	line:240
-KI2::kCoeffs2[1]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	251;"	d	line:251
-KP1::kCoeffs1[0]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	239;"	d	line:239
-KP2::kCoeffs2[0]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	250;"	d	line:250
-K_ERR_BLINK_ON::2000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	514;"	d	line:514
-K_ERR_BLINK_PER::4000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	513;"	d	line:513
-K_VEL::((SPACE_ENC_2X)/(TCY))	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	198;"	d	line:198
-Ksp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	213;"	v	line:213
+KD1::kCoeffs1[2]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	245;"	d	line:245
+KD2::kCoeffs2[2]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	256;"	d	line:256
+KI1::kCoeffs1[1]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	244;"	d	line:244
+KI2::kCoeffs2[1]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	255;"	d	line:255
+KP1::kCoeffs1[0]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	243;"	d	line:243
+KP2::kCoeffs2[0]	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	254;"	d	line:254
+K_ERR_BLINK_ON::2000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	518;"	d	line:518
+K_ERR_BLINK_PER::4000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	517;"	d	line:517
+K_VEL::((SPACE_ENC_2X)/(TCY))	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	202;"	d	line:202
+Ksp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	217;"	v	line:217
 Ktmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	254;"	l	line:254
-Kvel	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	204;"	v	line:204
-L::1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	201;"	d	line:201
-LED1::_LATA4	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	105;"	d	line:105
-LED1::_LATA8	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	116;"	d	line:116
-LED1::_LATA8	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	124;"	d	line:124
-LED2::_LATA9	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	125;"	d	line:125
-LED2::_LATB4	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	106;"	d	line:106
+Kvel	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	208;"	v	line:208
+L::1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	205;"	d	line:205
+LED1::_LATA4	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	109;"	d	line:109
+LED1::_LATA8	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	120;"	d	line:120
+LED1::_LATA8	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	128;"	d	line:128
+LED2::_LATA9	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	129;"	d	line:129
+LED2::_LATB4	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	110;"	d	line:110
 LPOL_ON	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	35;"	v	line:35
-MAP_BUFF_FLAG::VOLbits1.bit5	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	339;"	d	line:339
-MAP_SEND_FLAG::VOLbits1.bit4	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	338;"	d	line:338
-MAP_SIZE::15000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	274;"	d	line:274
-MAX_ROT_SPEED::512	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	355;"	d	line:355
+MAP_BUFF_FLAG::VOLbits1.bit5	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	343;"	d	line:343
+MAP_SEND_FLAG::VOLbits1.bit4	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	342;"	d	line:342
+MAP_SIZE::15000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	278;"	d	line:278
+MAX_ROT_SPEED::512	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	359;"	d	line:359
 MAX_RX_BUFF::144	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	72;"	d	line:72
 MAX_TX2_BUFF::32	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	73;"	d	line:73
 MAX_TX_BUFF::90	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	71;"	d	line:71
-MIN_DIST_ERR::3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	483;"	d	line:483
-MIN_GOAL_DIST::450	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	479;"	d	line:479
-MIN_THETA_ERR::DEG2RAD	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	363;"	d	line:363
-MOTOR_ENABLE1::_LATA0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	128;"	d	line:128
-MOTOR_ENABLE1::_LATA7	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	117;"	d	line:117
-MOTOR_ENABLE2::_LATA1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	129;"	d	line:129
-MOTOR_ENABLE2::_LATA10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	118;"	d	line:118
-MapSendIndx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	340;"	v	line:340
-MapXY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	328;"	v	line:328
-MaxMapX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	334;"	v	line:334
-MaxMapY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	336;"	v	line:336
-MinMapX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	335;"	v	line:335
-MinMapY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	337;"	v	line:337
-NORM_BLINK_ON::200	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	512;"	d	line:512
-NORM_BLINK_PER::1000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	511;"	d	line:511
+MIN_DIST_ERR::3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	487;"	d	line:487
+MIN_GOAL_DIST::450	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	483;"	d	line:483
+MIN_THETA_ERR::DEG2RAD	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	367;"	d	line:367
+MOTOR_ENABLE1::_LATA0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	132;"	d	line:132
+MOTOR_ENABLE1::_LATA7	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	121;"	d	line:121
+MOTOR_ENABLE2::_LATA1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	133;"	d	line:133
+MOTOR_ENABLE2::_LATA10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	122;"	d	line:122
+MapSendIndx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	344;"	v	line:344
+MapXY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	332;"	v	line:332
+MaxMapX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	338;"	v	line:338
+MaxMapY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	340;"	v	line:340
+MinMapX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	339;"	v	line:339
+MinMapY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	341;"	v	line:341
+NORM_BLINK_ON::200	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	516;"	d	line:516
+NORM_BLINK_PER::1000	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	515;"	d	line:515
 NO_FLASH::1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	40;"	d	line:40
 NUMBER_OF_INSTRUCTIONS_IN_PAGE::512	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	53;"	d	line:53
 NUMBER_OF_INSTRUCTIONS_IN_ROW::64	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	54;"	d	line:54
@@ -300,109 +300,109 @@ NUMBER_OF_ROWS_IN_PAGE::(NUMBER_OF_INSTRUCTIONS_IN_PAG	C:\ProgrammiC\dsPID33\dsp
 NUM_DATA_EE_PAGES::5	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	47;"	d	line:47
 Navigation	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	899;"	f	line:899	signature:(void)
 Navigation	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	24;"	p	line:24	signature:(void)
-OBST_FIELD::13	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	381;"	d	line:381
-OBST_MIN_DIST::50	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	379;"	d	line:379
-OBST_THRESHOLD::1500.00	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	378;"	d	line:378
-ORIENTATION_FLAG::VARbits1.bit3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	361;"	d	line:361
+OBST_FIELD::13	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	385;"	d	line:385
+OBST_MIN_DIST::50	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	383;"	d	line:383
+OBST_THRESHOLD::1500.00	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	382;"	d	line:382
+ORIENTATION_FLAG::VARbits1.bit3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	365;"	d	line:365
 OVERRUN_ERROR2::U2STAbits.OERR	C:\ProgrammiC\dsPID33\dspid33\src\com.h	92;"	d	line:92
 OVERRUN_ERROR::U1STAbits.OERR	C:\ProgrammiC\dsPID33\dspid33\src\com.h	65;"	d	line:65
-Obj	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	688;"	v	line:688
+Obj	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	692;"	v	line:692
 ObstacleAvoidance	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	952;"	f	line:952	signature:(float DPosX, float DPosY, int DistTarget)
 ObstacleAvoidance	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	14;"	p	line:14	signature:(float DPosX, float DPosY, int Dist)
-Orientation	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1046;"	f	line:1046	signature:(void)
+Orientation	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1044;"	f	line:1044	signature:(void)
 Orientation	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	25;"	p	line:25	signature:(void)
 PAGE_CURRENT::0	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	57;"	d	line:57
 PAGE_EXPIRED::0	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	58;"	d	line:58
 PAGE_NOT_AVAILABLE::0	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	59;"	d	line:59
 PAGE_NOT_CURRENT::1	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	60;"	d	line:60
 PAGE_NOT_EXPIRED::1	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	61;"	d	line:61
-PID1_CALC_FLAG::VOLbits1.bit0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	173;"	d	line:173
-PID2_CALC_FLAG::VOLbits1.bit1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	174;"	d	line:174
-PID_MES1::PIDstruct1.measuredOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	243;"	d	line:243
-PID_MES2::PIDstruct2.measuredOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	254;"	d	line:254
-PID_OUT1::PIDstruct1.controlOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	242;"	d	line:242
-PID_OUT2::PIDstruct2.controlOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	253;"	d	line:253
-PID_REF1::PIDstruct1.controlReference	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	244;"	d	line:244
-PID_REF2::PIDstruct2.controlReference	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	255;"	d	line:255
-PIDstruct1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	235;"	v	line:235
-PIDstruct2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	246;"	v	line:246
+PID1_CALC_FLAG::VOLbits1.bit0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	177;"	d	line:177
+PID2_CALC_FLAG::VOLbits1.bit1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	178;"	d	line:178
+PID_MES1::PIDstruct1.measuredOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	247;"	d	line:247
+PID_MES2::PIDstruct2.measuredOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	258;"	d	line:258
+PID_OUT1::PIDstruct1.controlOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	246;"	d	line:246
+PID_OUT2::PIDstruct2.controlOutput	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	257;"	d	line:257
+PID_REF1::PIDstruct1.controlReference	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	248;"	d	line:248
+PID_REF2::PIDstruct2.controlReference	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	259;"	d	line:259
+PIDstruct1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	239;"	v	line:239
+PIDstruct2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	250;"	v	line:250
 POSCMD_XT	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	24;"	v	line:24
 PROGRAM_ROW::0x4001	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	48;"	d	line:48
 PROGRAM_WORD::0x4003	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	49;"	d	line:49
-PWM	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1716;"	l	line:1716
-PWM	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1787;"	l	line:1787
+PWM	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1714;"	l	line:1714
+PWM	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1785;"	l	line:1785
 PackEE	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	282;"	f	line:282	signature:(unsigned char bank)
 PackEE	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	121;"	p	line:121	signature:(unsigned char bank)
-PackedBit	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	324;"	t	line:324
+PackedBit	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	328;"	t	line:328
 Parser	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	246;"	f	line:246	signature:(void)
 Parser	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	37;"	p	line:37	signature:(void)
 ParserCount	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	248;"	l	line:248
-Pid1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1692;"	f	line:1692	signature:(void)
+Pid1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1690;"	f	line:1690	signature:(void)
 Pid1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	31;"	p	line:31	signature:(void)
-Pid1Calc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1712;"	f	line:1712	signature:(void)
+Pid1Calc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1710;"	f	line:1710	signature:(void)
 Pid1Calc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	8;"	p	line:8	signature:(void)
-Pid2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1763;"	f	line:1763	signature:(void)
+Pid2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1761;"	f	line:1761	signature:(void)
 Pid2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	32;"	p	line:32	signature:(void)
-Pid2Calc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1783;"	f	line:1783	signature:(void)
+Pid2Calc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1781;"	f	line:1781	signature:(void)
 Pid2Calc	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	9;"	p	line:9	signature:(void)
-PidCycle	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	210;"	v	line:210
-Port	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	65;"	v	line:65
-PosIndx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1378;"	f	line:1378	signature:(float Pos)
+PidCycle	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	214;"	v	line:214
+Port	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	69;"	v	line:69
+PosIndx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1376;"	f	line:1376	signature:(float Pos)
 PosIndx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	5;"	p	line:5	signature:(float Pos)
-PosXdes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	477;"	v	line:477
-PosXmes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	224;"	v	line:224
-PosYdes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	478;"	v	line:478
-PosYmes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	225;"	v	line:225
-Ptmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1852;"	l	line:1852
+PosXdes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	481;"	v	line:481
+PosXmes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	228;"	v	line:228
+PosYdes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	482;"	v	line:482
+PosYmes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	229;"	v	line:229
+Ptmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1850;"	l	line:1850
 Ptmp	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	255;"	l	line:255
-QUARTPI::0.7853981634	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	230;"	d	line:230
-R::0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	200;"	d	line:200
-RAD2DEG::57.295779513	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	356;"	d	line:356
-RAMP_FLAG1::VARbits1.bit6	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	257;"	d	line:257
-RAMP_FLAG2::VARbits1.bit1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	259;"	d	line:259
-RAMP_T_FLAG1::VARbits1.bit7	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	258;"	d	line:258
-RAMP_T_FLAG2::VARbits1.bit15	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	260;"	d	line:260
-RC6Tick::(x)(Delay1KTCYx(4*x),Delay100T	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	99;"	d	line:99
-RND_FLAG::VARbits1.bit4	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	692;"	d	line:692
-RND_TIMEOUT::100	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	691;"	d	line:691
-RT_TIMER_FLAG::VARbits1.bit10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	683;"	d	line:683
+QUARTPI::0.7853981634	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	234;"	d	line:234
+R::0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	204;"	d	line:204
+RAD2DEG::57.295779513	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	360;"	d	line:360
+RAMP_FLAG1::VARbits1.bit6	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	261;"	d	line:261
+RAMP_FLAG2::VARbits1.bit1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	263;"	d	line:263
+RAMP_T_FLAG1::VARbits1.bit7	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	262;"	d	line:262
+RAMP_T_FLAG2::VARbits1.bit15	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	264;"	d	line:264
+RC6Tick::(x)(Delay1KTCYx(4*x),Delay100T	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	103;"	d	line:103
+RND_FLAG::VARbits1.bit4	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	696;"	d	line:696
+RND_TIMEOUT::100	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	695;"	d	line:695
+RT_TIMER_FLAG::VARbits1.bit10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	687;"	d	line:687
 RX2_ID_FLAG::COMbits1.bit2	C:\ProgrammiC\dsPID33\dspid33\src\com.h	95;"	d	line:95
 RX_HEADER_LEN::3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	81;"	d	line:81
 RX_ID_FLAG::COMbits1.bit1	C:\ProgrammiC\dsPID33\dspid33\src\com.h	69;"	d	line:69
-Radius	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1166;"	l	line:1166
-Ramp1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	267;"	v	line:267
-Ramp2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	268;"	v	line:268
+Radius	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1164;"	l	line:1164
+Ramp1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	271;"	v	line:271
+Ramp2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	272;"	v	line:272
 ReadPMHigh	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	108;"	p	line:108	signature:(int)
 ReadPMLow	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	109;"	p	line:109	signature:(int)
-RealVel	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1049;"	l	line:1049
-ResetCount	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	730;"	v	line:730
-ResetPort	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	67;"	v	line:67
-RndTimer	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	690;"	v	line:690
-RtTimer	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	682;"	v	line:682
-SCHEDULER_FLAG::VARbits1.bit5	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	685;"	d	line:685
-SCHED_ANGLE_FLAG::VARbits1.bit8	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	525;"	d	line:525
-SCHED_DIST_FLAG::VARbits1.bit0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	526;"	d	line:526
-SPACE_ENC_1X::(CIRC/(CPR_WHEEL))	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	195;"	d	line:195
-SPACE_ENC_2X::(CIRC/(CPR_WHEEL*2))	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	196;"	d	line:196
-SPACE_ENC_4X::(CIRC/(CPR_WHEEL*4))	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	197;"	d	line:197
-SPACE_FLAG::VARbits1.bit2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	333;"	d	line:333
-SPMIN::0.01	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	221;"	d	line:221
+RealVel	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1047;"	l	line:1047
+ResetCount	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	734;"	v	line:734
+ResetPort	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	71;"	v	line:71
+RndTimer	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	694;"	v	line:694
+RtTimer	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	686;"	v	line:686
+SCHEDULER_FLAG::VARbits1.bit5	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	689;"	d	line:689
+SCHED_ANGLE_FLAG::VARbits1.bit8	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	529;"	d	line:529
+SCHED_DIST_FLAG::VARbits1.bit0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	530;"	d	line:530
+SPACE_ENC_1X::(CIRC/(CPR_WHEEL))	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	199;"	d	line:199
+SPACE_ENC_2X::(CIRC/(CPR_WHEEL*2))	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	200;"	d	line:200
+SPACE_ENC_4X::(CIRC/(CPR_WHEEL*4))	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	201;"	d	line:201
+SPACE_FLAG::VARbits1.bit2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	337;"	d	line:337
+SPMIN::0.01	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	225;"	d	line:225
 STATUS_AVAILABLE::18	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	62;"	d	line:62
 STATUS_CURRENT::19	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	63;"	d	line:63
 STATUS_EXPIRED::20	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	64;"	d	line:64
-SaMinusSb	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1164;"	l	line:1164
+SaMinusSb	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1162;"	l	line:1162
 SchedCode	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	732;"	l	line:732
-SchedPtr	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	524;"	v	line:524
-SchedValues	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	568;"	v	line:568
+SchedPtr	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	528;"	v	line:528
+SchedValues	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	572;"	v	line:572
 Scheduler	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	730;"	f	line:730	signature:(void)
 Scheduler	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	15;"	p	line:15	signature:(void)
-SemiAxle	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	215;"	v	line:215
-SemiAxle	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	216;"	v	line:216
+SemiAxle	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	219;"	v	line:219
+SemiAxle	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	220;"	v	line:220
 SendMap	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	211;"	f	line:211	signature:(void)
 SendMap	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	6;"	p	line:6	signature:(void)
-SendMapPort	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	66;"	v	line:66
-SetMap	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1407;"	f	line:1407	signature:(int Xpnt, int Ypnt, nibble *CellVal)
-SetMap	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	326;"	p	line:326	signature:(int Xpoint, int Ypoint, nibble *CellVal)
+SendMapPort	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	70;"	v	line:70
+SetMap	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1405;"	f	line:1405	signature:(int Xpnt, int Ypnt, nibble *CellVal)
+SetMap	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	330;"	p	line:330	signature:(int Xpoint, int Ypoint, nibble *CellVal)
 SetPageCorruptStatus::(x)dataEEFlags.pageCorrupt=x	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	70;"	d	line:70
 SetPageExpiredPage::(x)dataEEFlags.expiredPage=x	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	73;"	d	line:73
 SetPageIllegalAddress::(x)dataEEFlags.IllegalAddress=	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	76;"	d	line:76
@@ -413,58 +413,58 @@ SetPageWriteError::(x)dataEEFlags.writeError=x	C:\ProgrammiC\dsPID33\dspid33\src
 SetaddrNotFound::(x)dataEEFlags.addrNotFound=x	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	67;"	d	line:67
 Settings	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	40;"	p	line:40	signature:(void)
 Settings	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	20;"	f	line:20	signature:(void)
-SinNow	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1159;"	l	line:1159
-SinPrev	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	223;"	v	line:223
-Slam	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1235;"	f	line:1235	signature:(float PosX, float PosY, int Cell)
+SinNow	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1157;"	l	line:1157
+SinPrev	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	227;"	v	line:227
+Slam	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1233;"	f	line:1233	signature:(float PosX, float PosY, int Cell)
 Slam	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	18;"	p	line:18	signature:(float PosX, float PosY, int Cell)
-SpTick	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	217;"	v	line:217
-Space	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	220;"	v	line:220
-Spmm	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	219;"	v	line:219
-SrPlusSl	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1165;"	l	line:1165
-TABLE_SIZE::16	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	382;"	d	line:382
+SpTick	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	221;"	v	line:221
+Space	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	224;"	v	line:224
+Spmm	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	223;"	v	line:223
+SrPlusSl	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1163;"	l	line:1163
+TABLE_SIZE::16	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	386;"	d	line:386
 TCY::1/((float)(FCY)	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	67;"	d	line:67
-TIMER_OK_FLAG::VARbits1.bit9	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	684;"	d	line:684
+TIMER_OK_FLAG::VARbits1.bit9	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	688;"	d	line:688
 TMR1_VALUE::39628	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	682;"	d	line:682	file:
 TMR1_VALUE::40000	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	680;"	d	line:680	file:
 TMR2_VALUE::0xFFFF	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	659;"	d	line:659	file:
-TN	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	323;"	m	line:323
-TWOPI::6.2831853072	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	228;"	d	line:228
+TN	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	327;"	m	line:327
+TWOPI::6.2831853072	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	232;"	d	line:232
 TX2_REG_EMPTY::U2STAbits.TRMT	C:\ProgrammiC\dsPID33\dspid33\src\com.h	93;"	d	line:93
 TX_REG_EMPTY::U1STAbits.TRMT	C:\ProgrammiC\dsPID33\dspid33\src\com.h	66;"	d	line:66
 TableX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	969;"	l	line:969
 TableY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	970;"	l	line:970
-Target	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	689;"	v	line:689
-Tcy	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	140;"	v	line:140
+Target	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	693;"	v	line:693
+Tcy	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	144;"	v	line:144
 Test	C:\ProgrammiC\dsPID33\dspid33\src\com.h	71;"	v	line:71
-ThetaDes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	358;"	v	line:358
+ThetaDes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	362;"	v	line:362
 ThetaDesF	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	239;"	f	line:239	signature:(float Angle)
 ThetaDesF	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	10;"	p	line:10	signature:(float Angle)
-ThetaDesRef	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	359;"	v	line:359
-ThetaMes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	226;"	v	line:226
-Tmp1Long	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1493;"	l	line:1493
+ThetaDesRef	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	363;"	v	line:363
+ThetaMes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	230;"	v	line:230
+Tmp1Long	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1491;"	l	line:1491
 Tmp1Long	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	258;"	l	line:258
-Tmp2Long	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1494;"	l	line:1494
+Tmp2Long	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1492;"	l	line:1492
 Tmp2Long	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	259;"	l	line:259
-TmpChk	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1498;"	l	line:1498
+TmpChk	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1496;"	l	line:1496
 TmpChk	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	252;"	l	line:252
 TmpMap	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	213;"	l	line:213
 TmpPtr	C:\ProgrammiC\dsPID33\dspid33\src\com.h	62;"	v	line:62
 TmpPtr2	C:\ProgrammiC\dsPID33\dspid33\src\com.h	87;"	v	line:87
-Tmr2OvflwCount1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	168;"	v	line:168
-Tmr2OvflwCount2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	169;"	v	line:169
+Tmr2OvflwCount1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	172;"	v	line:172
+Tmr2OvflwCount2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	173;"	v	line:173
 Tx2ContFlag	C:\ProgrammiC\dsPID33\dspid33\src\com.h	96;"	v	line:96
 Tx2Flag	C:\ProgrammiC\dsPID33\dspid33\src\com.h	79;"	v	line:79
-TxCont	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1850;"	f	line:1850	signature:(void)
+TxCont	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1848;"	f	line:1848	signature:(void)
 TxCont	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	17;"	p	line:17	signature:(void)
-TxContFlag	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	148;"	v	line:148
+TxContFlag	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	152;"	v	line:152
 TxCount	C:\ProgrammiC\dsPID33\dspid33\src\com.c	140;"	l	line:140
 TxFlag	C:\ProgrammiC\dsPID33\dspid33\src\com.h	53;"	v	line:53
 TxParameters	C:\ProgrammiC\dsPID33\dspid33\src\com.c	138;"	f	line:138	signature:(char TxCmd,int TxCmdLen, int Port)
 TxParameters	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	33;"	p	line:33	signature:(char TxCmd,int TxCmdLen, int Port)
 UART2_CONT_TIMEOUT::100	C:\ProgrammiC\dsPID33\dspid33\src\com.h	89;"	d	line:89
-UART_CONT_TIMEOUT::100	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	147;"	d	line:147
-UART_CONT_TIMEOUT::100	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	150;"	d	line:150
-UC	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	318;"	m	line:318
+UART_CONT_TIMEOUT::100	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	151;"	d	line:151
+UART_CONT_TIMEOUT::100	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	154;"	d	line:154
+UC	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	322;"	m	line:322
 Uart2ContTxTimer	C:\ProgrammiC\dsPID33\dspid33\src\com.h	90;"	v	line:90
 Uart2Rx	C:\ProgrammiC\dsPID33\dspid33\src\com.c	288;"	f	line:288	signature:(void)
 Uart2Rx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	39;"	p	line:39	signature:(void)
@@ -478,7 +478,7 @@ Uart2TxBuff	C:\ProgrammiC\dsPID33\dspid33\src\com.c	15;"	v	line:15
 Uart2TxCntr	C:\ProgrammiC\dsPID33\dspid33\src\com.h	88;"	v	line:88
 UartChkSum	C:\ProgrammiC\dsPID33\dspid33\src\com.c	399;"	f	line:399	signature:(unsigned char *Buff,unsigned int BuffSize)
 UartChkSum	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	36;"	p	line:36	signature:(unsigned char *,unsigned int)
-UartContTxTimer	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	149;"	v	line:149
+UartContTxTimer	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	153;"	v	line:153
 UartRx	C:\ProgrammiC\dsPID33\dspid33\src\com.c	179;"	f	line:179	signature:(void)
 UartRx	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	38;"	p	line:38	signature:(void)
 UartRxBuff	C:\ProgrammiC\dsPID33\dspid33\src\com.h	50;"	v	line:50
@@ -504,50 +504,50 @@ Usart2Setting	C:\ProgrammiC\dsPID33\dspid33\src\com.c	77;"	f	line:77	signature:(
 Usart2Setting	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	43;"	p	line:43	signature:(void)
 UsartSetting	C:\ProgrammiC\dsPID33\dspid33\src\com.c	17;"	f	line:17	signature:(void)
 UsartSetting	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	42;"	p	line:42	signature:(void)
-VAR_PER_BYTE::2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	276;"	d	line:276
-VARbits1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	93;"	v	line:93
-VARbits2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	94;"	v	line:94
-VEL_MIN_PID::1600	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	209;"	d	line:209
+VAR_PER_BYTE::2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	280;"	d	line:280
+VARbits1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	97;"	v	line:97
+VARbits2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	98;"	v	line:98
+VEL_MIN_PID::1600	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	213;"	d	line:213
 VM	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	956;"	l	line:956
-VOLbits1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	95;"	v	line:95
-VObX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	460;"	v	line:460
-VObY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	461;"	v	line:461
+VOLbits1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	99;"	v	line:99
+VObX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	464;"	v	line:464
+VObY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	465;"	v	line:465
 VX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	954;"	l	line:954
 VY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	955;"	l	line:955
-Vel	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	232;"	v	line:232
-VelDecr	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	480;"	v	line:480
+Vel	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	236;"	v	line:236
+VelDecr	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	484;"	v	line:484
 VelDecrObj	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	904;"	l	line:904
-VelDes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	205;"	v	line:205
-VelDesM	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	207;"	v	line:207
-VelFin	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	261;"	v	line:261
-VelInt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1854;"	l	line:1854
-VelInt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	521;"	v	line:521
-VelMes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	206;"	v	line:206
+VelDes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	209;"	v	line:209
+VelDesM	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	211;"	v	line:211
+VelFin	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	265;"	v	line:265
+VelInt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1852;"	l	line:1852
+VelInt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	525;"	v	line:525
+VelMes	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	210;"	v	line:210
 Ver	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	4;"	v	line:4
-VffTableX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	423;"	v	line:423
-VffTableY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	385;"	v	line:385
+VffTableX	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	427;"	v	line:427
+VffTableY	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	389;"	v	line:389
 WritePMHigh	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	111;"	p	line:111	signature:(int, int)
 WritePMHighB	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	112;"	p	line:112	signature:(int, int)
 WritePMLow	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	113;"	p	line:113	signature:(int, int)
 WritePMLowB	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	114;"	p	line:114	signature:(int, int)
-X_POINT_MAX::150	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	282;"	d	line:282
-X_POINT_MIN::0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	283;"	d	line:283
-X_SIZE::75	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	280;"	d	line:280
+X_POINT_MAX::150	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	286;"	d	line:286
+X_POINT_MIN::0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	287;"	d	line:287
+X_SIZE::75	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	284;"	d	line:284
 X_grid	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	961;"	l	line:961
-XindxH	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1388;"	l	line:1388
-XindxH	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1409;"	l	line:1409
-XindxL	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1389;"	l	line:1389
-XindxL	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1410;"	l	line:1410
-XindxPrev	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	331;"	v	line:331
-Xpoint	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1238;"	l	line:1238
-Xshift	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	307;"	v	line:307
-Y_POINT_MAX::150	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	284;"	d	line:284
-Y_POINT_MIN::0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	285;"	d	line:285
-Y_SIZE::150	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	281;"	d	line:281
+XindxH	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1386;"	l	line:1386
+XindxH	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1407;"	l	line:1407
+XindxL	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1387;"	l	line:1387
+XindxL	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1408;"	l	line:1408
+XindxPrev	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	335;"	v	line:335
+Xpoint	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1236;"	l	line:1236
+Xshift	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	311;"	v	line:311
+Y_POINT_MAX::150	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	288;"	d	line:288
+Y_POINT_MIN::0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	289;"	d	line:289
+Y_SIZE::150	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	285;"	d	line:285
 Y_grid	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	962;"	l	line:962
-YindxPrev	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	332;"	v	line:332
-Ypoint	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1239;"	l	line:1239
-Yshift	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	308;"	v	line:308
+YindxPrev	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	336;"	v	line:336
+Ypoint	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1237;"	l	line:1237
+Yshift	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	312;"	v	line:312
 _AddressError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	61;"	p	line:61	file:	signature:(void)
 _AddressError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	86;"	f	line:86	signature:(void)
 _AltAddressError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	128;"	f	line:128	signature:(void)
@@ -561,14 +561,14 @@ _AltOscillatorFail	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	66;"	p	line:66	file
 _AltStackError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	134;"	f	line:134	signature:(void)
 _AltStackError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	68;"	p	line:68	file:	signature:(void)
 _CNInterrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	49;"	p	line:49	signature:(void)
-_DMA5Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1979;"	f	line:1979	signature:(void)
-_DMA6Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1973;"	f	line:1973	signature:(void)
-_DMA7Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1966;"	f	line:1966	signature:(void)
+_DMA5Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1977;"	f	line:1977	signature:(void)
+_DMA6Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1971;"	f	line:1971	signature:(void)
+_DMA7Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1964;"	f	line:1964	signature:(void)
 _DMACError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	103;"	f	line:103	signature:(void)
 _DMACError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	64;"	p	line:64	file:	signature:(void)
-_IC1Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1985;"	f	line:1985	signature:(void)
+_IC1Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1983;"	f	line:1983	signature:(void)
 _IC1Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	47;"	p	line:47	signature:(void)
-_IC2Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	2023;"	f	line:2023	signature:(void)
+_IC2Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	2021;"	f	line:2021	signature:(void)
 _INT1Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	44;"	p	line:44	signature:(void)
 _ISR_PSV::__attribute__((interrupt,auto_	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	69;"	d	line:69
 _MathError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	63;"	p	line:63	file:	signature:(void)
@@ -579,22 +579,22 @@ _ReadPMHigh	C:\ProgrammiC\dsPID33\dspid33\src\Flash Operations.s	50;"	l	line:50
 _ReadPMLow	C:\ProgrammiC\dsPID33\dspid33\src\Flash Operations.s	54;"	l	line:54
 _StackError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	62;"	p	line:62	file:	signature:(void)
 _StackError	C:\ProgrammiC\dsPID33\dspid33\src\traps.c	91;"	f	line:91	signature:(void)
-_T1Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1927;"	f	line:1927	signature:(void)
+_T1Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1925;"	f	line:1925	signature:(void)
 _T1Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	48;"	p	line:48	signature:(void)
-_T2Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1957;"	f	line:1957	signature:(void)
-_U1ErrInterrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	2061;"	f	line:2061	signature:(void)
+_T2Interrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1955;"	f	line:1955	signature:(void)
+_U1ErrInterrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	2059;"	f	line:2059	signature:(void)
 _U1RXInterrupt	C:\ProgrammiC\dsPID33\dspid33\src\com.c	468;"	f	line:468	signature:(void)
 _U1RXInterrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	45;"	p	line:45	signature:(void)
 _U1TXInterrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_prototypes.h	46;"	p	line:46	signature:(void)
-_U2ErrInterrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	2066;"	f	line:2066	signature:(void)
+_U2ErrInterrupt	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	2064;"	f	line:2064	signature:(void)
 _U2RXInterrupt	C:\ProgrammiC\dsPID33\dspid33\src\com.c	494;"	f	line:494	signature:(void)
 _UnlockPM	C:\ProgrammiC\dsPID33\dspid33\src\Flash Operations.s	58;"	l	line:58
 _WritePMHigh	C:\ProgrammiC\dsPID33\dspid33\src\Flash Operations.s	73;"	l	line:73
 _WritePMHighB	C:\ProgrammiC\dsPID33\dspid33\src\Flash Operations.s	77;"	l	line:77
 _WritePMLow	C:\ProgrammiC\dsPID33\dspid33\src\Flash Operations.s	81;"	l	line:81
 _WritePMLowB	C:\ProgrammiC\dsPID33\dspid33\src\Flash Operations.s	85;"	l	line:85
-abcCoefficient1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	236;"	v	line:236
-abcCoefficient2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	247;"	v	line:247
+abcCoefficient1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	240;"	v	line:240
+abcCoefficient2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	251;"	v	line:251
 addrNotFound	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	95;"	m	line:95
 atan2f	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1025;"	p	line:1025	file:
 atan2f	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	808;"	p	line:808	file:
@@ -602,42 +602,42 @@ bank	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	474;"	l	line:474
 bank	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	599;"	l	line:599
 bank	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	680;"	l	line:680
 bit0	C:\ProgrammiC\dsPID33\dspid33\src\com.h	27;"	m	line:27	struct:Bits
-bit0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	75;"	m	line:75	struct:Bits
+bit0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	79;"	m	line:79	struct:Bits
 bit1	C:\ProgrammiC\dsPID33\dspid33\src\com.h	28;"	m	line:28	struct:Bits
-bit1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	76;"	m	line:76	struct:Bits
+bit1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	80;"	m	line:80	struct:Bits
 bit10	C:\ProgrammiC\dsPID33\dspid33\src\com.h	37;"	m	line:37	struct:Bits
-bit10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	85;"	m	line:85	struct:Bits
+bit10	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	89;"	m	line:89	struct:Bits
 bit11	C:\ProgrammiC\dsPID33\dspid33\src\com.h	38;"	m	line:38	struct:Bits
-bit11	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	86;"	m	line:86	struct:Bits
+bit11	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	90;"	m	line:90	struct:Bits
 bit12	C:\ProgrammiC\dsPID33\dspid33\src\com.h	39;"	m	line:39	struct:Bits
-bit12	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	87;"	m	line:87	struct:Bits
+bit12	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	91;"	m	line:91	struct:Bits
 bit13	C:\ProgrammiC\dsPID33\dspid33\src\com.h	40;"	m	line:40	struct:Bits
-bit13	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	88;"	m	line:88	struct:Bits
+bit13	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	92;"	m	line:92	struct:Bits
 bit14	C:\ProgrammiC\dsPID33\dspid33\src\com.h	41;"	m	line:41	struct:Bits
-bit14	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	89;"	m	line:89	struct:Bits
+bit14	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	93;"	m	line:93	struct:Bits
 bit15	C:\ProgrammiC\dsPID33\dspid33\src\com.h	42;"	m	line:42	struct:Bits
-bit15	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	90;"	m	line:90	struct:Bits
+bit15	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	94;"	m	line:94	struct:Bits
 bit2	C:\ProgrammiC\dsPID33\dspid33\src\com.h	29;"	m	line:29	struct:Bits
-bit2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	77;"	m	line:77	struct:Bits
+bit2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	81;"	m	line:81	struct:Bits
 bit3	C:\ProgrammiC\dsPID33\dspid33\src\com.h	30;"	m	line:30	struct:Bits
-bit3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	78;"	m	line:78	struct:Bits
+bit3	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	82;"	m	line:82	struct:Bits
 bit4	C:\ProgrammiC\dsPID33\dspid33\src\com.h	31;"	m	line:31	struct:Bits
-bit4	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	79;"	m	line:79	struct:Bits
+bit4	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	83;"	m	line:83	struct:Bits
 bit5	C:\ProgrammiC\dsPID33\dspid33\src\com.h	32;"	m	line:32	struct:Bits
-bit5	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	80;"	m	line:80	struct:Bits
+bit5	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	84;"	m	line:84	struct:Bits
 bit6	C:\ProgrammiC\dsPID33\dspid33\src\com.h	33;"	m	line:33	struct:Bits
-bit6	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	81;"	m	line:81	struct:Bits
+bit6	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	85;"	m	line:85	struct:Bits
 bit7	C:\ProgrammiC\dsPID33\dspid33\src\com.h	34;"	m	line:34	struct:Bits
-bit7	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	82;"	m	line:82	struct:Bits
+bit7	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	86;"	m	line:86	struct:Bits
 bit8	C:\ProgrammiC\dsPID33\dspid33\src\com.h	35;"	m	line:35	struct:Bits
-bit8	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	83;"	m	line:83	struct:Bits
+bit8	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	87;"	m	line:87	struct:Bits
 bit9	C:\ProgrammiC\dsPID33\dspid33\src\com.h	36;"	m	line:36	struct:Bits
-bit9	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	84;"	m	line:84	struct:Bits
+bit9	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	88;"	m	line:88	struct:Bits
 config1	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	541;"	l	line:541
 config2	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	543;"	l	line:543
 config3	C:\ProgrammiC\dsPID33\dspid33\src\dsPid33_settings.c	545;"	l	line:545
-controlHistory1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	237;"	v	line:237
-controlHistory2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	248;"	v	line:248
+controlHistory1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	241;"	v	line:241
+controlHistory2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	252;"	v	line:252
 currentOffset	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	287;"	l	line:287
 currentPage	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	230;"	l	line:230
 currentPage	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	284;"	l	line:284
@@ -655,22 +655,22 @@ geographic::	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	79;"	d	line:79
 i	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	229;"	l	line:229
 i	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	289;"	l	line:289
 i	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	598;"	l	line:598
-i	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	143;"	v	line:143
-j	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	144;"	v	line:144
-kCoeffs1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	238;"	v	line:238
-kCoeffs2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	249;"	v	line:249
+i	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	147;"	v	line:147
+j	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	148;"	v	line:148
+kCoeffs1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	242;"	v	line:242
+kCoeffs2	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	253;"	v	line:253
 latch	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	597;"	l	line:597
 latch	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	678;"	l	line:678
 latchAddr	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	290;"	l	line:290
 latchData	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	291;"	l	line:291
 main	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	37;"	f	line:37	signature:(void)
 max::(a,b)((a)>(b)?(a):(b))	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_common.h	77;"	d	line:77
-ms	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1837;"	l	line:1837
+ms	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1835;"	l	line:1835
 nextLoc	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	677;"	l	line:677
-nib	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	312;"	m	line:312
-nib0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	321;"	m	line:321
-nib1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	322;"	m	line:322
-nibble	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	314;"	t	line:314
+nib	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	316;"	m	line:316
+nib0	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	325;"	m	line:325
+nib1	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	326;"	m	line:326
+nibble	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33_definitions.h	318;"	t	line:318
 packBeforeInit	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	98;"	m	line:98
 packBeforePageFull	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	97;"	m	line:97
 packSkipped	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	99;"	m	line:99
@@ -699,5 +699,5 @@ statusOffset	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	146;"	l	li
 statusOffset	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.c	472;"	l	line:472
 val	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	92;"	m	line:92
 writeError	C:\ProgrammiC\dsPID33\dspid33\src\DEE Emulation 16-bit.h	102;"	m	line:102
-z	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1390;"	l	line:1390
-z	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1411;"	l	line:1411
+z	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1388;"	l	line:1388
+z	C:\ProgrammiC\dsPID33\dspid33\src\dsPID33.c	1409;"	l	line:1409
