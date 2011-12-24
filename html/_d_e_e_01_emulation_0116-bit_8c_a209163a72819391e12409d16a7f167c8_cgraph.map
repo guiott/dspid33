@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8c.html#a1c129f7a39a230827defc35f96126261" title="GetPageStatus" alt="" coords="333,149,461,176"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8h.html#a1161fe618f2d17f50e572f8087f6b6dc" title="ReadPMHigh" alt="" coords="509,124,621,151"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8c.html#abf5b506401a992cd64ab2a2bf77e36bc" title="GetNextAvailCount" alt="" coords="127,99,284,125"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8h.html#a0a0833fa85b5acee668a9abdac7c1d92" title="WritePMLow" alt="" coords="344,315,451,341"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8h.html#ac3f31b1dfaac281ffc908aa715c783c8" title="WritePMHigh" alt="" coords="149,453,261,480"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8c.html#ac2e6924048931f3c2019bb7dee441ff0" title="DataEERead" alt="" coords="151,200,260,227"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8h.html#a4d97bd00e735702a84c66e1d4b174777" title="ReadPMLow" alt="" coords="344,251,451,277"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8c.html#a15ce5aa17487e056e7c9c6d337198f3a" title="UnlockWrite" alt="" coords="344,377,451,404"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8c.html#a8f9ef2d836f15d6d2437ec8afd7cc6cc" title="ErasePage" alt="" coords="157,352,253,379"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8h.html#a21801f1ab8cb0bb2677fa075f17a01e1" title="UnlockPM" alt="" coords="520,377,611,404"/>
+</map>

@@ -18,7 +18,10 @@
 int DmaAdc[2][64] __attribute__((space(dma),aligned(256)));
 
 void Settings(void)
-{
+{/**
+*\brief It contains everything needed for dsPIC settings and initializations
+*/
+
 #ifdef CLOCK_FREQ_10 //{
 // Configure Oscillator to operate the device at 40 Mhz
 // Fosc= Fin*M/(N1*N2), Fcy=Fosc/2
@@ -697,7 +700,10 @@ OpenTimer1(	T1_ON &
 /* Interrupts setting                                                        */
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 void ISR_Settings(void)
-{
+{/**
+*\brief It contains everything needed to initialize Interrupt Service Routines
+*/
+
 //-------PWM	[11]
 ConfigIntMCPWM1(PWM1_INT_DIS);
 

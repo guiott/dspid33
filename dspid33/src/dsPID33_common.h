@@ -3,7 +3,7 @@
 /* //////////////////////////////////////////////////////////////////////////*/
 
 // standard include 
-#include "p33Fxxxx.h"
+#include <p33Fxxxx.h>
 #include <dsp.h>
 #include <pwm12.h>
 #include <uart.h>
@@ -74,7 +74,7 @@ Fcy = Fosc / 2 = 39.6288
 
 // macro to round a float in a int
 #define FLOAT2INT(x) ((x)>=0?(int)((x)+0.5):(int)((x)-0.5))
-#define max(a,b) ((a) > (b) ? (a) : (b))
+// #define max(a,b) ((a) > (b) ? (a) : (b))
 
 #define geographic	// [22aa]
 

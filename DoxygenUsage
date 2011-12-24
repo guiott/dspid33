@@ -1,0 +1,53 @@
+Come intestazione al file.c principale (quello dove è il main) ho messo i tag che creano la front page del sito che viene creato da Doxygen.
+
+/*! 
+* \mainpage dsPid33.c
+* \author    Guido Ottaviani-->guido@guiott.com<--
+* \version 2.2.6
+* \date 12/11
+* \details This is a .........
+
+-------------------------------------------------------------------------------
+\copyright 2011 Guido Ottaviani
+guido@guiott.com
+
+	dsPID33 is free software: you can redistribute it and/or modify
+    it under the terms of ......
+    
+-------------------------------------------------------------------------------      
+*/
+
+Ho creato alcuni file.txt con le spiegazioni. Mi piace documentare molto il codice (serve anche a me in futuro per ricordare tutto il ragionamento che mi ha portato a quella soluzione) ma non voglio appesantire i file.c con tanto testo che mi renda poi complicato lavorarci su. Per questo ho messo dei link ai file.txt nei file.c
+
+Il file.txt (inizia e finisce con la definizione di commento) deve avere l'intestazione \page.  In questo modo viene presentato in una nuova sezione che si chiama: Related Pages
+
+/**
+*\page descrEng.txt Detailed Description
+
+All'interno del testo ogni singola sezione è riferita con un tag \anchor
+
+*\anchor _2
+[2]
+AN1 Motor current reading through Rsense on H bridge
+
+questo viene poi richiamato nei file.c all'inizio delle funzioni con il tag \ref
+
+void AdcCalc(void)
+{/**
+*\brief Motor current reading through Rsense on H bridge
+
+*\ref _2 "details [2]"
+*/
+
+In questo modo nella descrizione della funzione posso linkare un testo lungo a piacere ma non appesantisco ne il codice ne la pagina Doxygen
+
+Oltre al file di descrizione ho aggiunto nelle related pages anche il file Summary.txt, con le descrizioni dei pin usati e altre cose prettamente HW e il file Changelog.txt con la history dello sviluppo.
+
+Si comincia a vedere qualcosa qui:
+http://www.guiott.com/Rino/html/index.html
+
+per adesso ho aggiornato i commenti solo delle prime funzioni di dsPID33.c però la struttura è pronta e si può cominciare a vedere.
+
+Vorrei inserire dei link all'interno del codice che mi richiamino le sezioni del file di spiegazione per spiegare meglio i singoli passi delle funzioni, così come fa in automatico per le funzioni e le variabili. In pratica, ogni volta che ho inserito un riferimento a descrEng.txt del tipo [24d] nel mio codice, vorrei che questo fosse un link attivo, ma non so come fare. Qualsiasi cosa faccio (ho provato anche con codice html) mi viene riportato nella pagina di spiegazione della funzione e non quando apro il codice. 
+
+Consigli?

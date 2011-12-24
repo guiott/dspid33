@@ -1,14 +1,15 @@
 /* ////////////////////////////////////////////////////////////////////////////
-** Included in "dsPID.c", it contains definitions and variables initialization
+Included in "dsPID33.c", it contains global definitions and variables 
+initialization
 /////////////////////////////////////////////////////////////////////////////*/
 
 /*---------------------------------------------------------------------------*/
-/* standard include														     */
+/* standard include                                                          */
 /*---------------------------------------------------------------------------*/
 #include "dsPID33_common.h"
 
 /*---------------------------------------------------------------------------*/
-/* Status bits			    											     */
+/* Status bits                                                               */
 /*---------------------------------------------------------------------------*/
 
 /* Boot Segment Program Memory:No Boot Segment Program Memory
@@ -19,9 +20,9 @@
 _FOSCSEL(FNOSC_PRI);			// Primary (XT, HS, EC) Oscillator 
 
 // Clock Switching is enabled and Fail Safe Clock Monitor is disabled
-								// OSC2 Pin Function: OSC2 is Clock Output
-								// Primary Oscillator Mode: XT Crystanl
-_FOSC(FCKSM_CSECMD & OSCIOFNC_OFF  & POSCMD_XT);  					
+// OSC2 Pin Function: OSC2 is Clock Output
+// Primary Oscillator Mode: XT Crystal
+_FOSC(FCKSM_CSECMD & OSCIOFNC_OFF  & POSCMD_XT);  				
 
 /* Background Debug Enable Bit: Device will Reset in user mode
 ** Debugger/Emulator Enable Bit: Reset in operational mode
@@ -327,7 +328,7 @@ typedef union
 	}TN;
 }PackedBit;
 
-void SetMap(int Xpoint, int Ypoint, nibble *CellVal);
+void SetMap(int Xpnt, int Ypnt, nibble *CellVal);
 
 PackedBit MapXY[X_SIZE][Y_SIZE];	// to store field mapping [22b]
 

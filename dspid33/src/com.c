@@ -15,10 +15,12 @@ unsigned char UartTxBuff[MAX_TX_BUFF] __attribute__((space(dma),aligned(128)));
 unsigned char Uart2TxBuff[MAX_TX2_BUFF] __attribute__((space(dma),aligned(128)));
 
 void UsartSetting(void)
-{
-/*---------------------------------------------------------------------------*/
-/* USART1	[6]     			    									     */
-/*---------------------------------------------------------------------------*/
+{/**
+*\brief USART1 configuration
+
+*\ref _6 "details [6]"
+*/
+
 float BaudRate;
 float BRG;
 /* 	Baud Rate = Fcy / ( 4 * (UxBRG + 1) ) with BRGH = 1
@@ -75,10 +77,12 @@ ChkSum=0;
 }
 
 void Usart2Setting(void)
-{
-/*---------------------------------------------------------------------------*/
-/* USART2	[6z]     			    									     */
-/*---------------------------------------------------------------------------*/
+{/**
+*\brief USART2 configuration
+
+*\ref _6z "details [6z]"
+*/
+
 float BaudRate2;
 float BRG2;
 
@@ -135,8 +139,17 @@ ChkSum2=0;
 /*.....................................................................USART */
 }
 
-void TxParameters(char TxCmd,int TxCmdLen, int Port)	// [18]
-{
+void TxParameters(char TxCmd, int TxCmdLen, int Port)
+{/**
+*\brief Send the requested parameters, with the correct handshake
+
+*\param TxCmd char Command to send
+*\param TxCmdLen int Number of bytes to send (Data are stored in UartTmpBuff buffer)
+*\param Port int Port number to use for sending
+
+*\ref _18 "details [18]"
+*/
+
 	int TxCount;
 	unsigned int UartTxBuffSize=0;
 	
@@ -176,8 +189,13 @@ void TxParameters(char TxCmd,int TxCmdLen, int Port)	// [18]
 	}
 }
 
-void UartRx(void)	// [6b]
-{	
+void UartRx(void)
+{/**
+*\brief U1ARX RX serial communication
+
+*\ref _6b "details [6b]"
+*/
+
 	if (UartRxStatus < 0)	// if error, RX is terminated
 	{
 		UartRxError(UartRxStatus,0);		   	
@@ -285,8 +303,14 @@ void UartRx(void)	// [6b]
 	if (UartRxPtrOut >= MAX_RX_BUFF) UartRxPtrOut=0;//reset circular queue [6d]
 }
 
-void Uart2Rx(void)	// [6zb]
-{	
+void Uart2Rx(void)
+{/**
+*\brief U2ARX RX serial communication
+
+*\ref _6b "details [6b]"
+*\ref _6z "details [6z]"
+*/
+
 	if (Uart2RxStatus < 0)	// if error, RX is terminated
 	{
 		UartRxError(Uart2RxStatus,1);		   	
@@ -396,8 +420,17 @@ void Uart2Rx(void)	// [6zb]
 	if (Uart2RxPtrOut >= MAX_RX_BUFF) Uart2RxPtrOut=0;
 }
 
-unsigned char UartChkSum (unsigned char *Buff,unsigned int BuffSize)	// [17]
-{
+unsigned char UartChkSum (unsigned char *Buff, unsigned int BuffSize)
+{/**
+*\brief CheckSum calculation
+
+*\param Buff unsigned char* buffer cointaining data to send
+*\param BuffSize unsigned int buffer size
+*\return unsigned char UartChkSum checksum
+	
+*\ref _17 "details [17]"
+*/
+
 	unsigned char ChkSum=0;	// checksum
 	int ChkIndx;
 	for (ChkIndx = 0; ChkIndx < BuffSize; ChkIndx ++)
@@ -408,8 +441,16 @@ unsigned char UartChkSum (unsigned char *Buff,unsigned int BuffSize)	// [17]
 	return (ChkSum);      	
 }	
 	 	   	      	
-void UartRxError(int Err, int Port)		// RX error occured
-{
+void UartRxError(int Err, int Port)
+{/**
+*\brief RX error occured: changes LED1 blinking frequency
+
+*\param Err int error number
+*\param Port int port number
+	
+*\ref _6c "details [6c]"
+*/
+
 	BlinkPeriod = ERR_BLINK_PER;// LED1 blinking period (ms)
 	BlinkOn     = ERR_BLINK_ON;	// LED1 on time (ms)
 	Blink = 0;
@@ -445,8 +486,17 @@ void UartRxError(int Err, int Port)		// RX error occured
 	ErrCode=Err;				// store the last Error Code
 }
 
-unsigned char IncrCircPtr(int Port) // [6d]
-{
+unsigned char IncrCircPtr(int Port)
+{/**
+*\brief The bytes are exchanged between ISR and UartRx function through a 
+	circular buffer
+
+*\param Port int port number
+*\return unsigned char queue pointer
+	
+*\ref _6d "details [6d]"
+*/
+
 	if (Port==0)
 	{
 		TmpPtr ++;								// next byte
@@ -465,8 +515,13 @@ unsigned char IncrCircPtr(int Port) // [6d]
 /* Interrupt Service Routines                                                */
 /*---------------------------------------------------------------------------*/
 
-void _ISR_PSV _U1RXInterrupt(void)	// UART RX [6b]
-{
+void _ISR_PSV _U1RXInterrupt(void)
+{/**
+*\brief U1ARX RX serial communication
+
+*\ref _6b "details [6b]"
+*/
+
 	_U1RXIF = 0; 	// interrupt flag reset
 	ClrWdt();		// [1]
 	// UART errors or still parsing command ?
@@ -491,8 +546,14 @@ void _ISR_PSV _U1RXInterrupt(void)	// UART RX [6b]
 	}
 }
 
-void _ISR_PSV _U2RXInterrupt(void)	// UART2 RX [6zb]
-{
+void _ISR_PSV _U2RXInterrupt(void)
+{/**
+*\brief U2ARX RX serial communication
+
+*\ref _6b "details [6b]"
+*\ref _6z "details [6z]"
+*/
+
 	_U2RXIF = 0; 	// interrupt flag reset
 	ClrWdt();		// [1]
 	// UART2 errors or still parsing command ?

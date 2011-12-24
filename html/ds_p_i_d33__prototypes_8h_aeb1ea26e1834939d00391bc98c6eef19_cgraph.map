@@ -1,0 +1,29 @@
+<map id="G" name="G">
+<area shape="rect" href="$com_8c.html#ac098f07c32fe84a9dfa3452021b3eb9f" title="TxParameters" alt="" coords="121,183,241,209"/>
+<area shape="rect" href="$com_8c.html#a19eb1a49e69fbbee503ff9209bf3f9bd" title="IncrCircPtr" alt="" coords="135,411,228,437"/>
+<area shape="rect" href="$ds_p_i_d33_8c.html#a8b82cc7f0f1e3ecdba52598d406e5932" title="ThetaDesF" alt="" coords="132,461,231,488"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8c.html#a4879a0fb15f6366cfcfbbc378c10ebb1" title="DataEEWrite" alt="" coords="127,512,236,539"/>
+<area shape="rect" href="$ds_p_i_d33_8c.html#a29b430d2e786c1e8ab27a2f787f4df1c" title="InitDistPid" alt="" coords="136,563,227,589"/>
+<area shape="rect" href="$ds_p_i_d33_8c.html#a6064a7952a17249d66661e03dbcea753" title="InitPid1" alt="" coords="144,613,219,640"/>
+<area shape="rect" href="$ds_p_i_d33_8c.html#a29e3f7da68ea11f3a29916acc588c7dc" title="InitPid2" alt="" coords="145,664,217,691"/>
+<area shape="rect" href="$ds_p_i_d33_8c.html#ac3ed2ee8bf58d974554b636fce82b2e2" title="InitAnglePid" alt="" coords="128,715,235,741"/>
+<area shape="rect" href="$ds_p_i_d33_8c.html#aac92344238c1de7c10a17dac75bc2847" title="DelayN1ms" alt="" coords="129,765,233,792"/>
+<area shape="rect" href="$ds_p_i_d33_8c.html#a93a4744b15d7f3cfa5b61e4141ec50f3" title="Slam" alt="" coords="152,816,211,843"/>
+<area shape="rect" href="$com_8c.html#aeb884ff41ce361b52054618f034b5a0a" title="UartRxError" alt="" coords="131,867,232,893"/>
+<area shape="rect" href="$com_8c.html#aca209573a531fa95853ed97fad19d907" title="UartChkSum" alt="" coords="292,5,404,32"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8c.html#a1c129f7a39a230827defc35f96126261" title="GetPageStatus" alt="" coords="661,461,789,488"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8h.html#a1161fe618f2d17f50e572f8087f6b6dc" title="ReadPMHigh" alt="" coords="837,512,949,539"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8c.html#ac2e6924048931f3c2019bb7dee441ff0" title="DataEERead" alt="" coords="479,563,588,589"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8h.html#a4d97bd00e735702a84c66e1d4b174777" title="ReadPMLow" alt="" coords="672,613,779,640"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8c.html#abf5b506401a992cd64ab2a2bf77e36bc" title="GetNextAvailCount" alt="" coords="455,512,612,539"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8h.html#a0a0833fa85b5acee668a9abdac7c1d92" title="WritePMLow" alt="" coords="672,259,779,285"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8h.html#ac3f31b1dfaac281ffc908aa715c783c8" title="WritePMHigh" alt="" coords="477,157,589,184"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8c.html#a15ce5aa17487e056e7c9c6d337198f3a" title="UnlockWrite" alt="" coords="672,208,779,235"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8c.html#a209163a72819391e12409d16a7f167c8" title="PackEE" alt="" coords="313,385,383,412"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8h.html#a21801f1ab8cb0bb2677fa075f17a01e1" title="UnlockPM" alt="" coords="848,208,939,235"/>
+<area shape="rect" href="$_d_e_e_01_emulation_0116&#45;bit_8c.html#a8f9ef2d836f15d6d2437ec8afd7cc6cc" title="ErasePage" alt="" coords="485,259,581,285"/>
+<area shape="rect" href="$ds_p_i_d33_8c.html#a2bd5b0b7c6e63a18374dc5e63a5f9930" title="DelayN10us" alt="" coords="295,765,401,792"/>
+<area shape="rect" href="$ds_p_i_d33_8c.html#a3a90a7ce8d2eab466a689d41c5f0749c" title="PosIndx" alt="" coords="311,917,385,944"/>
+<area shape="rect" href="$ds_p_i_d33_8c.html#a0045cdba351669e55136652c9b95b39b" title="GetMap" alt="" coords="309,816,387,843"/>
+<area shape="rect" href="$ds_p_i_d33_8c.html#a8629237a76431df1ef42e9b58ccae312" title="SetMap" alt="" coords="311,867,385,893"/>
+</map>
