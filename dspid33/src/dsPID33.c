@@ -1,19 +1,23 @@
 /* ////////////////////////////////////////////////////////////////////////////
 ** File:      dsPid33.c
 */                                  
- unsigned char  Ver[] = "dsPid33 2.2.5 Guiott 07-11"; // 26+1 char
-/* Author:    Guido Ottaviani-->g.ottaviani@mediaprogetti.it<--
-** Description: This is a porting on a single dsPIC33FJ64MC802 of previous 
-**				double PID Motor Control (dsPID program) formerly performed 
+ unsigned char  Ver[] = "dsPid33 2.2.6 Guiott 12-11"; // 26+1 char
+/**
+* \mainpage dsPid33.c
+* \author    Guido Ottaviani-->guido@guiott.com<--
+* \version 2.2.6
+* \date 12/11
+* \details This is a porting on a single dsPIC33FJ64MC802 of previous 
+**				double PID Motor Control (dsPID) formerly performed 
 **				with two dsPIC30F4012 plus odometry and field mapping formerly 
 **				performedwith a single dsPIC30F3013 (dsODO program).   
 **
 ** Detailed descriptions are on file "descrEng.txt" 
-** numbers between brackets, eg.: [1] , are the references to the specific 
-** decription into the file
+** numbers between brackets, eg.: [1], are the references 
+** to the specific description into the file
 **
 -------------------------------------------------------------------------------
-Copyright 2011 Guido Ottaviani
+\copyright 2011 Guido Ottaviani
 guido@guiott.com
 
 	dsPID33 is free software: you can redistribute it and/or modify
@@ -28,20 +32,31 @@ guido@guiott.com
 
     You should have received a copy of the GNU General Public License
     along with dsPID33.  If not, see <http://www.gnu.org/licenses/>.
+    
 -------------------------------------------------------------------------------      
-/////////////////////////////////////////////////////////////////////////////*/
+*/
 
 #include "dsPID33_definitions.h"
 #include "DEE Emulation 16-bit.h"
 
 int main (void)
 {
+/**
+\details
+The program is full interrupt driven. At the startup the program enters in a very simple main-loop, acting as a state machine. In the main-loop, the program checks flags enabled by external events, and it enters in the relative state.
+
+Since it's a kind of a very simple cooperative "Real Time Operating System," each routine has to be executed in the shortest possible time, freeing the system up to take care of the very frequent interrupts.
+
+There are no "wait until" and no delays in the code. Whenever possible interrupts are used, in particular for slow operations like transmission or reception of strings of characters.
+*/
+
 Settings();
 
-LED1 = 1;			// [1]
+//[1]
+LED1 = 1; 
 LED2 = 0;
-// MOTOR_ENABLE1 = 0;	// [1]
-// MOTOR_ENABLE2 = 0;	// [1]
+// MOTOR_ENABLE1 = 0;
+// MOTOR_ENABLE2 = 0;
 
 Tmr2OvflwCount1=0;
 Tmr2OvflwCount2=0;
@@ -66,6 +81,7 @@ MAP_SEND_FLAG=0;
   verification in programming procedure
  	http://forum.microchip.com/tm.aspx?m=326442 */
 DelayN1ms(30);
+
 DataEEInit();	// Initialize flash memory writing [33]
 dataEEFlags.val = 0;
 
@@ -91,6 +107,7 @@ IdleSample = 0;
 IdleCount = 0;
 
 DIST_OK_FLAG  = 1;	// to kick start the scheduler sequence
+
 SchedPtr = 0;		// [32]
 	
 RT_TIMER_FLAG = 0;	// disable real time timer
@@ -209,7 +226,10 @@ Nop();	// end of idle cycle [25a]
 /*===========================================================================*/
 
 void SendMap(void)
-{// send one row of grid map to console
+{/**
+*\brief send one row of grid map to console
+*/
+	
 	int TmpMap;
 	
 	if(MAP_BUFF_FLAG)
@@ -235,16 +255,23 @@ void SendMap(void)
 	}
 }
 
-
 void ThetaDesF(float Angle)
-{// [23ca]
+{/** 
+*\brief Starts the AnglePID in order to point ot the desired Angle
+*\ref _23ca "details [23ca]"
+*\param[in] Angle The new direction
+*/
 	ThetaDes = Angle;
 	ThetaDesRef = ThetaDes;
 	PIDInit(&AnglePIDstruct); 
 }
 
-void Parser (void)	// [16]
-{
+void Parser (void)
+{/** 
+*\brief Command Parser from commands coming from both UARTs
+
+*\ref _16 "details [16]"
+*/
 	int ParserCount;		// parser index
 	int C1;					// generic counter
 	int C2;
@@ -258,7 +285,7 @@ void Parser (void)	// [16]
 	long Tmp1Long;			// temp to combine long 
 	long Tmp2Long;
 	
-	const float AngleS = 0.785398163;  // 45° angle for object on side
+	const float AngleS = 0.785398163;  // 45Â° angle for object on side
 	
 	if (UartRxStatus == 99) // the command come from UART1
 	{
@@ -727,8 +754,13 @@ void Parser (void)	// [16]
 	}
 }
 
-void Scheduler(void)	// [32]
-{
+void Scheduler(void)
+{/**
+*\brief Acting as a "Washing Machine Timer" it schedules the behavior of the bot 
+executing a series of primitives in sequence
+
+*\ref _32 "details [32]"
+*/
 	unsigned char SchedCode= 0;	// action to execute
 	float DPosX;	// delta PosX
 	float DPosY;	// delta PosY
@@ -837,7 +869,11 @@ void Scheduler(void)	// [32]
 }	
 
 void AdcCalc(void)
-{
+{/**
+*\brief Motor current reading through Rsense on H bridge
+
+*\ref _2 "details [2]"
+*/
 	extern int DmaAdc[2][64];
 	int AdcCount = 0;
 	long ADCValueTmp[2] = {0,0};// to store intermediate ADC calculations 
@@ -884,8 +920,13 @@ void AdcCalc(void)
 
 
 void InitDistPid(void)
-{
-//Initialize the PID data structure: PIDstruct
+{/**
+*\brief Initialize the PID data structure: PIDstruct.
+Use the Microchip C30 PID library according to the Microchip Code Example CE019
+		
+*\ref _19d "details [19d]"
+*/
+
 //Set up pointer to derived coefficients
 DistPIDstruct.abcCoefficients = &DistabcCoefficient[0];
 //Set up pointer to controller history samples
@@ -896,8 +937,14 @@ PIDInit(&DistPIDstruct);
 PIDCoeffCalc(&DistKCoeffs[0], &DistPIDstruct); 
 }
 
-void Navigation(void)	// called after odometry is performed
-{
+void Navigation(void)	
+{/**
+*\brief called after odometry is performed to control speed and orientation
+in order to navigate safely avoiding obstacles and reaching the desired 
+position when needed.
+
+*\ref _24 "details [24]"
+*/
 	float DPosX;	// delta PosX
 	float DPosY;	// delta PosY
 	float Dist;		// distance
@@ -950,7 +997,20 @@ void Navigation(void)	// called after odometry is performed
 }
 
 float ObstacleAvoidance(float DPosX, float DPosY, int DistTarget)
-{   // [24e]
+{/**
+*\brief set direction and speed to reach the goal avoiding obstacles.
+It uses The Virtual Force Field (VFF) method developed by Johann Borenstein
+and Yoram Koren at the the university of Michigan in 1989.
+http://www-personal.engin.umich.edu/~johannb/vff&vfh.htm
+
+*\ref _24e "details [24e]"
+*\param DPosX float X component of distance from target
+*\param DPosY float Y component of distance from target
+*\param DistTarget int distance from target
+*\return float VM magnitude of resultant force vector after setting ThetaDes
+
+*/  
+
 	float VX;				// X component of resultant vector
 	float VY;				// Y component of resultant vector
 	float VM;				// magnitude of resultant vector
@@ -1029,7 +1089,13 @@ float ObstacleAvoidance(float DPosX, float DPosY, int DistTarget)
 }
 
 void InitAnglePid(void)
-{
+{/**
+*\brief Initialize the PID data structure: PIDstruct.
+Use the Microchip C30 PID library according to the Microchip Code Example CE019
+		
+*\ref _19d "details [19d]"
+*/
+
 //Initialize the PID data structure: PIDstruct
 //Set up pointer to derived coefficients
 AnglePIDstruct.abcCoefficients = &AngleabcCoefficient[0];
@@ -1041,8 +1107,14 @@ PIDInit(&AnglePIDstruct);
 PIDCoeffCalc(&AngleKCoeffs[0], &AnglePIDstruct); 
 }
 
-void Orientation(void)	// [23]
-{
+void Orientation(void)
+{/**
+*\brief Angle PID. 
+PID procedure to maintain the desired orientation.
+
+*\ref _23 "details [23]"
+*/
+
 	int DeltaVel;	// difference in speed between the wheels to rotate
 	int RealVel;	// VelDesM after reduction controlled by Dist PID
 	float Error;	
@@ -1151,8 +1223,19 @@ void Orientation(void)	// [23]
 	}
 }
 
-void DeadReckoning(void) // [22]
-{
+void DeadReckoning(void)
+{/**
+*\brief Odometry & dead reckoning
+
+The coordinates of the current position of the robot is achieved with an
+algorithm elaborated starting from G.W. Lucas' paper "A Tutorial and Elementary
+Trajectory Model for the Differential Steering System of Robot Wheel Actuators"
+available on Internet:
+ http://rossum.sourceforge.net/papers/DiffSteer/DiffSteer.html
+
+*\ref _22 "details [22]"
+*/
+
 	float CosNow;		// current value for Cos
 	float SinNow;		// current value for Sin
 	float DSpace;		// delta traveled distance by the robot
@@ -1231,7 +1314,19 @@ void DeadReckoning(void) // [22]
 }
 
 unsigned char Slam(float PosX, float PosY, int Cell)
-{//Simultaneous Localization And Mapping
+{/**
+*\brief Simultaneous Localization And Mapping (SLAM). 
+is called to store in the cell related to the 
+current position, some information about the environment
+
+*\ref _22c "details [22c]"
+*\param PosX float X current coordinate
+*\param PosY float Y current coordinate
+*\param Cell int a value indicating what the bot have found in current cell
+*\return unsigned char CellValue the history for this specific cell
+
+*/  
+
   	nibble CellValue;	// field map value of current cell 
  	int Xpoint;	// X coordinate value normalized in matrix range 
  	int Ypoint;	// Y index  
@@ -1374,7 +1469,17 @@ unsigned char Slam(float PosX, float PosY, int Cell)
 }
 
 int PosIndx(float Pos)
-{   // field mapping [22b]
+{/**
+*\brief Field mapping. 
+The unknown field is mapped in a grid of CELL_SIZE mm * CELL_SIZE mm cells.
+
+*\ref _22b "details [22b]"
+*\param Pos float current position
+*\return unsigned char PosIndx the index relative to the current position in
+	the field map matrix
+
+*/  
+
 	// index in the range 0-Y_SIZE to point the matrix
 	int Indx;
 	Indx=abs((__builtin_modsd((Pos+(HALF_MAP_SIZE)),(MAP_SIZE)))/CELL_SIZE);	
@@ -1382,7 +1487,16 @@ int PosIndx(float Pos)
 }	
 	
 unsigned char GetMap(int Xpnt, int Ypnt) 
-{
+{/**
+*\brief Get the Cell value for the current position
+
+*\ref _24e "details [24e]"
+*\param Xpnt int cell index to read
+*\param Ypnt int cell index to read
+*\return unsigned char CellValue current value stored in the cell
+
+*/  
+
 	int XindxH;	// High part of X index 
   	int XindxL;	// Low part  of X index 
   	div_t z;	// for div function
@@ -1403,7 +1517,15 @@ unsigned char GetMap(int Xpnt, int Ypnt)
 }
 
 void SetMap(int Xpnt, int Ypnt, nibble *CellVal) 
-{
+{/**
+*\brief Store the Cell value for the current position
+
+*\param Xpnt int cell index to write
+*\param Ypnt int cell index to write
+*\param CellVal nibble value index to store in the cell
+
+*/  
+
 	int XindxH;	// High part of X index 
   	int XindxL;	// Low part  of X index 
   	div_t z;	// for div function
@@ -1424,7 +1546,12 @@ void SetMap(int Xpnt, int Ypnt, nibble *CellVal)
 }
 
 void ConstantsDefaultW (void)
-{
+{/**
+*\brief Write constant parameters on EEprom in case no other value provided
+
+*\ref _29 "details [29]"
+*/
+
 DataEEWrite(401,EE_KVEL1_H);
 DataEEWrite(10405,EE_KVEL1_L);
 DataEEWrite(401,EE_KVEL2_H);
@@ -1449,8 +1576,13 @@ DataEEWrite(28,EE_AXLE_H);
 DataEEWrite(17214,EE_AXLE_L);
 }
 
-void ConstantsDefaultR (void)	// get constant values as default
-{
+void ConstantsDefaultR (void)
+{/**
+*\brief Set default constant parameters in case no other value provided
+
+*\ref _29 "details [29]"
+*/
+
 ANGLE_KP=Q15(0.9999);	
 ANGLE_KI=Q15(0.7);		
 ANGLE_KD=Q15(0.0001);	
@@ -1478,16 +1610,24 @@ Axle = 184.8728;
 SemiAxle = Axle/2;
 }
 
-void ConstantsError(void)		   // Constants paramters error occured
-{
+void ConstantsError(void)
+{/**
+*\brief Constants paramters reading error has occured
+
+*/
 	BlinkPeriod = K_ERR_BLINK_PER;// LED1 blinking period (ms)
 	BlinkOn     = K_ERR_BLINK_ON; // LED1 on time (ms)
 	Blink = 0;
 	ErrCode=-20;				  // store the last Error Code
 	ConstantsDefaultR();		  // use default parameters
 }
-void ConstantsRead(void)	// get constant values from permament memory
-{
+
+void ConstantsRead(void)
+{/**
+*\brief get constant values from EEprom permament memory
+
+*/
+
 long Tmp1Long;
 long Tmp2Long;
 int C1;					// generic counter
@@ -1662,8 +1802,13 @@ SemiAxle = Axle/2;
 }
 
 void InitPid1(void)
-{		
-//Initialize the PID data structure: PIDstruct
+{	/**
+*\brief Initialize the PID data structure: PIDstruct.
+Use the Microchip C30 PID library according to the Microchip Code Example CE019
+		
+*\ref _19d "details [19d]"
+*/	
+
 //Set up pointer to derived coefficients
 PIDstruct1.abcCoefficients = &abcCoefficient1[0];
 //Set up pointer to controller history samples
@@ -1675,8 +1820,13 @@ PIDCoeffCalc(&kCoeffs1[0], &PIDstruct1);
 }
 
 void InitPid2(void)
-{
-//Initialize the PID data structure: PIDstruct
+{/**
+*\brief Initialize the PID data structure: PIDstruct.
+Use the Microchip C30 PID library according to the Microchip Code Example CE019
+		
+*\ref _19d "details [19d]"
+*/
+
 //Set up pointer to derived coefficients
 PIDstruct2.abcCoefficients = &abcCoefficient2[0];
 //Set up pointer to controller history samples
@@ -1688,7 +1838,12 @@ PIDCoeffCalc(&kCoeffs2[0], &PIDstruct2);
 }
 
 void Pid1(void)	
-{
+{/**
+*\brief If a less resolution encoder is used the PID parameters must change
+below a certain speed in order to mantain stability
+		
+*/
+
 #ifdef SLOW_ENC	
 	if (labs(Vel[R]) > VEL_MIN_PID) // more frequent PID cycle above a threshold
 	{
@@ -1708,7 +1863,13 @@ void Pid1(void)
 }
 
 void Pid1Calc(void) 
-{// [19]
+{/**
+*\brief Use C30 PID libraries according to the Microchip Code Example CE019 in
+order to keep one wheel at a constant desired speed
+
+*\ref _19 "details [19]"
+*/
+
 	long IcPeriodTmp;
 	int IcIndxTmp;
 	int PWM;
@@ -1759,7 +1920,12 @@ void Pid1Calc(void)
 }
 
 void Pid2(void)	
-{
+{/**
+*\brief If a less resolution encoder is used the PID parameters must change
+below a certain speed in order to mantain stability
+		
+*/
+
 #ifdef SLOW_ENC	
 	if (labs(Vel[L]) > VEL_MIN_PID) // more frequent PID cycle above a threshold
 	{
@@ -1779,7 +1945,13 @@ void Pid2(void)
 }
 
 void Pid2Calc(void)
-{// [19]
+{/**
+*\brief Use C30 PID libraries according to the Microchip Code Example CE019 in
+order to keep one wheel at a constant desired speed
+
+*\ref _19 "details [19]"
+*/
+
 	long IcPeriodTmp;
 	int IcIndxTmp;
 	int PWM;
@@ -1846,7 +2018,12 @@ void DelayN10us(int n) // [22]
 }
 
 void TxCont(void)
-{
+{/**
+*\brief Continuos send mode Sends all data without request as a debug or 
+data logging mode.
+
+*\ref _31 "details [31]"
+*/
 	int Ptmp;				// temp for position values
 	int CurrTmp;			// temp for motors current value
 	int VelInt[2];			// speed in mm/s as an integer
@@ -1922,8 +2099,12 @@ void TxCont(void)
 /* Interrupt Service Routines                                                */
 /*---------------------------------------------------------------------------*/
 #ifndef TIMER_OFF
-void _ISR_PSV _T1Interrupt(void)	// Timer 1 [13]
-{
+void _ISR_PSV _T1Interrupt(void)
+{/**
+*\brief 1 ms timer
+
+*\ref _13 "details [13]"
+*/
 	_T1IF=0;   		// interrupt flag reset
 	UartContTxTimer --;	// timer for continuos send mode
 	Blink ++;			// heartbeat LED blink
@@ -1952,8 +2133,12 @@ void _ISR_PSV _T1Interrupt(void)	// Timer 1 [13]
 	}
 }
 
-void _ISR_PSV _T2Interrupt(void)	// Timer 2 [12]
-{
+void _ISR_PSV _T2Interrupt(void)
+{/**
+*\brief Timer2, used by Input Capture to measure speed
+
+*\ref _12 "details [12]"
+*/
 	_T2IF = 0;					// interrupt flag reset
 	Tmr2OvflwCount1 ++;		// TMR2 overflow as occurred
 	Tmr2OvflwCount2 ++;		// TMR2 overflow as occurred
@@ -1961,27 +2146,47 @@ void _ISR_PSV _T2Interrupt(void)	// Timer 2 [12]
 
 #endif
 
-void _ISR_PSV _DMA7Interrupt(void)	// DMA for ADC [2]
-{ 	
+void _ISR_PSV _DMA7Interrupt(void)
+{/**
+*\brief DMA used for ADC
+
+*\ref _2 "details [2]"
+*/	
 	_DMA7IF = 0;	// interrupt flag reset
 	ADC_CALC_FLAG = 1; // enable ADC average calculus
 }
 
 
-void _ISR_PSV _DMA6Interrupt(void)	// DMA for UART1 TX [6d]
-{
+void _ISR_PSV _DMA6Interrupt(void)
+{/**
+*\brief DMA for UART1 TX 
+
+*\ref _6d "details [6d]"
+*/
+
 	_DMA6IF = 0;	// interrupt flag reset
 	MAP_BUFF_FLAG = 1; // ready to send another map grid row
 }
 
-void _ISR_PSV _DMA5Interrupt(void)	// DMA for UART2 TX [6zd]
-{
+void _ISR_PSV _DMA5Interrupt(void)
+{/**
+*\brief DMA for UART2 TX 
+
+*\ref _6d "details [6d]"
+*\ref _6z "details [6z]"
+*/
+
 	_DMA5IF = 0;	// interrupt flag reset
 	MAP_BUFF_FLAG = 1; // ready to send another map grid row
 }
 
-void _ISR_PSV _IC1Interrupt(void)	// Input Capture 1 [7]
-{
+void _ISR_PSV _IC1Interrupt(void)
+{/**
+*\brief DMA for Input Capture 1
+
+*\ref _7 "details [7]"
+*/
+
 	_IC1IF = 0;					// interrupt flag reset
 	if (IC1_FIRST)// first sample, stores TMR2 starting value [19b]
 	{
@@ -2018,8 +2223,13 @@ void _ISR_PSV _IC1Interrupt(void)	// Input Capture 1 [7]
 }
 
 
-void _ISR_PSV _IC2Interrupt(void)	// Input Capture 2 [7]
-{
+void _ISR_PSV _IC2Interrupt(void)
+{/**
+*\brief DMA for Input Capture 2
+
+*\ref _7 "details [7]"
+*/
+
 	_IC2IF = 0;					// interrupt flag reset
 	if (IC2_FIRST)// first sample, stores TMR2 starting value [19b]
 	{
@@ -2057,13 +2267,19 @@ void _ISR_PSV _IC2Interrupt(void)	// Input Capture 2 [7]
 
 
 void __attribute__ ((interrupt, no_auto_psv)) _U1ErrInterrupt(void)
-{
-	IFS4bits.U1EIF = 0; // Clear the UART1 Error Interrupt Flag
+{/**
+*\brief Clear the UART1 Error Interrupt Flag
+*/
+
+	IFS4bits.U1EIF = 0;
 }
 
 void __attribute__ ((interrupt, no_auto_psv)) _U2ErrInterrupt(void)
-{
-	IFS4bits.U2EIF = 0; // Clear the UART2 Error Interrupt Flag
+{/**
+*\brief Clear the UART2 Error Interrupt Flag
+*/
+
+	IFS4bits.U2EIF = 0;
 }
 
 //{
